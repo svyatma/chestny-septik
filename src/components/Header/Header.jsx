@@ -57,13 +57,13 @@ function Header() {
   
   const handleBrandClick = (brandValue) => {
     closeMenu();
-    if (location.pathname === '/') {
+    if (location.pathname === '/catalog') {
       const newParams = new URLSearchParams();
       newParams.set('brand', brandValue);
       setSearchParams(newParams);
       scrollToSectionInstant('catalogList');
     } else {
-      navigate(`/?brand=${encodeURIComponent(brandValue)}`, {
+      navigate(`/catalog?brand=${encodeURIComponent(brandValue)}`, {
         state: { scrollTo: 'catalogList' },
       });
     }
@@ -125,10 +125,8 @@ function Header() {
                 alt="Логотип в шапке сайта"
               />
             </Link>
-            
             <nav className={`header__menu ${isMenuOpen ? 'is-open' : ''}`}>
               <ul className="header__menu-list">
-                {/* Станции */}
                 <li
                   className={`header__menu-item has-submenu ${
                     openSubmenu === 'stations' ? 'is-submenu-open' : ''
@@ -199,8 +197,6 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                
-                {/* Услуги */}
                 <li
                   className={`header__menu-item has-submenu ${
                     openSubmenu === 'services' ? 'is-submenu-open' : ''
@@ -235,8 +231,6 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                
-                {/* О компании */}
                 <li
                   className={`header__menu-item has-submenu ${
                     openSubmenu === 'about' ? 'is-submenu-open' : ''
@@ -262,8 +256,6 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                
-                {/* FAQ */}
                 <li className="header__menu-item">
                   <Button
                     variant="header-link"
@@ -273,8 +265,6 @@ function Header() {
                     FAQ
                   </Button>
                 </li>
-                
-                {/* Мобильные элементы */}
                 <li className="header__menu-item visible-mobile">
                   <a href="tel: +7 812 920 46 60" className="header__phone-mobile">
                     +7 812 920-46-60
@@ -300,8 +290,6 @@ function Header() {
                 </li>
               </ul>
             </nav>
-            
-            {/* Десктопные кнопки */}
             <div className="header__actions">
               <a href="tel: +7 812 920 46 60" className="header__phone">
                 +7 812 920 46 60
@@ -321,8 +309,6 @@ function Header() {
                 Вызвать инженера
               </Button>
             </div>
-            
-            {/* Мобильные кнопки (бургер) */}
             <div className="header__mobile visible-mobile">
               <a
                 href="tel: +7 812 920 46 60"
