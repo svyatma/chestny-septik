@@ -12,32 +12,27 @@ function NotFound() {
       <Helmet>
         <title>Ошибка 404 | Честный септик</title>
         <meta name="description" content="Страница не найдена. Вернитесь на главную." />
+        <meta name="robots" content="noindex, follow" />
       </Helmet>
       
-      <Header />
-      
-      <main>
-        <Section>
-          <Container>
-            <div className="error-404__body">
-              <h1 className="error-404__head">
-                Упс!
-              </h1>
-              <div className="error-404__text">
-                Такой страницы не существует
-              </div>
-              <Link
-                to="/"
-                className="button button--primary"
-              >
-                На главную
-              </Link>
+      <Section>
+        <Container>
+          <div className="error-404__body">
+            <h1 className="error-404__head">
+              Упс!
+            </h1>
+            <div className="error-404__text">
+              Такой страницы не существует
             </div>
-          </Container>
-        </Section>
-      </main>
-      
-      <Footer />
+            <Link
+              to="/"
+              className="button button--primary"
+            >
+              На главную
+            </Link>
+          </div>
+        </Container>
+      </Section>
     </>
   );
 }

@@ -83,8 +83,10 @@ function Header() {
   };
   
   const closeMenu = () => {
-    setIsMenuOpen(false);
-    setOpenSubmenu(null);
+    if (window.matchMedia('(max-width: 767px)').matches) {
+      setIsMenuOpen(false);
+      setOpenSubmenu(null);
+    }
   };
   
   const handleSubmenuToggle = (menuKey) => {
@@ -127,6 +129,15 @@ function Header() {
             </Link>
             <nav className={`header__menu ${isMenuOpen ? 'is-open' : ''}`}>
               <ul className="header__menu-list">
+                <li className="header__menu-item">
+                  <Button
+                    variant="header-link"
+                    to="/"
+                    onClick={handleLogoClick}
+                  >
+                    Главная
+                  </Button>
+                </li>
                 <li
                   className={`header__menu-item has-submenu ${
                     openSubmenu === 'stations' ? 'is-submenu-open' : ''
@@ -315,13 +326,13 @@ function Header() {
                 className="header__mobile-phone"
                 aria-label="Позвонить Честному септику"
                 onClick={() => ym(110089865, 'reachGoal', 'Header_Mobile_Phone')}
-              ></a>
+              />
               <button
                 className="header__mobile-menu"
                 aria-label="Открыть боковое меню"
                 aria-expanded={isMenuOpen}
                 onClick={handleBurgerClick}
-              ></button>
+              />
             </div>
           </div>
         </Container>

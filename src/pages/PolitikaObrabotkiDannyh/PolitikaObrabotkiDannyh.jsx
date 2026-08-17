@@ -13,10 +13,7 @@ function PolitikaObrabotkiDannyh() {
         <meta name="robots" content="noindex, follow" />
       </Helmet>
       
-      <Header />
-      
-      <main>
-        <Section>
+      <Section>
           <SectionTitle>
             Политика в отношении обработки персональных данных
           </SectionTitle>
@@ -196,10 +193,7 @@ function PolitikaObrabotkiDannyh() {
             <p>12.2. В данном документе будут отражены любые изменения политики обработки персональных данных Оператором. Политика действует бессрочно до замены ее новой версией.</p>
             <p>12.3. Актуальная версия Политики в свободном доступе расположена в сети Интернет по адресу <a href="https://chestnyseptik.ru/politika-obrabotki-dannyh">https://chestnyseptik.ru/politika-obrabotki-dannyh</a>.</p>
           </div>
-        </Section>
-      </main>
-      
-      <Footer />
+    </Section>
     </>
   );
 }
