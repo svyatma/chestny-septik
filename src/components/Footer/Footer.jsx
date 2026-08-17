@@ -69,10 +69,10 @@ function Footer() {
                 <li className="footer__menu-item">
                   <Button
                     variant="footer-link"
-                    to="tel:+78129204660"
+                    to="tel:+7 812 920-46-60"
                     ymGoal="Footer_Menu_Phone"
                   >
-                    +7 812 920 46 60
+                    +7 812 920-46-60
                   </Button>
                 </li>
                 <li className="footer__menu-item">

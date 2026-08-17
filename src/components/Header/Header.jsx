@@ -277,7 +277,7 @@ function Header() {
                   </Button>
                 </li>
                 <li className="header__menu-item visible-mobile">
-                  <a href="tel: +7 812 920 46 60" className="header__phone-mobile">
+                  <a href="tel: +7 812 920-46-60" className="header__phone-mobile">
                     +7 812 920-46-60
                   </a>
                 </li>
@@ -302,8 +302,8 @@ function Header() {
               </ul>
             </nav>
             <div className="header__actions">
-              <a href="tel: +7 812 920 46 60" className="header__phone">
-                +7 812 920 46 60
+              <a href="tel: +7 812 920-46-60" className="header__phone">
+                +7 812 920-46-60
               </a>
               <Button
                 variant="header-cta"
@@ -322,7 +322,7 @@ function Header() {
             </div>
             <div className="header__mobile visible-mobile">
               <a
-                href="tel: +7 812 920 46 60"
+                href="tel: +7 812 920-46-60"
                 className="header__mobile-phone"
                 aria-label="Позвонить Честному септику"
                 onClick={() => ym(110089865, 'reachGoal', 'Header_Mobile_Phone')}
