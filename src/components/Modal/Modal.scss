@@ -156,6 +156,7 @@
 
 .modal--closing {
   scale: 0.9;
+  translate: 0 rem(48);
   animation: none;
 
   transition-duration: var(--transition-duration);
@@ -182,10 +183,12 @@
     @include hide;
 
     transform: scale(0.9);
+    translate: 0 rem(48);
   }
   100% {
     @include show;
 
     transform: scale(1);
+    translate: 0 rem(0);
   }
 }

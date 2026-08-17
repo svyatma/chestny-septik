@@ -6,8 +6,12 @@ import Section from '../../components/Section/Section.jsx';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
 import Logo from "../../components/Logo/Logo.jsx";
 import Callout from "../../components/Callout/Callout.jsx";
+import {useGoToSection} from "../../hooks/useGoToSection.js";
 
 function CatalogPage() {
+  
+  const goToSection = useGoToSection();
+  
   return (
     <>
       <Helmet>
@@ -64,7 +68,7 @@ function CatalogPage() {
                   {
                     variant: 'primary',
                     children: 'К калькулятору',
-                    scrollTo: 'calculator',
+                    onClick: () => goToSection('calculator'),
                     ymGoal: 'Help_Callout_Calculator'
                   }
                 ]}
