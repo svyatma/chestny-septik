@@ -1,0 +1,30 @@
+@use '../../styles/helpers' as *;
+
+.error-404 {
+  &__body {
+    @include flex-center;
+
+    flex-direction: column;
+    text-align: center;
+    padding: rem(24);
+    border-radius: rem(24);
+    gap: rem(24);
+    box-shadow: var(--shadow-200);
+    background-color: var(--color-bg-white);
+    width: fit-content;
+    margin-inline: auto;
+
+    @include laptop {
+      padding: fluid(24, 16);
+      border-radius: fluid(24, 16);
+    }
+  }
+
+  &__head {
+    color: var(--text-color-secondary);
+  }
+
+  &__text {
+    color: var(--text-color-tertiary);
+  }
+}

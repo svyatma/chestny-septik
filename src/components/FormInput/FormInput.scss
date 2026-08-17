@@ -1,0 +1,73 @@
+@use '../../styles/helpers' as *;
+
+.field {
+  position: relative;
+  width: 100%;
+  font-size: rem(14);
+  display: flex;
+  align-items: center;
+
+  &.error {
+    & .input {
+     box-shadow: var(--shadow-input), var(--shadow-error);
+
+      @include hover {
+        box-shadow: var(--shadow-input-hover);
+      }
+    }
+  }
+
+  &.has-value {
+    & .label {
+      opacity: 0;
+    }
+  }
+
+  & .label {
+    position: absolute;
+    //top: 50%;
+    //translate: 0 -50%;
+    opacity: 0.5;
+    left: rem(14);
+    color: var(--text-color-tertiary);
+    transform-origin: left center;
+    cursor: text;
+    pointer-events: none;
+
+    transition: var(--transition-duration);
+  }
+
+  & .input {
+    width: 100%;
+    height: rem(48);
+    background-color: var(--color-input-white);
+    border: none;
+    border-radius: rem(12);
+    padding-inline: rem(14);
+    box-shadow: var(--shadow-input);
+    color: var(--text-color-secondary);
+
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      box-shadow: var(--shadow-input-hover);
+    }
+
+    &:focus-visible {
+      box-shadow: var(--shadow-input-focus);
+      outline: rem(0);
+
+      transition-duration: var(--transition-duration);
+    }
+
+    &::placeholder {
+      color: var(--text-color-tertiary);
+    }
+  }
+
+  &--dark {
+    & .input {
+      background-color: var(--color-input);
+    }
+  }
+}

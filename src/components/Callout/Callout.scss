@@ -1,0 +1,123 @@
+@use '../../styles/helpers' as *;
+
+.callout {
+  display: flex;
+  align-items: center;
+  padding: rem(24);
+  gap: rem(24);
+  border-radius: rem(24);
+  box-shadow: var(--shadow-100);
+
+  transition-duration: var(--transition-duration);
+
+  @include laptop {
+    padding: fluid(24, 16);
+    border-radius: fluid(24, 16);
+    gap: fluid(24, 16);
+  }
+
+  @include mobile {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  &::before {
+    transition-duration: var(--transition-duration);
+  }
+
+  @include hover {
+    box-shadow: var(--shadow-200);
+
+    &::before {
+      rotate: 5deg;
+      scale: 1.15;
+    }
+  }
+
+  &--column {
+    flex-direction: column;
+  }
+
+  &--white {
+    background-color: var(--color-bg-white);
+
+    & .callout__info {
+      color: var(--text-color-tertiary);
+    }
+  }
+
+  &--accent {
+    background-color: var(--color-light-700);
+  }
+
+  &--ai-start {
+    align-items: start;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: rem(16);
+    align-items: start;
+    width: 100%;
+
+    @include laptop {
+      gap: fluid(24, 12);
+    }
+
+    @include mobile {
+      gap: rem(12);
+    }
+  }
+
+  &__head {
+    font-size: rem(24);
+    font-weight: 600;
+    //color: var(--text-color-primary);
+
+    @include laptop {
+      @include fluid-text(24, 16)
+    }
+  }
+
+  &__info {
+    & span {
+      font-weight: 600;
+    }
+  }
+
+  &__phone {
+    font-family: var(--font-primary);
+    font-size: rem(24);
+    color: var(--color-dark-200);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+
+    @include laptop {
+      @include fluid-text(24, 20);
+    }
+
+    @include mobile {
+      margin-left: auto;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: rem(16);
+    justify-content: space-between;
+    width: 100%;
+
+    @include mobile {
+      flex-direction: column;
+      gap: rem(12);
+      align-items: end;
+    }
+  }
+
+  &__messangers {
+    display: flex;
+    gap: rem(8);
+  }
+}

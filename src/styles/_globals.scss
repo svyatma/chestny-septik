@@ -1,0 +1,177 @@
+@use '../../src/styles/helpers/index' as *;
+
+body {
+  font-family: var(--font-secondary);
+  line-height: var(--lh-base);
+  font-size: rem(16);
+  color: var(--text-color-secondary);
+  background-color: var(--color-bg);
+  -webkit-tap-highlight-color: transparent;
+
+  @include laptop {
+    @include fluid-text(16, 14);
+  }
+
+  @include mobile {
+    font-size: rem(14);
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: var(--font-primary);
+  line-height: var(--lh-head);
+  font-weight: 600;
+}
+
+h1, .h1 {
+  font-size: rem(42);
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  color: var(--color-accent);
+
+  @include laptop {
+    @include fluid-text(42, 26);
+  }
+
+  span {
+    color: var(--text-color-white);
+    background-color: var(--color-accent);
+    line-height: 1.35;
+    padding: 0 rem(12);
+    border-radius: rem(16);
+    display: inline-flex;
+
+    @include mobile {
+      padding: 0;
+      background-color: inherit;
+      color: var(--color-accent);
+    }
+  }
+
+  @include laptop {
+    @include fluid-text(42, 26);
+  }
+
+  @include mobile {
+    color: var(--font-primary);
+    font-weight: 700;
+  }
+}
+
+h2, .h2 {
+  font-weight: 600;
+}
+
+.section {
+  padding-block: rem(116);
+
+  @include mobile {
+    padding-block: rem(48);
+  }
+
+  &__title {
+    margin-bottom: rem(64);
+    font-size: rem(36);
+    color: var(--color-dark-300);
+
+    @include laptop {
+      @include fluid-text(36, 24);
+
+      margin-bottom: fluid(64, 32);
+    }
+
+    & span {
+      padding: 0 rem(8);
+      border-radius: rem(12);
+      background-color: var(--color-accent);
+      color: var(--text-color-white);
+      font-weight: 600;
+      display: inline-flex;
+      box-shadow: var(--shadow-200);
+
+      @include laptop {
+        padding: 0 fluid(8, 6);
+        border-radius: fluid(12, 6);
+      }
+
+      @include mobile {
+        box-shadow: var(--shadow-100);
+      }
+    }
+
+    &--column {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+    }
+    
+    &--center {
+      text-align: center;
+      align-items: center;
+    }
+  }
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  color: inherit;
+
+  &[class] {
+    text-decoration: none;
+  }
+}
+
+:focus-visible {
+  outline: rem(2) dashed var(--color-accent);
+  outline-offset: rem(4);
+  border-radius: rem(7);
+
+  transition-duration: .1s;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+}
+
+span {
+  color: var(--color-accent);
+}
+
+[id] {
+  @include mobile {
+    scroll-margin-top: rem(40);
+  }
+}
+
+[id]#catalogList {
+  scroll-margin-top: rem(107);
+}
+
+.is-locked {
+  overflow: hidden;
+}
+
+::selection {
+  background-color: var(--color-accent);
+  color: var(--text-color-white);
+}

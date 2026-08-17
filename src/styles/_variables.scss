@@ -1,0 +1,83 @@
+@use '../../src/styles/helpers/index' as *;
+
+:root {
+  --color-accent: var(--color-dark-200);
+  --color-accent-light: var(--color-light-800);
+
+  --color-light-100: #FFFFFF;
+  --color-light-200: #F7FDFF;
+  --color-light-300: #F2FCFF;
+  --color-light-400: #EBFBFF;
+  --color-light-500: #DDF9FF;
+  --color-light-600: #D3F7FF;
+  --color-light-700: #CEF6FF;
+  --color-light-800: #D9F6FF;
+
+  --color-dark-100: #1A839B;
+  --color-dark-200: #00758F;
+  --color-dark-300: #005E73;
+  --color-dark-400: #005264;
+  --color-dark-500: #004656;
+
+  --color-error: #FF8383;
+
+  --color-bg: var(--color-light-400);
+  --color-bg-white: var(--color-light-100);
+  --color-bg-containers: var(--color-light-100);
+  --color-bg-header: var(--color-light-100);
+  --color-bg-footer: var(--color-dark-400);
+  --color-bg-modal: rgba(0, 59, 72, 0.7);
+  --color-input: var(--color-light-300);
+  --color-input-white: var(--color-light-100);
+
+  --color-button-primary: var(--color-accent);
+  --color-button-primary-hover: var(--color-dark-300);
+  --color-button-secondary: var(--color-accent-light);
+  --color-button-secondary-hover: var(--color-light-500);
+  --color-button-tertiary: var(--color-light-100);
+  --color-button-tertiary-hover: var(--color-light-300);
+  --color-button-quaternary: var(--color-light-300);
+  --color-button-quaternary-hover: var(--color-light-500);
+
+  --text-color-primary: #063535;
+  --text-color-secondary: #2F5353;
+  --text-color-tertiary: #5B7878;
+  --text-color-white: var(--color-light-100);
+  --text-color-footer: #CCDCE0;
+
+  --container-width: #{rem(1400)};
+  --container-width-max: #{rem(1881)};
+  --container-padding-x: #{rem(12)};
+
+  --lh-base: 1.5;
+  --lh-head: 1.35;
+
+  --shadow-100: 0 #{rem(2)} #{rem(2)} rgba(28, 128, 136, 0.08),
+                0 #{rem(4)} #{rem(16)} rgba(28, 128, 136, 0.04);
+  --shadow-200: 0 #{rem(4)} #{rem(8)} rgba(28, 128, 136, 0.08),
+                0 #{rem(8)} #{rem(20)} rgba(28, 128, 136, 0.08);
+  --shadow-300: 0 #{rem(5)} #{rem(10)} rgba(28, 128, 136, 0.08),
+                0 #{rem(10)} #{rem(40)} rgba(28, 128, 136, 0.1);
+  --shadow-400: 0 #{rem(10)} #{rem(40)} #{rem(-20)} rgba(28, 128, 136, 0.25),
+                0 #{rem(20)} #{rem(200)} #{rem(-50)} rgba(28, 128, 136, 0.3);
+  --shadow-500: 0 #{rem(10)} #{rem(45)} 0 rgba(28, 128, 136, 0.2);
+  --shadow-input: inset 0 0 #{rem(15)} #{rem(-4)} rgba(8, 115, 124, 0.25);
+  --shadow-input-hover: inset 0 0 #{rem(15)} #{rem(-4)} rgba(8, 115, 124, 0.25),
+                              0 0 0 #{rem(4)} #8DC5D1;
+  --shadow-input-focus: inset 0 0 #{rem(15)} #{rem(-4)} rgba(8, 115, 124, 0.25),
+                              0 0 0 #{rem(4)} var(--color-accent);
+  --shadow-checkmark: inset 0 0 #{rem(12)} #{rem(-5)} rgba(8, 115, 124, 0.35);
+  --shadow-checkmark-hover: inset 0 0 #{rem(12)} #{rem(-5)} rgba(8, 115, 124, 0.35),
+                                  0 0 0 #{rem(4)} #8DC5D1;
+  --shadow-checkmark-focus: inset 0 0 #{rem(12)} #{rem(-5)} rgba(8, 115, 124, 0.35),
+                                  0 0 0 #{rem(4)} var(--color-accent);
+  --shadow-header-menu-mobile: 0 #{rem(8)} #{rem(8)} rgba(28, 128, 136, 0.08),
+                               0 #{rem(8)} #{rem(16)} rgba(28, 128, 136, 0.08);
+
+  --shadow-error: 0 0 0 #{rem(3)} var(--color-error);
+
+  --font-primary: 'Bitter', serif;
+  --font-secondary: 'Onest', sans-serif;
+
+  --transition-duration: .2s;
+}

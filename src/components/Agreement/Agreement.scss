@@ -1,0 +1,106 @@
+@use '../../styles/helpers' as *;
+
+.agreement {
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  gap: rem(6);
+
+  transition-duration: var(--transition-duration);
+
+  &.error {
+    & .agreement__checkmark {
+      box-shadow: var(--shadow-checkmark), var(--shadow-error);
+    }
+  }
+
+  @include mobile {
+    //flex-direction: row-reverse;
+  }
+
+  @include hover {
+    & .agreement__checkmark {
+      box-shadow: var(--shadow-checkmark-hover);
+    }
+
+    & .agreement__input.error + .agreement__checkmark {
+      box-shadow: var(--shadow-checkmark-hover);
+    }
+  }
+
+  &__input {
+    @include visually-hidden;
+
+    &:checked + .agreement__checkmark {
+      &::after {
+        scale: 1;
+      }
+
+      &.agreement__checkmark {
+        background-color: var(--color-accent);
+      }
+    }
+
+    &:focus-visible + .agreement__checkmark {
+      box-shadow: var(--shadow-checkmark-focus);
+    }
+  }
+
+  &__checkmark {
+    @include flex-center;
+
+    background-color: var(--color-input-white);
+    width: rem(20);
+    height: rem(20);
+    border-radius: rem(7);
+    box-shadow: var(--shadow-checkmark);
+
+    transition-duration: var(--transition-duration);
+
+    &::after {
+      content: '';
+      width: rem(14);
+      height: rem(10);
+      scale: 0;
+      display: inline-block;
+      background-color: var(--text-color-white);
+      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='10' viewBox='0 0 14 10'%3E%3Cpath d='M10.9275 0.365662C11.415 -0.121887 12.2056 -0.121887 12.6931 0.365662L13.1344 0.806971C13.6219 1.29452 13.6219 2.08527 13.1344 2.57282L6.51621 9.19124C6.51423 9.19324 6.51271 9.19596 6.51072 9.19795L6.07191 9.63682C5.82899 9.87977 5.51022 10.0004 5.19185 10C4.87187 10.0004 4.55165 9.87916 4.30751 9.63499L3.86626 9.19368C3.84718 9.1746 3.83014 9.15384 3.81255 9.13387L0.363718 5.68457C-0.121226 5.19952 -0.121253 4.41292 0.363718 3.92787L0.802527 3.48901C1.2875 3.00397 2.074 3.004 2.55899 3.48901L5.18147 6.11184L10.9275 0.365662Z' fill='black'/%3E%3C/svg%3E");
+      mask-size: contain;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='10' viewBox='0 0 14 10'%3E%3Cpath d='M10.9275 0.365662C11.415 -0.121887 12.2056 -0.121887 12.6931 0.365662L13.1344 0.806971C13.6219 1.29452 13.6219 2.08527 13.1344 2.57282L6.51621 9.19124C6.51423 9.19324 6.51271 9.19596 6.51072 9.19795L6.07191 9.63682C5.82899 9.87977 5.51022 10.0004 5.19185 10C4.87187 10.0004 4.55165 9.87916 4.30751 9.63499L3.86626 9.19368C3.84718 9.1746 3.83014 9.15384 3.81255 9.13387L0.363718 5.68457C-0.121226 5.19952 -0.121253 4.41292 0.363718 3.92787L0.802527 3.48901C1.2875 3.00397 2.074 3.004 2.55899 3.48901L5.18147 6.11184L10.9275 0.365662Z' fill='black'/%3E%3C/svg%3E");
+      -webkit-mask-size: contain;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+      //position: absolute;
+      //top: 50%;
+      //left: 50%;
+      //translate: -50% -50%;
+
+      transition-duration: var(--transition-duration);
+    }
+
+    &:has(.agreement__input.error) {
+      box-shadow: var(--shadow-checkmark), var(--shadow-error);
+    }
+  }
+
+  &__text {
+    font-size: rem(12);
+    color: var(--text-color-tertiary);
+
+    @include laptop {
+      @include fluid-text(12, 10);
+    }
+  }
+
+  &__link {
+    text-decoration: underline !important;
+  }
+
+  &--dark {
+    & .agreement__checkmark {
+      background-color: var(--color-input);
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@use '../../styles/helpers' as *;
+
+.catalog {
+  display: grid;
+  grid-template-columns: rem(270) 1fr;
+  grid-template-areas: 'filter stations'
+                       '. pagination';
+  align-items: start;
+  gap: rem(24);
+
+  @include mobile {
+    position: relative;
+    grid-template-columns: 1fr;
+    display: block;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: rem(16);
+    width: 100%;
+    grid-area: stations;
+
+    @media (max-width: rem(1750)) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    @media (max-width: rem(1370)) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: rem(1050)) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+#catalog {
+  & .container {
+    max-width: calc(rem(1881) + var(--container-padding-x) * 2);
+
+    & .container {
+      max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+
+      @include mobile {
+        padding-inline: 0;
+      }
+    }
+  }
+
+  & .section__title {
+    @include mobile {
+      & span {
+        background-color: inherit;
+        color: inherit;
+        box-shadow: none;
+      }
+    }
+  }
+}

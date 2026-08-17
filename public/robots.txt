@@ -1,0 +1,11 @@
+User-agent: *
+
+Allow: /
+Disallow: /politika-cookies
+Disallow: /politika-obrabotki-dannyh
+Disallow: /*?*
+
+Sitemap: https://chestnyseptik.ru/sitemap.xml
+Host: chestnyseptik.ru
+Crawl-delay: 2
+Clean-param: etext
