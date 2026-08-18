@@ -68,6 +68,10 @@
 
     transition-duration: .1s;
 
+    &[disabled] {
+      @include hide;
+    }
+
     @include mobile {
       width: rem(32);
       height: rem(32);

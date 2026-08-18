@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound/NotFound.jsx";
 import CatalogPage from './pages/CatalogPage/CatalogPage.jsx';
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import SeptikFor3People from "./pages/SeptikFor3People/SeptikFor3People.jsx";
 
 function App() {
   const location = useLocation();
@@ -27,10 +28,11 @@ function App() {
     <>
       <Header />
       <main>
-      <Routes>
+        <Routes>
           {/*<Route path="/podbor-i-ustanovka" element={<PodborIUstanovka />} />*/}
           <Route path="/" element={<PodborIUstanovka />} />
           <Route path="/catalog" element={<CatalogPage />} />
+          <Route path="/septik-na-3-cheloveka" element={<SeptikFor3People />} />
           <Route path="/politika-obrabotki-dannyh" element={<PolitikaObrabotkiDannyh />} />
           <Route path="/politika-cookies" element={<PolitikaCookies />} />
           <Route path="*" element={<NotFound />} />

@@ -1,6 +1,4 @@
 import { Helmet } from 'react-helmet-async';
-import Header from '../../components/Header/Header.jsx';
-import Footer from '../../components/Footer/Footer.jsx';
 import Catalog from '../../components/Catalog/Catalog.jsx';
 import Section from '../../components/Section/Section.jsx';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
@@ -15,8 +13,8 @@ function CatalogPage() {
   return (
     <>
       <Helmet>
-        <title>Каталог автономных септиков-станций биологической очистки для частного дома — Честный септик</title>
-        <meta name="description" content="Выбирайте свой автономный септик для дома, а мы установим по цене производителя! Мы Вам рады! +7 812 920-46-60 ✔" />
+        <title>Каталог автономных септиков — станций биологической очистки для частного дома | Честный септик</title>
+        <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для дома, а мы установим по цене производителя! Звоните!" />
       </Helmet>
       
       <Section id="catalog">

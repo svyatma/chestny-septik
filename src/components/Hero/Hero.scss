@@ -103,9 +103,9 @@
   &__callout {
     background-color: var(--color-light-300);
     font-size: rem(18);
-    max-width: rem(530);
+    max-width: rem(590);
     grid-area: callout;
-    margin-top: rem(48);
+    margin-top: rem(32);
 
     &::before {
       content: '';

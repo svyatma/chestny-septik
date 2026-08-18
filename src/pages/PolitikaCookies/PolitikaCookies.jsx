@@ -1,6 +1,4 @@
 import { Helmet } from 'react-helmet-async';
-import Header from '../../components/Header/Header.jsx';
-import Footer from '../../components/Footer/Footer.jsx';
 import Section from '../../components/Section/Section.jsx';
 import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
 

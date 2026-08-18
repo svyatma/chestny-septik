@@ -1,7 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import {useEffect, useState} from 'react';
 import { Helmet } from 'react-helmet-async';
-import Header from "../../components/Header/Header.jsx";
 import MapPoint from "../../components/MapPoint/MapPoint.jsx";
 import Logo from "../../components/Logo/Logo.jsx";
 import Button from "../../components/Button/Button.jsx";
@@ -20,12 +19,10 @@ import dealersImageZorde from "../../assets/images/dealers/zorde.webp";
 import decisionsImageAstra from "../../assets/images/stations/astra/astra-3.webp";
 import decisionsImageEvrobion from "../../assets/images/stations/evrobion/evrobion-raund-5-standart.webp";
 import decisionsImageTopas from "../../assets/images/stations/topas/topas-8.webp";
-import Catalog from "../../components/Catalog/Catalog.jsx";
 import './PodborIUstanovka.scss';
 import FormInput from "../../components/FormInput/FormInput.jsx";
 import Agreement from "../../components/Agreement/Agreement.jsx";
 import Faq from "../../components/Faq/Faq.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
 import ModalConnect from "../../components/ModalConnect/ModalConnect.jsx";
 import { useFormHandler } from '../../hooks/useFormHandler.js';
 import ModalThanks from '../../components/ModalThanks/ModalThanks.jsx';
@@ -62,8 +59,8 @@ function PodborIUstanovka() {
   return (
     <>
       <Helmet>
-        <title>Честный септик — Установка и обслуживание станций биологической очистки в СПб и ЛО</title>
-        <meta name="description" content="Официальный дилер, заводские цены, установим на следующий день — Честный септик" />
+        <title>Установка автономных септиков — станций биологической очистки в Санкт-Петербурге и Ленинградской области | Честный септик</title>
+        <meta name="description" content="+7 (812) 920-46-60 ✔ Экспертный подбор септиков, официальный дилер, заводские цены. Заоните!" />
         
         {location.search && (
           <link
@@ -83,7 +80,7 @@ function PodborIUstanovka() {
           <Callout
             className="hero__callout"
             // info="Подберем подходящую станцию для&nbsp;загородного дома, сделаем смету за&nbsp;1 день, а&nbsp;установим на&nbsp;следующий ✔"
-            info="Подбираем и устанавливаем подходящие септики-станции биологической очистки для&nbsp;загородного дома ✔"
+            info="Подбираем и устанавливаем подходящие автономные септики — станции биологической очистки для загородного дома по цене производителя ✔"
           />
           <div className="hero__actions">
             <Button
@@ -541,16 +538,6 @@ function PodborIUstanovka() {
         <SectionTitle>
           <span>Эксперт отвечает</span> на сложные вопросы
         </SectionTitle>
-        <Callout
-          variant="accent"
-          head="Есть вопрос? Задайте эксперту"
-          info="Эксперт вдумчиво и ясно ответит на все Ваши вопросы"
-          phone="+7 812 920-46-60"
-          messengers={[
-            { icon: 'telegram', url: 'tg://resolve?domain=ChestnySeptik' },
-            { icon: 'whatsapp', url: 'whatsapp://send?phone=79119204660' },
-          ]}
-        />
         <Faq />
       </Section>
       
