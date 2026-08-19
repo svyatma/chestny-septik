@@ -8,7 +8,7 @@
       "quantity": "3 человека",
       "power": "0.6",
       "drain": "170",
-      "consumption": null
+      "size": "100 х 100 х 211"
     },
     "price": "143 000",
     "priceBefore": null,
@@ -23,7 +23,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "290",
-      "consumption": null
+      "size": "100 х 100 х 236"
     },
     "price": "152 000",
     "priceBefore": null,
@@ -32,13 +32,13 @@
   {
     "id": 3,
     "brand": "ЕВРОБИОН",
-    "name": "Евробион Раунд 4 Стандарт +",
+    "name": "Евробион Раунд 4 Стандарт +",
     "image": "src/assets/images/stations/evrobion/evrobion-raund-4-standart.webp",
     "specs": {
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "290",
-      "consumption": null
+      "size": "100 х 100 х 250"
     },
     "price": "155 800",
     "priceBefore": null,
@@ -53,7 +53,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "290",
-      "consumption": null
+      "size": "100 х 100 х 266"
     },
     "price": "159 600",
     "priceBefore": null,
@@ -68,7 +68,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "290",
-      "consumption": null
+      "size": "100 х 100 х 296"
     },
     "price": "167 200",
     "priceBefore": null,
@@ -83,7 +83,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "320",
-      "consumption": null
+      "size": "100 х 100 х 236"
     },
     "price": "160 900",
     "priceBefore": null,
@@ -92,13 +92,13 @@
   {
     "id": 7,
     "brand": "ЕВРОБИОН",
-    "name": "Евробион Раунд 5 Стандарт +",
+    "name": "Евробион Раунд 5 Стандарт +",
     "image": "src/assets/images/stations/evrobion/evrobion-raund-5-standart.webp",
     "specs": {
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "320",
-      "consumption": null
+      "size": "100 х 100 х 250"
     },
     "price": "163 800",
     "priceBefore": null,
@@ -113,7 +113,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "320",
-      "consumption": null
+      "size": "100 х 100 х 266"
     },
     "price": "168 500",
     "priceBefore": null,
@@ -128,7 +128,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "320",
-      "consumption": null
+      "size": "100 х 100 х 296"
     },
     "price": "176 100",
     "priceBefore": null,
@@ -143,7 +143,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "320",
-      "consumption": null
+      "size": "100 х 100 х 336"
     },
     "price": "193 200",
     "priceBefore": null,
@@ -158,7 +158,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "400",
-      "consumption": null
+      "size": "100 х 100 х 251"
     },
     "price": "177 500",
     "priceBefore": null,
@@ -173,7 +173,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "400",
-      "consumption": null
+      "size": "100 х 100 х 281"
     },
     "price": "185 100",
     "priceBefore": null,
@@ -188,7 +188,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "400",
-      "consumption": null
+      "size": "100 х 100 х 311"
     },
     "price": "192 700",
     "priceBefore": null,
@@ -203,7 +203,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "600",
-      "consumption": null
+      "size": "140 х 140 х 221"
     },
     "price": "199 000",
     "priceBefore": null,
@@ -218,7 +218,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "630",
-      "consumption": null
+      "size": "140 х 140 х 236"
     },
     "price": "201 000",
     "priceBefore": null,
@@ -227,13 +227,13 @@
   {
     "id": 16,
     "brand": "ЕВРОБИОН",
-    "name": "Евробион Раунд 8 Стандарт +",
+    "name": "Евробион Раунд 8 Стандарт +",
     "image": "src/assets/images/stations/evrobion/evrobion-raund-8-standart.webp",
     "specs": {
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "630",
-      "consumption": null
+      "size": "140 х 140 х 250"
     },
     "price": "207 700",
     "priceBefore": null,
@@ -248,7 +248,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "630",
-      "consumption": null
+      "size": "140 х 140 х 266"
     },
     "price": "214 400",
     "priceBefore": null,
@@ -263,7 +263,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "630",
-      "consumption": null
+      "size": "140 х 140 х 296"
     },
     "price": "227 700",
     "priceBefore": null,
@@ -278,7 +278,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "630",
-      "consumption": null
+      "size": "140 х 140 х 336"
     },
     "price": "246 000",
     "priceBefore": null,
@@ -293,7 +293,7 @@
       "quantity": "9 человек",
       "power": "1.8",
       "drain": "690",
-      "consumption": null
+      "size": "140 х 140 х 251"
     },
     "price": "215 600",
     "priceBefore": null,
@@ -308,7 +308,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "800",
-      "consumption": null
+      "size": "165 х 165 х 236"
     },
     "price": "249 300",
     "priceBefore": null,
@@ -323,7 +323,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "800",
-      "consumption": null
+      "size": "165 х 165 х 266"
     },
     "price": "263 300",
     "priceBefore": null,
@@ -338,7 +338,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "800",
-      "consumption": null
+      "size": "165 х 165 х 296"
     },
     "price": "277 300",
     "priceBefore": null,
@@ -353,7 +353,7 @@
       "quantity": "12 человек",
       "power": "2.4",
       "drain": "920",
-      "consumption": null
+      "size": "165 х 165 х 236"
     },
     "price": "270 000",
     "priceBefore": null,
@@ -368,7 +368,7 @@
       "quantity": "12 человек",
       "power": "2.4",
       "drain": "920",
-      "consumption": null
+      "size": "165 х 165 х 266"
     },
     "price": "284 000",
     "priceBefore": null,
@@ -383,7 +383,7 @@
       "quantity": "12 человек",
       "power": "2.4",
       "drain": "920",
-      "consumption": null
+      "size": "165 х 165 х 296"
     },
     "price": "298 000",
     "priceBefore": null,
@@ -398,7 +398,7 @@
       "quantity": "15 человек",
       "power": "3.0",
       "drain": "1025",
-      "consumption": null
+      "size": "171 х 171 х 236"
     },
     "price": "304 000",
     "priceBefore": null,
@@ -413,7 +413,7 @@
       "quantity": "15 человек",
       "power": "3.0",
       "drain": "1025",
-      "consumption": null
+      "size": "171 х 171 х 266"
     },
     "price": "318 000",
     "priceBefore": null,
@@ -428,7 +428,7 @@
       "quantity": "15 человек",
       "power": "3.0",
       "drain": "1025",
-      "consumption": null
+      "size": "171 х 171 х 296"
     },
     "price": "332 000",
     "priceBefore": null,
@@ -443,7 +443,7 @@
       "quantity": "20 человек",
       "power": "4.0",
       "drain": "1250",
-      "consumption": null
+      "size": "198 х 198 х 236"
     },
     "price": "386 000",
     "priceBefore": null,
@@ -458,7 +458,7 @@
       "quantity": "20 человек",
       "power": "4.0",
       "drain": "1250",
-      "consumption": null
+      "size": "198 х 198 х 266"
     },
     "price": "399 800",
     "priceBefore": null,
@@ -473,7 +473,7 @@
       "quantity": "20 человек",
       "power": "4.0",
       "drain": "1250",
-      "consumption": null
+      "size": "198 х 198 х 296"
     },
     "price": "414 000",
     "priceBefore": null,
@@ -488,7 +488,7 @@
       "quantity": "30 человек",
       "power": "6.0",
       "drain": "2000",
-      "consumption": null
+      "size": "238 х 238 х 236"
     },
     "price": "505 000",
     "priceBefore": null,
@@ -503,7 +503,7 @@
       "quantity": "30 человек",
       "power": "6.0",
       "drain": "2000",
-      "consumption": null
+      "size": "238 х 238 х 266"
     },
     "price": "525 500",
     "priceBefore": null,
@@ -518,7 +518,7 @@
       "quantity": "30 человек",
       "power": "6.0",
       "drain": "2000",
-      "consumption": null
+      "size": "238 х 238 х 296"
     },
     "price": "546 500",
     "priceBefore": null,
@@ -533,7 +533,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "230",
-      "consumption": null
+      "size": "205 х 117 х 140"
     },
     "price": "162 000",
     "priceBefore": null,
@@ -548,7 +548,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "230",
-      "consumption": null
+      "size": "205 х 117 х 155"
     },
     "price": "169 600",
     "priceBefore": null,
@@ -563,7 +563,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "230",
-      "consumption": null
+      "size": "205 х 117 х 170"
     },
     "price": "177 200",
     "priceBefore": null,
@@ -578,7 +578,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "280",
-      "consumption": null
+      "size": "220 х 117 х 140"
     },
     "price": "170 000",
     "priceBefore": null,
@@ -593,7 +593,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "280",
-      "consumption": null
+      "size": "220 х 117 х 155"
     },
     "price": "177 600",
     "priceBefore": null,
@@ -608,7 +608,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "280",
-      "consumption": null
+      "size": "220 х 117 х 170"
     },
     "price": "185 200",
     "priceBefore": null,
@@ -623,7 +623,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "420",
-      "consumption": null
+      "size": "220 х 146 х 170"
     },
     "price": "210 000",
     "priceBefore": null,
@@ -638,7 +638,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "420",
-      "consumption": null
+      "size": "220 х 146 х 185"
     },
     "price": "218 600",
     "priceBefore": null,
@@ -653,7 +653,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "420",
-      "consumption": null
+      "size": "220 х 146 х 200"
     },
     "price": "226 200",
     "priceBefore": null,
@@ -668,7 +668,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "540",
-      "consumption": null
+      "size": "266 х 146 х 170"
     },
     "price": "286 500",
     "priceBefore": null,
@@ -683,7 +683,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "540",
-      "consumption": null
+      "size": "266 х 146 х 185"
     },
     "price": "301 500",
     "priceBefore": null,
@@ -698,7 +698,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "540",
-      "consumption": null
+      "size": "266 х 146 х 200"
     },
     "price": "316 500",
     "priceBefore": null,
@@ -713,7 +713,7 @@
       "quantity": "15 человек",
       "power": "3.0",
       "drain": "630",
-      "consumption": null
+      "size": "366 х 146 х 170"
     },
     "price": "340 900",
     "priceBefore": null,
@@ -728,7 +728,7 @@
       "quantity": "15 человек",
       "power": "3.0",
       "drain": "630",
-      "consumption": null
+      "size": "366 х 146 х 185"
     },
     "price": "355 900",
     "priceBefore": null,
@@ -743,7 +743,7 @@
       "quantity": "15 человек",
       "power": "3.0",
       "drain": "630",
-      "consumption": null
+      "size": "366 х 146 х 200"
     },
     "price": "371 000",
     "priceBefore": null,
@@ -758,7 +758,7 @@
       "quantity": "20 человек",
       "power": "4.0",
       "drain": "800",
-      "consumption": null
+      "size": "468 х 146 х 170"
     },
     "price": "421 500",
     "priceBefore": null,
@@ -773,7 +773,7 @@
       "quantity": "20 человек",
       "power": "4.0",
       "drain": "800",
-      "consumption": null
+      "size": "468 х 146 х 185"
     },
     "price": "436 500",
     "priceBefore": null,
@@ -788,7 +788,7 @@
       "quantity": "20 человек",
       "power": "4.0",
       "drain": "800",
-      "consumption": null
+      "size": "468 х 146 х 200"
     },
     "price": "451 500",
     "priceBefore": null,
@@ -803,7 +803,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "175",
-      "consumption": "1.5"
+      "size": "95 х 97 х 250"
     },
     "price": "142 740",
     "priceBefore": "158 600",
@@ -818,7 +818,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "175",
-      "consumption": "1.6"
+      "size": "88 х 97 х 260"
     },
     "price": "159 480",
     "priceBefore": "177 200",
@@ -833,7 +833,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "220",
-      "consumption": "1.5"
+      "size": "115 х 117 х 250"
     },
     "price": "167 040",
     "priceBefore": "185 600",
@@ -848,7 +848,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "220",
-      "consumption": "1.6"
+      "size": "108 х 117 х 260"
     },
     "price": "182 340",
     "priceBefore": "202 600",
@@ -863,7 +863,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "220",
-      "consumption": "1.5"
+      "size": "118 х 100 х 310"
     },
     "price": "195 840",
     "priceBefore": "217 600",
@@ -878,7 +878,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "220",
-      "consumption": "1.6"
+      "size": "116 х 100 х 310"
     },
     "price": "208 260",
     "priceBefore": "231 400",
@@ -893,7 +893,7 @@
       "quantity": "6 человек",
       "power": "1.15",
       "drain": "250",
-      "consumption": "1.5"
+      "size": "115 х 117 х 255"
     },
     "price": "168 300",
     "priceBefore": "187 000",
@@ -908,7 +908,7 @@
       "quantity": "6 человек",
       "power": "1.15",
       "drain": "250",
-      "consumption": "1.6"
+      "size": "108 х 117 х 260"
     },
     "price": "183 600",
     "priceBefore": "204 000",
@@ -923,7 +923,7 @@
       "quantity": "6 человек",
       "power": "1.15",
       "drain": "250",
-      "consumption": "1.5"
+      "size": "118 х 100 х 310"
     },
     "price": "196 200",
     "priceBefore": "218 000",
@@ -938,7 +938,7 @@
       "quantity": "6 человек",
       "power": "1.15",
       "drain": "250",
-      "consumption": "1.6"
+      "size": "116 х 100 х 310"
     },
     "price": "209 160",
     "priceBefore": "232 400",
@@ -953,7 +953,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.5"
+      "size": "163 х 117 х 250"
     },
     "price": "196 110",
     "priceBefore": "217 900",
@@ -968,7 +968,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.6"
+      "size": "156 х 117 х 260"
     },
     "price": "210 510",
     "priceBefore": "233 900",
@@ -983,7 +983,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.5"
+      "size": "152 х 116 х 310"
     },
     "price": "228 870",
     "priceBefore": "254 300",
@@ -998,7 +998,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.6"
+      "size": "150 х 116 х 310"
     },
     "price": "238 050",
     "priceBefore": "264 500",
@@ -1013,7 +1013,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.5"
+      "size": "169 х 136 х 310"
     },
     "price": "270 270",
     "priceBefore": "300 300",
@@ -1028,7 +1028,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.6"
+      "size": "166 х 136 х 310"
     },
     "price": "288 090",
     "priceBefore": "320 100",
@@ -1043,7 +1043,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "175",
-      "consumption": "1.5"
+      "size": "95 х 97 х 250"
     },
     "price": "127 980",
     "priceBefore": "142 200",
@@ -1058,7 +1058,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "175",
-      "consumption": "1.6"
+      "size": "88 х 97 х 260"
     },
     "price": "140 040",
     "priceBefore": "155 600",
@@ -1073,7 +1073,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "220",
-      "consumption": "1.5"
+      "size": "115 х 117 х 250"
     },
     "price": "150 300",
     "priceBefore": "167 000",
@@ -1088,7 +1088,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "220",
-      "consumption": "1.6"
+      "size": "108 х 117 х 260"
     },
     "price": "164 880",
     "priceBefore": "183 200",
@@ -1103,7 +1103,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "220",
-      "consumption": "1.5"
+      "size": "118 х 100 х 310"
     },
     "price": "175 140",
     "priceBefore": "194 600",
@@ -1118,7 +1118,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "220",
-      "consumption": "1.6"
+      "size": "116 х 100 х 310"
     },
     "price": "184 140",
     "priceBefore": "204 600",
@@ -1133,7 +1133,7 @@
       "quantity": "6 человек",
       "power": "1.15",
       "drain": "250",
-      "consumption": "1.5"
+      "size": "115 х 117 х 255"
     },
     "price": "152 820",
     "priceBefore": "169 800",
@@ -1148,7 +1148,7 @@
       "quantity": "6 человек",
       "power": "1.15",
       "drain": "250",
-      "consumption": "1.6"
+      "size": "108 х 117 х 260"
     },
     "price": "167 760",
     "priceBefore": "186 400",
@@ -1163,7 +1163,7 @@
       "quantity": "6 человек",
       "power": "1.15",
       "drain": "250",
-      "consumption": "1.5"
+      "size": "118 х 100 х 310"
     },
     "price": "176 760",
     "priceBefore": "196 400",
@@ -1178,7 +1178,7 @@
       "quantity": "6 человек",
       "power": "1.15",
       "drain": "250",
-      "consumption": "1.6"
+      "size": "116 х 100 х 310"
     },
     "price": "192 060",
     "priceBefore": "213 400",
@@ -1193,7 +1193,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.5"
+      "size": "163 х 117 х 250"
     },
     "price": "179 910",
     "priceBefore": "199 900",
@@ -1208,7 +1208,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.6"
+      "size": "156 х 117 х 260"
     },
     "price": "189 810",
     "priceBefore": "210 900",
@@ -1223,7 +1223,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.5"
+      "size": "152 х 116 х 310"
     },
     "price": "209 610",
     "priceBefore": "232 900",
@@ -1238,7 +1238,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.6"
+      "size": "150 х 116 х 310"
     },
     "price": "218 430",
     "priceBefore": "242 700",
@@ -1253,7 +1253,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.5"
+      "size": "169 х 136 х 310"
     },
     "price": "247 050",
     "priceBefore": "274 500",
@@ -1268,7 +1268,7 @@
       "quantity": "8 человек",
       "power": "1.5",
       "drain": "440",
-      "consumption": "1.6"
+      "size": "166 х 136 х 310"
     },
     "price": "261 090",
     "priceBefore": "290 100",
@@ -1283,7 +1283,7 @@
       "quantity": "3 человека",
       "power": "0.6",
       "drain": "150",
-      "consumption": "1.05"
+      "size": "112 х 82 х 211.5"
     },
     "price": "117 630",
     "priceBefore": "130 700",
@@ -1298,7 +1298,7 @@
       "quantity": "3 человека",
       "power": "0.6",
       "drain": "150",
-      "consumption": "1.30"
+      "size": "112 х 82 х 211.5"
     },
     "price": "121 230",
     "priceBefore": "134 700",
@@ -1313,7 +1313,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "180",
-      "consumption": "1.05"
+      "size": "112 х 94 х 228"
     },
     "price": "123 120",
     "priceBefore": "136 800",
@@ -1328,7 +1328,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "180",
-      "consumption": "1.30"
+      "size": "112 х 94 х 228"
     },
     "price": "126 720",
     "priceBefore": "140 800",
@@ -1343,7 +1343,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "250",
-      "consumption": "1.63"
+      "size": "103 х 112 х 244.5"
     },
     "price": "144 270",
     "priceBefore": "160 300",
@@ -1358,7 +1358,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "250",
-      "consumption": "1.69"
+      "size": "103 х 112 х 244.5"
     },
     "price": "148 770",
     "priceBefore": "165 300",
@@ -1373,7 +1373,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "250",
-      "consumption": "1.63"
+      "size": "103 х 112 х 258.5"
     },
     "price": "146 070",
     "priceBefore": "162 300",
@@ -1388,7 +1388,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "250",
-      "consumption": "1.69"
+      "size": "103 х 112 х 258.5"
     },
     "price": "150 570",
     "priceBefore": "167 300",
@@ -1403,7 +1403,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "250",
-      "consumption": "1.63"
+      "size": "116 х 100 х 308.5"
     },
     "price": "169 020",
     "priceBefore": "187 800",
@@ -1418,7 +1418,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "250",
-      "consumption": "1.69"
+      "size": "116 х 100 х 308.5"
     },
     "price": "173 520",
     "priceBefore": "192 800",
@@ -1433,7 +1433,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "280",
-      "consumption": "1.63"
+      "size": "112 х 115 х 244.5"
     },
     "price": "150 660",
     "priceBefore": "167 400",
@@ -1448,7 +1448,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "280",
-      "consumption": "1.69"
+      "size": "112 х 115 х 244.5"
     },
     "price": "155 160",
     "priceBefore": "172 400",
@@ -1463,7 +1463,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "280",
-      "consumption": "1.63"
+      "size": "112 х 115 х 258.5"
     },
     "price": "154 350",
     "priceBefore": "171 500",
@@ -1478,7 +1478,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "280",
-      "consumption": "1.69"
+      "size": "112 х 115 х 258.5"
     },
     "price": "158 850",
     "priceBefore": "176 500",
@@ -1493,7 +1493,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "280",
-      "consumption": "1.63"
+      "size": "112 х 115 х 308.5"
     },
     "price": "178 200",
     "priceBefore": "198 000",
@@ -1508,7 +1508,7 @@
       "quantity": "6 человек",
       "power": "1.2",
       "drain": "280",
-      "consumption": "1.69"
+      "size": "112 х 115 х 308.5"
     },
     "price": "182 700",
     "priceBefore": "203 000",
@@ -1523,7 +1523,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "300",
-      "consumption": "1.63"
+      "size": "112 х 115 х 244.5"
     },
     "price": "164 430",
     "priceBefore": "182 700",
@@ -1538,7 +1538,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "300",
-      "consumption": "1.69"
+      "size": "112 х 115 х 244.5"
     },
     "price": "168 930",
     "priceBefore": "187 700",
@@ -1553,7 +1553,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "300",
-      "consumption": "1.63"
+      "size": "112 х 115 х 258.5"
     },
     "price": "168 120",
     "priceBefore": "186 800",
@@ -1568,7 +1568,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "300",
-      "consumption": "1.69"
+      "size": "112 х 115 х 258.5"
     },
     "price": "172 620",
     "priceBefore": "191 800",
@@ -1583,7 +1583,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "300",
-      "consumption": "1.63"
+      "size": "112 х 115 х 308.5"
     },
     "price": "199 260",
     "priceBefore": "221 400",
@@ -1598,7 +1598,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "300",
-      "consumption": "1.69"
+      "size": "112 х 115 х 308.5"
     },
     "price": "203 760",
     "priceBefore": "226 400",
@@ -1613,7 +1613,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "350",
-      "consumption": "2.05"
+      "size": "150 х 116 х 244.5"
     },
     "price": "169 920",
     "priceBefore": "188 800",
@@ -1628,7 +1628,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "350",
-      "consumption": "2.12"
+      "size": "150 х 116 х 244.5"
     },
     "price": "174 420",
     "priceBefore": "193 800",
@@ -1643,7 +1643,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "350",
-      "consumption": "2.05"
+      "size": "150 х 116 х 258.5"
     },
     "price": "172 710",
     "priceBefore": "191 900",
@@ -1658,7 +1658,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "350",
-      "consumption": "2.12"
+      "size": "150 х 116 х 258.5"
     },
     "price": "177 210",
     "priceBefore": "196 900",
@@ -1673,7 +1673,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "350",
-      "consumption": "2.05"
+      "size": "150 х 116 х 308.5"
     },
     "price": "201 150",
     "priceBefore": "223 500",
@@ -1688,7 +1688,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "350",
-      "consumption": "2.12"
+      "size": "150 х 116 х 308.5"
     },
     "price": "205 650",
     "priceBefore": "228 500",
@@ -1703,7 +1703,7 @@
       "quantity": "9 человек",
       "power": "1.8",
       "drain": "450",
-      "consumption": "1.92"
+      "size": "170 х 116 х 244.5"
     },
     "price": "182 700",
     "priceBefore": "203 000",
@@ -1718,7 +1718,7 @@
       "quantity": "9 человек",
       "power": "1.8",
       "drain": "450",
-      "consumption": "2.00"
+      "size": "170 х 116 х 244.5"
     },
     "price": "187 200",
     "priceBefore": "208 000",
@@ -1733,7 +1733,7 @@
       "quantity": "9 человек",
       "power": "1.8",
       "drain": "450",
-      "consumption": "1.92"
+      "size": "170 х 116 х 258.5"
     },
     "price": "191 880",
     "priceBefore": "213 200",
@@ -1748,7 +1748,7 @@
       "quantity": "9 человек",
       "power": "1.8",
       "drain": "450",
-      "consumption": "2.00"
+      "size": "170 х 116 х 258.5"
     },
     "price": "191 880",
     "priceBefore": "213 200",
@@ -1763,7 +1763,7 @@
       "quantity": "9 человек",
       "power": "1.8",
       "drain": "450",
-      "consumption": "1.92"
+      "size": "170 х 116 х 308.5"
     },
     "price": "213 120",
     "priceBefore": "236 800",
@@ -1778,7 +1778,7 @@
       "quantity": "9 человек",
       "power": "1.8",
       "drain": "450",
-      "consumption": "2.00"
+      "size": "170 х 116 х 308.5"
     },
     "price": "217 620",
     "priceBefore": "241 800",
@@ -1793,7 +1793,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "550",
-      "consumption": "2.56"
+      "size": "200 х 116 х 244.5"
     },
     "price": "231 480",
     "priceBefore": "257 200",
@@ -1808,7 +1808,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "550",
-      "consumption": "2.66"
+      "size": "200 х 116 х 244.5"
     },
     "price": "235 980",
     "priceBefore": "262 200",
@@ -1823,7 +1823,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "550",
-      "consumption": "2.56"
+      "size": "200 х 116 х 258.5"
     },
     "price": "234 180",
     "priceBefore": "260 200",
@@ -1838,7 +1838,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "550",
-      "consumption": "2.66"
+      "size": "200 х 116 х 258.5"
     },
     "price": "238 680",
     "priceBefore": "265 200",
@@ -1853,7 +1853,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "550",
-      "consumption": "2.56"
+      "size": "200 х 116 х 308.5"
     },
     "price": "263 610",
     "priceBefore": "292 900",
@@ -1868,7 +1868,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "550",
-      "consumption": "2.66"
+      "size": "200 х 116 х 308.5"
     },
     "price": "268 110",
     "priceBefore": "297 900",
@@ -1883,7 +1883,7 @@
       "quantity": "3 человека",
       "power": "0.6",
       "drain": "240",
-      "consumption": "2.1"
+      "size": "150 х 150 х 190"
     },
     "price": "136 895",
     "priceBefore": "144 100",
@@ -1898,7 +1898,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "340",
-      "consumption": "2.1"
+      "size": "150 х 150 х 200"
     },
     "price": "140 980",
     "priceBefore": "148 400",
@@ -1913,7 +1913,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "440",
-      "consumption": "2.1"
+      "size": "150 х 150 х 210"
     },
     "price": "149 815",
     "priceBefore": "157 700",
@@ -1928,7 +1928,7 @@
       "quantity": "6 человек",
       "power": "1.3",
       "drain": "540",
-      "consumption": "2.1"
+      "size": "170 х 170 х 210"
     },
     "price": "165 585",
     "priceBefore": "174 300",
@@ -1943,7 +1943,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "710",
-      "consumption": "2.1"
+      "size": "190 х 190 х 210"
     },
     "price": "190 570",
     "priceBefore": "200 600",
@@ -1958,7 +1958,7 @@
       "quantity": "3 человека",
       "power": "0.6",
       "drain": "240",
-      "consumption": "2.1"
+      "size": "140 х 140 х 190"
     },
     "price": "143 925",
     "priceBefore": "151 500",
@@ -1973,7 +1973,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "340",
-      "consumption": "2.1"
+      "size": "140 х 140 х 200"
     },
     "price": "153 805",
     "priceBefore": "161 900",
@@ -1988,7 +1988,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "440",
-      "consumption": "2.1"
+      "size": "140 х 140 х 210"
     },
     "price": "162 925",
     "priceBefore": "171 500",
@@ -2003,7 +2003,7 @@
       "quantity": "6 человек",
       "power": "1.3",
       "drain": "540",
-      "consumption": "2.1"
+      "size": "150 х 150 х 210"
     },
     "price": "178 410",
     "priceBefore": "187 800",
@@ -2018,7 +2018,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "710",
-      "consumption": "2.1"
+      "size": "160 х 160 х 210"
     },
     "price": "202 730",
     "priceBefore": "213 400",
@@ -2033,7 +2033,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "860",
-      "consumption": "2.1"
+      "size": "180 х 180 х 210"
     },
     "price": "250 230",
     "priceBefore": "263 400",
@@ -2048,7 +2048,7 @@
       "quantity": "12 человек",
       "power": "2.4",
       "drain": "980",
-      "consumption": "2.1"
+      "size": "190 х 190 х 210"
     },
     "price": "270 845",
     "priceBefore": "285 100",
@@ -2063,7 +2063,7 @@
       "quantity": "15 человек",
       "power": "3.0",
       "drain": "1100",
-      "consumption": "2.1"
+      "size": "210 х 210 х 210"
     },
     "price": "305 425",
     "priceBefore": "321 500",
@@ -2078,7 +2078,7 @@
       "quantity": "20 человек",
       "power": "4.0",
       "drain": "1300",
-      "consumption": "2.1"
+      "size": "210 х 210 х 235"
     },
     "price": "388 930",
     "priceBefore": "409 400",
@@ -2093,7 +2093,7 @@
       "quantity": "25 человек",
       "power": "5.0",
       "drain": "1500",
-      "consumption": "3.0"
+      "size": "210 х 210 х 260"
     },
     "price": "441 370",
     "priceBefore": "464 600",
@@ -2108,7 +2108,7 @@
       "quantity": "30 человек",
       "power": "6.0",
       "drain": "1700",
-      "consumption": "3.0"
+      "size": "220 х 220 х 285"
     },
     "price": "487 445",
     "priceBefore": "513 100",
@@ -2123,7 +2123,7 @@
       "quantity": "3 человека",
       "power": "0.6",
       "drain": "240",
-      "consumption": "1.5"
+      "size": "150 х 120 х 170"
     },
     "price": "198 740",
     "priceBefore": "209 200",
@@ -2138,7 +2138,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "340",
-      "consumption": "1.5"
+      "size": "200 х 120 х 170"
     },
     "price": "213 750",
     "priceBefore": "225 000",
@@ -2153,7 +2153,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "440",
-      "consumption": "1.5"
+      "size": "250 х 120 х 170"
     },
     "price": "241 490",
     "priceBefore": "254 200",
@@ -2168,7 +2168,7 @@
       "quantity": "6 человек",
       "power": "1.3",
       "drain": "540",
-      "consumption": "1.5"
+      "size": "300 х 120 х 170"
     },
     "price": "255 455",
     "priceBefore": "268 900",
@@ -2183,7 +2183,7 @@
       "quantity": "8 человек",
       "power": "1.6",
       "drain": "710",
-      "consumption": "1.5"
+      "size": "400 х 120 х 170"
     },
     "price": "293 170",
     "priceBefore": "308 600",
@@ -2198,7 +2198,7 @@
       "quantity": "10 человек",
       "power": "2.0",
       "drain": "860",
-      "consumption": "2.0"
+      "size": "500 х 120 х 170"
     },
     "price": "352 925",
     "priceBefore": "371 500",
@@ -2213,7 +2213,7 @@
       "quantity": "12 человек",
       "power": "2.4",
       "drain": "980",
-      "consumption": "2.0"
+      "size": "600 х 120 х 170"
     },
     "price": "387 410",
     "priceBefore": "407 800",
@@ -2228,7 +2228,7 @@
       "quantity": "15 человек",
       "power": "3.0",
       "drain": "1100",
-      "consumption": "2.0"
+      "size": "750 х 120 х 170"
     },
     "price": "445 075",
     "priceBefore": "468 500",
@@ -2243,7 +2243,7 @@
       "quantity": "20 человек",
       "power": "4.0",
       "drain": "1300",
-      "consumption": "2.0"
+      "size": "900 х 120 х 170"
     },
     "price": "547 865",
     "priceBefore": "576 700",
@@ -2258,7 +2258,7 @@
       "quantity": "25 человек",
       "power": "5.0",
       "drain": "1500",
-      "consumption": "3.0"
+      "size": "1100 х 120 х 170"
     },
     "price": "645 050",
     "priceBefore": "679 000",
@@ -2273,7 +2273,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "260",
-      "consumption": "0.54"
+      "size": "125 х 125 х 208"
     },
     "price": "164 900",
     "priceBefore": null,
@@ -2288,7 +2288,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "260",
-      "consumption": "0.54"
+      "size": "125 х 125 х 238"
     },
     "price": "181 900",
     "priceBefore": null,
@@ -2303,7 +2303,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "260",
-      "consumption": "0.54"
+      "size": "125 х 125 х 268"
     },
     "price": "188 900",
     "priceBefore": null,
@@ -2318,7 +2318,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "320",
-      "consumption": "0.54"
+      "size": "150 х 150 х 208"
     },
     "price": "196 900",
     "priceBefore": null,
@@ -2333,7 +2333,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "320",
-      "consumption": "0.54"
+      "size": "150 х 150 х 238"
     },
     "price": "213 900",
     "priceBefore": null,
@@ -2348,7 +2348,7 @@
       "quantity": "7 человек",
       "power": "1.4",
       "drain": "320",
-      "consumption": "0.54"
+      "size": "150 х 150 х 268"
     },
     "price": "220 900",
     "priceBefore": null,
@@ -2363,7 +2363,7 @@
       "quantity": "3 человека",
       "power": "0.6",
       "drain": "170",
-      "consumption": null
+      "size": null
     },
     "price": "129 900",
     "priceBefore": null,
@@ -2378,7 +2378,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "270",
-      "consumption": null
+      "size": null
     },
     "price": "137 000",
     "priceBefore": null,
@@ -2393,7 +2393,7 @@
       "quantity": "4 человека",
       "power": "0.8",
       "drain": "270",
-      "consumption": null
+      "size": null
     },
     "price": "149 900",
     "priceBefore": null,
@@ -2408,7 +2408,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "300",
-      "consumption": null
+      "size": null
     },
     "price": "141 000",
     "priceBefore": null,
@@ -2423,7 +2423,7 @@
       "quantity": "5 человек",
       "power": "1.0",
       "drain": "300",
-      "consumption": null
+      "size": null
     },
     "price": "157 000",
     "priceBefore": null,

@@ -4,17 +4,18 @@
 
 ## Основные страницы
 
-- [Главная](https://chestnyseptik.ru/podbor-i-ustanovka): Экспертный подбор и установка станций, калькулятор стоимости, каталог станций, FAQ, контакты.
+- [Главная](https://chestnyseptik.ru/): Экспертный подбор и установка станций, калькулятор стоимости, FAQ, контакты.
+- [Каталог станций](https://chestnyseptik.ru/catalog): Полный каталог станций с фильтрами по брендам и количеству пользователей.
+- [Септики на 3 человека](https://chestnyseptik.ru/septik-na-3-cheloveka): Подбор станций для семьи из трёх человек.
 - [Политика обработки персональных данных](https://chestnyseptik.ru/politika-obrabotki-dannyh): Полный текст политики конфиденциальности.
 - [Политика использования файлов cookie](https://chestnyseptik.ru/politika-cookies): Информация об использовании cookie-файлов.
 
 ## Ключевые разделы на главной
 
-- [Каталог станций](https://chestnyseptik.ru/podbor-i-ustanovka#catalogList): Подбор станции по брендам и количеству пользователей.
-- [Калькулятор стоимости](https://chestnyseptik.ru/podbor-i-ustanovka#calculator): Расчёт цены станции с установкой.
-- [Выезд инженера](https://chestnyseptik.ru/podbor-i-ustanovka#engineer-request): Заявка на бесплатный замер.
-- [FAQ](https://chestnyseptik.ru/podbor-i-ustanovka#faq): Ответы на частые вопросы.
-- [Контакты](https://chestnyseptik.ru/podbor-i-ustanovka#footer): Телефон, Telegram, WhatsApp.
+- [Калькулятор стоимости](https://chestnyseptik.ru/#calculator): Расчёт цены станции с установкой.
+- [Выезд инженера](https://chestnyseptik.ru/#engineer-request): Заявка на бесплатный замер.
+- [FAQ](https://chestnyseptik.ru/#faq): Ответы на частые вопросы.
+- [Контакты](https://chestnyseptik.ru/#footer): Телефон, Telegram, WhatsApp.
 
 ## Контакты
 

@@ -14,7 +14,7 @@ const specsLabels = {
   quantity: 'Пользователей',
   power: 'Мощность',
   drain: 'Залповый сброс',
-  consumption: 'Потребление',
+  size: 'ДШВ, см',
 };
 
 function formatSpecValue(key, value) {
@@ -27,8 +27,8 @@ function formatSpecValue(key, value) {
       return `${parseFloat(value) * 1000} л/сут`;
     case 'drain':
       return `${value} л`;
-    case 'consumption':
-      return `До ${value} кВт/сут`;
+    case 'size':
+      return value;
     default:
       return value;
   }
