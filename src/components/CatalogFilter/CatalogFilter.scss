@@ -9,6 +9,13 @@
   top: rem(107);
   margin-bottom: rem(68);
   grid-area: filter;
+  overflow-y: auto;
+  max-height: calc(100dvh - rem(107+24));
+
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   @include mobile {
     padding: rem(8);
@@ -20,7 +27,8 @@
     top: 0;
     margin-bottom: rem(12);
     //overflow: hidden;
-    margin-bottom: rem(376);
+    //margin-bottom: rem(376);
+    max-height: calc(100dvh - rem(80+12));
   }
 
   &.is-open {
@@ -41,7 +49,7 @@
         }
 
         &:nth-child(3) {
-          max-height: rem(142);
+          max-height: rem(350);
           margin-bottom: rem(8);
           padding-block: rem(8);
         }

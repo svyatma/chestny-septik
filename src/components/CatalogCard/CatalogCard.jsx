@@ -125,7 +125,7 @@ function CatalogCard({ product, index, goalPrefix = '' }) {
           <Button
             variant="tertiary"
             onClick={() => goToSection('calculator')}
-            ymGoal="Stations_Item_Podbor"
+            ymGoal="Stations_Card_Podbor"
           >
             Подобрать станцию
           </Button>

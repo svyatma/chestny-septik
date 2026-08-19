@@ -185,7 +185,7 @@
   &--header-sublink-icon {
     @include flex-center;
 
-    justify-content: start;
+    justify-content: space-between;
     font-size: rem(15);
     color: var(--text-color-tertiary);
     padding: rem(6) rem(6) rem(6) rem(12);
@@ -238,7 +238,7 @@
       @include flex-center;
 
       background-color: var(--color-accent);
-      justify-content: start;
+      justify-content: space-between;
       font-size: rem(15);
       color: var(--text-color-white);
       padding: rem(6) rem(6) rem(6) rem(12);

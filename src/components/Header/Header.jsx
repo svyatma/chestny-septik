@@ -8,22 +8,26 @@ import Container from '../Container/Container.jsx';
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState(null);
+  const [openSubSubmenu, setOpenSubSubmenu] = useState(null); // ← третий уровень
   const headerRef = useRef(null);
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
   const location = useLocation();
   
+  // Закрытие меню при ресайзе на десктоп
   useEffect(() => {
     const handleResize = () => {
       if (window.matchMedia('(min-width: 768px)').matches) {
         setIsMenuOpen(false);
         setOpenSubmenu(null);
+        setOpenSubSubmenu(null);
       }
     };
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
   
+  // Закрытие по клику вне хедера
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (
@@ -33,12 +37,14 @@ function Header() {
       ) {
         setIsMenuOpen(false);
         setOpenSubmenu(null);
+        setOpenSubSubmenu(null);
       }
     };
     document.addEventListener('click', handleClickOutside);
     return () => document.removeEventListener('click', handleClickOutside);
   }, [isMenuOpen]);
   
+  // Мгновенная прокрутка к секции
   const scrollToSectionInstant = (id) => {
     const el = document.getElementById(id);
     if (el) {
@@ -55,6 +61,7 @@ function Header() {
     }
   };
   
+  // Переход в каталог с фильтром по бренду
   const handleBrandClick = (brandValue) => {
     closeMenu();
     if (location.pathname === '/catalog') {
@@ -69,14 +76,43 @@ function Header() {
     }
   };
   
+  const handleUsersClick = (usersValue) => {
+    closeMenu();
+    if (location.pathname === '/septik-na-3-cheloveka') {
+      const newParams = new URLSearchParams();
+      newParams.set('users', usersValue);
+      setSearchParams(newParams);
+    } else {
+      navigate(`/septik-na-3-cheloveka?users=${encodeURIComponent(usersValue)}`, { });
+    }
+  };
+  
   const handleAllStationsClick = () => {
     closeMenu();
     navigate('/catalog');
   };
   
+  const handleSeptikFor2PeopleClick = () => {
+    closeMenu();
+    navigate('/septik-na-2-cheloveka');
+  };
+  
+  const handleSeptikFor3PeopleClick = () => {
+    closeMenu();
+    navigate('/septik-na-3-cheloveka');
+  };
+  
+  const handleSeptikFor4PeopleClick = () => {
+    closeMenu();
+    navigate('/septik-na-4-cheloveka');
+  };
+  
   const handleBurgerClick = () => {
     setIsMenuOpen((prev) => !prev);
-    if (isMenuOpen) setOpenSubmenu(null);
+    if (isMenuOpen) {
+      setOpenSubmenu(null);
+      setOpenSubSubmenu(null);
+    }
     if (typeof window.ym === 'function') {
       window.ym(110089865, 'reachGoal', 'Header_OpenMenu');
     }
@@ -86,19 +122,26 @@ function Header() {
     if (window.matchMedia('(max-width: 767px)').matches) {
       setIsMenuOpen(false);
       setOpenSubmenu(null);
+      setOpenSubSubmenu(null);
     }
   };
   
   const handleSubmenuToggle = (menuKey) => {
     if (window.matchMedia('(max-width: 767px)').matches) {
       setOpenSubmenu((prev) => (prev === menuKey ? null : menuKey));
+      setOpenSubSubmenu(null);
+    }
+  };
+  
+  const handleSubSubmenuToggle = (subKey) => {
+    if (window.matchMedia('(max-width: 767px)').matches) {
+      setOpenSubSubmenu((prev) => (prev === subKey ? null : subKey));
     }
   };
   
   const handleLogoClick = (event) => {
     event.preventDefault();
     closeMenu();
-    
     if (location.pathname === '/') {
       window.scrollTo({ top: 0, behavior: 'instant' });
     } else {
@@ -107,6 +150,9 @@ function Header() {
   };
   
   const isCatalogPage = location.pathname === '/catalog';
+  const isSeptikFor2People = location.pathname === '/septik-na-2-cheloveka';
+  const isSeptikFor3People = location.pathname === '/septik-na-3-cheloveka';
+  const isSeptikFor4People = location.pathname === '/septik-na-4-cheloveka';
   
   return (
     <header
@@ -122,10 +168,7 @@ function Header() {
               aria-label="На главную"
               onClick={handleLogoClick}
             >
-              <Logo
-                className="header__logo"
-                alt="Логотип в шапке сайта"
-              />
+              <Logo className="header__logo" alt="Логотип в шапке сайта" />
             </Link>
             <nav className={`header__menu ${isMenuOpen ? 'is-open' : ''}`}>
               <ul className="header__menu-list">
@@ -134,6 +177,7 @@ function Header() {
                     variant="header-link"
                     to="/"
                     onClick={handleLogoClick}
+                    ymGoal="Header_Menu_Home"
                   >
                     Главная
                   </Button>
@@ -148,6 +192,7 @@ function Header() {
                     onClick={() => handleSubmenuToggle('stations')}
                     aria-haspopup="true"
                     aria-expanded={openSubmenu === 'stations'}
+                    ymGoal="Header_Menu_Stations"
                   >
                     Станции
                   </Button>
@@ -161,50 +206,109 @@ function Header() {
                         Полный каталог
                       </Button>
                     </li>
-                    <li className="header__submenu-item">
+                    <li
+                      className={`header__submenu-item has-subsubmenu ${
+                        openSubSubmenu === 'manufacturers' ? 'is-subsubmenu-open' : ''
+                      }`}
+                    >
                       <Button
                         variant="header-sublink"
-                        onClick={() => handleBrandClick('ЕВРОБИОН')}
-                        ymGoal="Header_Submenu_Evrobion"
+                        onClick={() => handleSubSubmenuToggle('manufacturers')}
+                        aria-haspopup="true"
+                        ymGoal="Header_Submenu_Brands"
                       >
-                        Евробион
+                        Производители
                       </Button>
+                      <ul className="header__subsubmenu">
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant="header-sublink-icon"
+                            onClick={() => handleBrandClick('ЕВРОБИОН')}
+                            ymGoal="Header_Subsubmenu_Evrobion"
+                          >
+                            Евробион
+                          </Button>
+                        </li>
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant="header-sublink-icon"
+                            onClick={() => handleBrandClick('ТОПАС')}
+                            ymGoal="Header_Subsubmenu_Topas"
+                          >
+                            Топас
+                          </Button>
+                        </li>
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant="header-sublink-icon"
+                            onClick={() => handleBrandClick('АСТРА')}
+                            ymGoal="Header_Subsubmenu_Astra"
+                          >
+                            Астра
+                          </Button>
+                        </li>
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant="header-sublink-icon"
+                            onClick={() => handleBrandClick('ЕВРОЛОС')}
+                            ymGoal="Header_Subsubmenu_Evrolos"
+                          >
+                            Евролос
+                          </Button>
+                        </li>
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant="header-sublink-icon"
+                            onClick={() => handleBrandClick('ЗОРДЕ')}
+                            ymGoal="Header_Subsubmenu_Zorde"
+                          >
+                            Зорде
+                          </Button>
+                        </li>
+                      </ul>
                     </li>
-                    <li className="header__submenu-item">
+                    <li
+                      className={`header__submenu-item has-subsubmenu ${
+                        openSubSubmenu === 'users' ? 'is-subsubmenu-open' : ''
+                      }`}
+                    >
                       <Button
                         variant="header-sublink"
-                        onClick={() => handleBrandClick('ТОПАС')}
-                        ymGoal="Header_Submenu_Topas"
+                        onClick={() => handleSubSubmenuToggle('users')}
+                        aria-haspopup="true"
+                        ymGoal="Header_Submenu_ForUsers"
                       >
-                        Топас
+                        По пользователям
                       </Button>
-                    </li>
-                    <li className="header__submenu-item">
-                      <Button
-                        variant="header-sublink"
-                        onClick={() => handleBrandClick('АСТРА')}
-                        ymGoal="Header_Submenu_Astra"
-                      >
-                        Астра
-                      </Button>
-                    </li>
-                    <li className="header__submenu-item">
-                      <Button
-                        variant="header-sublink"
-                        onClick={() => handleBrandClick('ЕВРОЛОС')}
-                        ymGoal="Header_Submenu_Evrolos"
-                      >
-                        Евролос
-                      </Button>
-                    </li>
-                    <li className="header__submenu-item">
-                      <Button
-                        variant="header-sublink"
-                        onClick={() => handleBrandClick('ЗОРДЕ')}
-                        ymGoal="Header_Submenu_Zorde"
-                      >
-                        Зорде
-                      </Button>
+                      <ul className="header__subsubmenu">
+                        {/*<li className="header__subsubmenu-item">*/}
+                        {/*  <Button*/}
+                        {/*    variant={isSeptikFor2People ? 'header-sublink-icon-active' : 'header-sublink-icon'}*/}
+                        {/*    onClick={isSeptikFor2People ? undefined : handleSeptikFor2PeopleClick}*/}
+                        {/*    ymGoal={isSeptikFor2People ? undefined : 'Header_Subsubmenu_ForUsers_3People'}*/}
+                        {/*  >*/}
+                        {/*    На 2 человека*/}
+                        {/*  </Button>*/}
+                        {/*</li>*/}
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant={isSeptikFor3People ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            onClick={isSeptikFor3People ? undefined : handleSeptikFor3PeopleClick}
+                            ymGoal={isSeptikFor3People ? undefined : 'Header_Subsubmenu_ForUsers_3People'}
+                          >
+                            На 3 человека
+                          </Button>
+                        </li>
+                        {/*<li className="header__subsubmenu-item">*/}
+                        {/*  <Button*/}
+                        {/*    variant={isSeptikFor4People ? 'header-sublink-icon-active' : 'header-sublink-icon'}*/}
+                        {/*    onClick={isSeptikFor4People ? undefined : handleSeptikFor4PeopleClick}*/}
+                        {/*    ymGoal={isSeptikFor4People ? undefined : 'Header_Subsubmenu_ForUsers_4People'}*/}
+                        {/*  >*/}
+                        {/*    На 4 человека*/}
+                        {/*  </Button>*/}
+                        {/*</li>*/}
+                      </ul>
                     </li>
                   </ul>
                 </li>
@@ -218,6 +322,7 @@ function Header() {
                     onClick={() => handleSubmenuToggle('services')}
                     aria-haspopup="true"
                     aria-expanded={openSubmenu === 'services'}
+                    ymGoal="Header_Menu_Services"
                   >
                     Услуги
                   </Button>
@@ -226,7 +331,7 @@ function Header() {
                       <Button
                         variant="header-sublink"
                         onClick={() => goToSection('calculator')}
-                        ymGoal="Header_Submenu_Raschet"
+                        ymGoal="Header_Submenu_Podbor"
                       >
                         Расчет стоимости
                       </Button>
@@ -252,6 +357,7 @@ function Header() {
                     onClick={() => handleSubmenuToggle('about')}
                     aria-haspopup="true"
                     aria-expanded={openSubmenu === 'about'}
+                    ymGoal="Header_Menu_About"
                   >
                     О компании
                   </Button>
@@ -267,17 +373,8 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                <li className="header__menu-item">
-                  <Button
-                    variant="header-link"
-                    onClick={() => goToSection('faq')}
-                    ymGoal="Header_Menu_FAQ"
-                  >
-                    FAQ
-                  </Button>
-                </li>
                 <li className="header__menu-item visible-mobile">
-                  <a href="tel: +7 812 920-46-60" className="header__phone-mobile">
+                  <a href="tel:+78129204660" className="header__phone-mobile">
                     +7 812 920-46-60
                   </a>
                 </li>
@@ -294,7 +391,7 @@ function Header() {
                   <Button
                     variant="header-cta"
                     onClick={() => goToSection('engineer-request')}
-                    ymGoal="Header_Podbor"
+                    ymGoal="Header_EngineerRequest"
                   >
                     Вызвать инженера
                   </Button>
@@ -302,7 +399,7 @@ function Header() {
               </ul>
             </nav>
             <div className="header__actions">
-              <a href="tel: +7 812 920-46-60" className="header__phone">
+              <a href="tel:+78129204660" className="header__phone">
                 +7 812 920-46-60
               </a>
               <Button
@@ -322,7 +419,7 @@ function Header() {
             </div>
             <div className="header__mobile visible-mobile">
               <a
-                href="tel: +7 812 920-46-60"
+                href="tel:+78129204660"
                 className="header__mobile-phone"
                 aria-label="Позвонить Честному септику"
                 onClick={() => ym(110089865, 'reachGoal', 'Header_Mobile_Phone')}

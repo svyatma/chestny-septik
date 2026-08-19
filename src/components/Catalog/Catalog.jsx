@@ -1,28 +1,36 @@
 import { useSearchParams } from 'react-router-dom';
-import { useEffect, useRef, useMemo } from 'react';
+import { useEffect, useRef, useMemo, useState } from 'react';
 import './Catalog.scss';
 import stations from '../../data/stations.json';
-import CatalogFilter, { getQuantitiesByCodes } from '../CatalogFilter/CatalogFilter.jsx';
+import CatalogFilter from '../CatalogFilter/CatalogFilter.jsx';
 import CatalogCard from '../CatalogCard/CatalogCard.jsx';
 import CatalogPagination from '../CatalogPagination/CatalogPagination.jsx';
 import useCatalogLayout from '../../hooks/useCatalogLayout';
 
-function Catalog({ goalPrefix = '' }) {
+function Catalog({ goalPrefix = '', initialQuantityValues = null }) {
   const [searchParams, setSearchParams] = useSearchParams();
+  const [userInteracted, setUserInteracted] = useState(false);
   
   const { cardsPerRow, rowsPerPage } = useCatalogLayout();
   const ITEMS_PER_PAGE = cardsPerRow * rowsPerPage;
   
   const brandParam = searchParams.get('brand') || '';
-  const selectedBrands = brandParam ? brandParam.split(',') : [];
-  
   const usersParam = searchParams.get('users') || '';
-  const selectedQuantityCodes = usersParam ? usersParam.split(',') : [];
   
-  const selectedQuantities = useMemo(
-    () => getQuantitiesByCodes(selectedQuantityCodes),
-    [selectedQuantityCodes]
-  );
+  // Выбранные числа количества человек (массив чисел)
+  const selectedQuantityValues = useMemo(() => {
+    if (userInteracted) {
+      return usersParam ? usersParam.split(',').map(Number) : [];
+    }
+    if (usersParam) {
+      return usersParam.split(',').map(Number);
+    }
+    return initialQuantityValues || [];
+  }, [usersParam, initialQuantityValues, userInteracted]);
+  
+  const selectedBrands = useMemo(() => {
+    return brandParam ? brandParam.split(',') : [];
+  }, [brandParam]);
   
   const pageFromUrl = parseInt(searchParams.get('page'), 10);
   const currentPage = Number.isNaN(pageFromUrl) || pageFromUrl < 1 ? 1 : pageFromUrl;
@@ -32,11 +40,14 @@ function Catalog({ goalPrefix = '' }) {
     if (selectedBrands.length > 0) {
       result = result.filter((station) => selectedBrands.includes(station.brand));
     }
-    if (selectedQuantities.length > 0) {
-      result = result.filter((station) => selectedQuantities.includes(station.specs.quantity));
+    if (selectedQuantityValues.length > 0) {
+      result = result.filter((station) => {
+        const quantityNumber = parseInt(station.specs.quantity, 10);
+        return selectedQuantityValues.includes(quantityNumber);
+      });
     }
     return result;
-  }, [selectedBrands, selectedQuantities]);
+  }, [selectedBrands, selectedQuantityValues]);
   
   const totalPages = Math.ceil(filteredStations.length / ITEMS_PER_PAGE);
   const safeCurrentPage = Math.min(currentPage, totalPages || 1);
@@ -49,10 +60,10 @@ function Catalog({ goalPrefix = '' }) {
   };
   
   useEffect(() => {
-    if (safeCurrentPage > 1 || selectedBrands.length > 0 || selectedQuantityCodes.length > 0) {
+    if (brandParam || usersParam || safeCurrentPage > 1) {
       scrollToCatalog();
     }
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   
   const prevPageRef = useRef(safeCurrentPage);
   useEffect(() => {
@@ -81,6 +92,8 @@ function Catalog({ goalPrefix = '' }) {
   };
   
   const handleFilterChange = (filterType, newValues) => {
+    setUserInteracted(true);
+    
     setSearchParams((prev) => {
       const newParams = new URLSearchParams(prev);
       
@@ -105,6 +118,7 @@ function Catalog({ goalPrefix = '' }) {
   };
   
   const resetFilters = () => {
+    setUserInteracted(true);
     setSearchParams((prev) => {
       const newParams = new URLSearchParams(prev);
       newParams.delete('brand');
@@ -119,7 +133,7 @@ function Catalog({ goalPrefix = '' }) {
     <div className="catalog" id="catalogList">
       <CatalogFilter
         selectedBrands={selectedBrands}
-        selectedQuantities={selectedQuantityCodes}
+        selectedQuantities={selectedQuantityValues}
         onFilterChange={handleFilterChange}
         onReset={resetFilters}
       />

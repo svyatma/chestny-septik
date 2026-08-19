@@ -55,12 +55,12 @@
 
       & .faq__answer {
         padding-top: rem(20);
-        max-height: rem(164);
+        max-height: fit-content;
         opacity: 1;
 
         @include mobile {
           padding-top: rem(16);
-          max-height: rem(268);
+          max-height: fit-content;
         }
       }
     }

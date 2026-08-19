@@ -120,4 +120,48 @@
     display: flex;
     gap: rem(8);
   }
+
+  &--septik-for {
+    grid-area: callout-septik-for;
+    background-color: var(--color-light-700);
+    margin-top: rem(16);
+    max-width: rem(480);
+
+    &::before {
+      content: '';
+      display: inline-block;
+      width: rem(28);
+      height: rem(28);
+      flex-shrink: 0;
+      background-color: currentColor;
+      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Cpath d='M16 25.9258H18V28H10V25.9258H12V12.4443H10V10.3711H16V25.9258Z' fill='black'/%3E%3Cpath d='M14 0C14.7955 1.73864e-08 15.5585 0.327794 16.1211 0.911133C16.6837 1.49457 17 2.28621 17 3.11133C16.9999 3.93632 16.6836 4.72717 16.1211 5.31055C15.5585 5.894 14.7956 6.22266 14 6.22266C13.2044 6.22266 12.4415 5.894 11.8789 5.31055C11.3164 4.72717 11.0001 3.93632 11 3.11133C11 2.28621 11.3163 1.49457 11.8789 0.911133C12.4415 0.327794 13.2045 1.73864e-08 14 0Z' fill='black'/%3E%3C/svg%3E");
+      mask-size: contain;
+      mask-repeat: no-repeat;
+      mask-position: center;
+      -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Cpath d='M16 25.9258H18V28H10V25.9258H12V12.4443H10V10.3711H16V25.9258Z' fill='black'/%3E%3Cpath d='M14 0C14.7955 1.73864e-08 15.5585 0.327794 16.1211 0.911133C16.6837 1.49457 17 2.28621 17 3.11133C16.9999 3.93632 16.6836 4.72717 16.1211 5.31055C15.5585 5.894 14.7956 6.22266 14 6.22266C13.2044 6.22266 12.4415 5.894 11.8789 5.31055C11.3164 4.72717 11.0001 3.93632 11 3.11133C11 2.28621 11.3163 1.49457 11.8789 0.911133C12.4415 0.327794 13.2045 1.73864e-08 14 0Z' fill='black'/%3E%3C/svg%3E");
+      -webkit-mask-size: contain;
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+    }
+
+    & .callout__info {
+      font-family: var(--font-secondary);
+      font-size: rem(18);
+      font-weight: 400;
+    }
+
+    @include laptop {
+      margin-bottom: rem(32);
+
+      & .callout__info {
+        @include fluid-text(18, 16);
+      }
+    }
+
+    @include mobile {
+      margin-top: rem(16);
+      margin-bottom: rem(24);
+      align-items: center !important;
+    }
+  }
 }

@@ -5,7 +5,7 @@
     "name": "Евробион Раунд 3",
     "image": "src/assets/images/stations/evrobion/evrobion-raund-3.webp",
     "specs": {
-      "quantity": "3 человек",
+      "quantity": "3 человека",
       "power": "0.6",
       "drain": "170",
       "consumption": null
@@ -20,7 +20,7 @@
     "name": "Евробион Раунд 4 Стандарт",
     "image": "src/assets/images/stations/evrobion/evrobion-raund-4-standart.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "290",
       "consumption": null
@@ -35,7 +35,7 @@
     "name": "Евробион Раунд 4 Стандарт +",
     "image": "src/assets/images/stations/evrobion/evrobion-raund-4-standart.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "290",
       "consumption": null
@@ -50,7 +50,7 @@
     "name": "Евробион Раунд 4 Миди",
     "image": "src/assets/images/stations/evrobion/evrobion-raund-4-midi.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "290",
       "consumption": null
@@ -65,7 +65,7 @@
     "name": "Евробион Раунд 4 Лонг",
     "image": "src/assets/images/stations/evrobion/evrobion-raund-4-long.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "290",
       "consumption": null
@@ -530,7 +530,7 @@
     "name": "Евробион Горизонт 4 Стандарт",
     "image": "src/assets/images/stations/evrobion/evrobion-horizon-4-standart.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "230",
       "consumption": null
@@ -545,7 +545,7 @@
     "name": "Евробион Горизонт 4 Миди",
     "image": "src/assets/images/stations/evrobion/evrobion-horizon-4-midi.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "230",
       "consumption": null
@@ -560,7 +560,7 @@
     "name": "Евробион Горизонт 4 Лонг",
     "image": "src/assets/images/stations/evrobion/evrobion-horizon-4-long.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "230",
       "consumption": null
@@ -1880,7 +1880,7 @@
     "name": "Евролос Био 3",
     "image": "src/assets/images/stations/evrolos/evrolos-bio.webp",
     "specs": {
-      "quantity": "3 человек",
+      "quantity": "3 человека",
       "power": "0.6",
       "drain": "240",
       "consumption": "2.1"
@@ -1895,7 +1895,7 @@
     "name": "Евролос Био 4",
     "image": "src/assets/images/stations/evrolos/evrolos-bio.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "340",
       "consumption": "2.1"
@@ -1955,7 +1955,7 @@
     "name": "Евролос Про 3",
     "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
     "specs": {
-      "quantity": "3 человек",
+      "quantity": "3 человека",
       "power": "0.6",
       "drain": "240",
       "consumption": "2.1"
@@ -1970,7 +1970,7 @@
     "name": "Евролос Про 4",
     "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "340",
       "consumption": "2.1"
@@ -2120,7 +2120,7 @@
     "name": "Евролос Грунт 3",
     "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
     "specs": {
-      "quantity": "3 человек",
+      "quantity": "3 человека",
       "power": "0.6",
       "drain": "240",
       "consumption": "1.5"
@@ -2135,7 +2135,7 @@
     "name": "Евролос Грунт 4",
     "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "340",
       "consumption": "1.5"
@@ -2360,7 +2360,7 @@
     "name": "Макс 3",
     "image": "src/assets/images/stations/maks/maks-3.webp",
     "specs": {
-      "quantity": "3 человек",
+      "quantity": "3 человека",
       "power": "0.6",
       "drain": "170",
       "consumption": null
@@ -2375,7 +2375,7 @@
     "name": "Макс 4 Стандарт",
     "image": "src/assets/images/stations/maks/maks-4-standart.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "270",
       "consumption": null
@@ -2390,7 +2390,7 @@
     "name": "Макс 4 Миди",
     "image": "src/assets/images/stations/maks/maks-4-midi.webp",
     "specs": {
-      "quantity": "4 человек",
+      "quantity": "4 человека",
       "power": "0.8",
       "drain": "270",
       "consumption": null

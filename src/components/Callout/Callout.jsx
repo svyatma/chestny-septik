@@ -15,6 +15,8 @@ function Callout({
   const modifierClasses = variants.map((v) => `callout--${v}`).join(' ');
   const finalClass = `callout ${modifierClasses} ${className}`.trim();
   
+  const isSeptikFor = variants.includes('septik-for');
+  
   const hasActions =
     phone ||
     (messengers && messengers.length > 0) ||
@@ -24,7 +26,13 @@ function Callout({
     <div className={finalClass}>
       <div className="callout__inner">
         {head && <h3 className="callout__head">{head}</h3>}
-        {info && <p className="callout__info">{info}</p>}
+        
+        {info &&
+          (isSeptikFor ? (
+            <h2 className="callout__info">{info}</h2>
+          ) : (
+            <p className="callout__info">{info}</p>
+          ))}
         
         {hasActions && (
           <div className="callout__actions">

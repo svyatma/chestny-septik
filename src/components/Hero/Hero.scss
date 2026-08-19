@@ -98,6 +98,74 @@
     & .map-point {
       grid-area: map-point;
     }
+
+    & .hero__callout {
+      @include mobile {
+        margin-bottom: rem(32);
+      }
+    }
+  }
+
+  &__septik-for {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    //grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'title title title logo'
+                         'map-point . . . '
+                         'callout callout img img'
+                         'callout-septik-for callout-septik-for img img'
+                         'actions actions info info';
+
+    @include laptop {
+      grid-template-columns: rem(350) 1fr 1fr 1fr;
+      grid-template-areas: 'title title title logo'
+                           'map-point . . . '
+                           'callout callout img img'
+                           'callout-septik-for callout-septik-for img img'
+                            'actions info info info';
+    }
+
+    @include tablet {
+      grid-template-areas: 'title title title logo'
+                           'map-point . . . '
+                           'callout callout img img'
+                           'callout-septik-for callout-septik-for img img'
+                            'actions actions info info';
+    }
+
+    //@include mobile {
+    //  display: flex;
+    //  flex-direction: column;
+    //  align-items: center;
+    //}
+
+    @include mobile {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'title' 'map-point' 'img' 'logo' 'phone' 'callout' 'callout-septik-for' 'actions' 'info';
+    }
+
+    &-title {
+      grid-area: title;
+      max-width: rem(730);
+    }
+
+    &-visual {
+      width: rem(455);
+      height: fit-content;
+      grid-area: img;
+      align-self: end;
+      justify-self: center;
+      margin-top: rem(24);
+      margin-bottom: rem(12);
+
+      @include laptop {
+        width: fluid(455, 281);
+      }
+    }
+
+    & .map-point {
+      grid-area: map-point;
+    }
   }
 
   &__callout {
@@ -106,6 +174,14 @@
     max-width: rem(590);
     grid-area: callout;
     margin-top: rem(32);
+
+    @include laptop {
+      margin-right: rem(-100);
+    }
+
+    @include mobile {
+      margin-right: rem(0);
+    }
 
     &::before {
       content: '';
@@ -141,7 +217,7 @@
 
     @include mobile {
       margin-top: 0;
-      margin-bottom: rem(24);
+      //margin-bottom: rem(24);
       flex-direction: row !important;
       align-items: center !important;
     }

@@ -82,6 +82,7 @@ h2, .h2 {
   &__title {
     margin-bottom: rem(64);
     font-size: rem(36);
+    letter-spacing: 0.02em;
     color: var(--color-dark-300);
 
     @include laptop {

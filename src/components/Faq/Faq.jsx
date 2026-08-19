@@ -4,9 +4,10 @@ import './Faq.scss';
 import faqData from '../../data/faqData.json';
 import Callout from "../Callout/Callout.jsx";
 
-function Faq() {
+function Faq({ slug: propSlug }) {
   const location = useLocation();
-  const slug = location.pathname.replace('/', '');
+  const slug = propSlug || location.pathname.replace('/', '');
+
   const faqBlock = faqData.find((block) => block.slug === slug);
   if (!faqBlock) return null;
   

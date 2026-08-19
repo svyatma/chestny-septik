@@ -1,65 +1,43 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import './CatalogFilter.scss';
 import stations from '../../data/stations.json';
-import { sendYmGoal } from '../../utils/analytics.js'; // импорт утилиты
+import { sendYmGoal } from '../../utils/analytics.js';
 
-export const quantityRanges = [
-  {
-    code: '1-3',
-    label: '1-3 человек',
-    values: ['3 человек'],
-  },
-  {
-    code: '4-6',
-    label: '4-6 человек',
-    values: ['4 человека', '4 человек', '5 человек', '6 человек'],
-  },
-  {
-    code: '7-9',
-    label: '7-9 человек',
-    values: ['7 человек', '8 человек', '9 человек'],
-  },
-  {
-    code: '10+',
-    label: '10+ человек',
-    values: [
-      '10 человек',
-      '12 человек',
-      '15 человек',
-      '20 человек',
-      '25 человек',
-      '30 человек',
-    ],
-  },
+// Конкретные значения количества человек
+export const quantityOptions = [
+  { value: 3, label: '3 человека' },
+  { value: 4, label: '4 человека' },
+  { value: 5, label: '5 человек' },
+  { value: 6, label: '6 человек' },
+  { value: 7, label: '7 человек' },
+  { value: 8, label: '8 человек' },
+  { value: 10, label: '10 человек' },
+  { value: 12, label: '12 человек' },
+  { value: 15, label: '15 человек' },
+  { value: 20, label: '20 человек' },
+  { value: 25, label: '25 человек' },
+  { value: 30, label: '30 человек' },
 ];
 
-export const getQuantitiesByCodes = (codes) => {
-  return codes.flatMap((code) => {
-    const range = quantityRanges.find((r) => r.code === code);
-    return range ? range.values : [];
-  });
-};
-
-// Сопоставление брендов и кодов количества с целями
-const brandGoals = {
-  'ЕВРОБИОН': 'Stations_Filter_Evrobion',
-  'ТОПАС': 'Stations_Filter_Topas',
-  'АСТРА': 'Stations_Filter_Astra',
-  'ЕВРОЛОС': 'Stations_Filter_Evrolos',
-  'ЗОРДЕ': 'Stations_Filter_Zorde',
-  'МАКС': 'Stations_Filter_Maks',
-};
-
+// Сопоставление числовых значений с целями
 const quantityGoals = {
-  '1-3': 'Stations_Filter_1-3People',
-  '4-6': 'Stations_Filter_4-6People',
-  '7-9': 'Stations_Filter_7-9People',
-  '10+': 'Stations_Filter_10People',
+  3: 'Stations_Filter_3People',
+  4: 'Stations_Filter_4People',
+  5: 'Stations_Filter_5People',
+  6: 'Stations_Filter_6People',
+  7: 'Stations_Filter_7People',
+  8: 'Stations_Filter_8People',
+  10: 'Stations_Filter_10People',
+  12: 'Stations_Filter_12People',
+  15: 'Stations_Filter_15People',
+  20: 'Stations_Filter_20People',
+  25: 'Stations_Filter_25People',
+  30: 'Stations_Filter_30People',
 };
 
 function CatalogFilter({ selectedBrands, selectedQuantities, onFilterChange, onReset }) {
   const allBrands = useMemo(() => [...new Set(stations.map((s) => s.brand))], []);
-  const selectedCodes = selectedQuantities;
+  const selectedValues = selectedQuantities;
   const [isOpen, setIsOpen] = useState(false);
   const filterRef = useRef(null);
   
@@ -76,22 +54,21 @@ function CatalogFilter({ selectedBrands, selectedQuantities, onFilterChange, onR
         filterRef.current &&
         !filterRef.current.contains(event.target)
       ) {
+        filterRef.current.scrollTop = 0;
         setIsOpen(false);
       }
     };
-    
     document.addEventListener('click', handleClickOutside);
     return () => document.removeEventListener('click', handleClickOutside);
   }, [isOpen]);
   
-  const handleRangeChange = (code) => {
-    const isSelected = selectedCodes.includes(code);
-    const newCodes = isSelected
-      ? selectedCodes.filter((c) => c !== code)
-      : [...selectedCodes, code];
-    onFilterChange('quantities', newCodes);
-    // Отправляем цель (не важно, выбор или снятие)
-    const goal = quantityGoals[code];
+  const handlePeopleChange = (value) => {
+    const isSelected = selectedValues.includes(value);
+    const newValues = isSelected
+      ? selectedValues.filter((v) => v !== value)
+      : [...selectedValues, value];
+    onFilterChange('quantities', newValues);
+    const goal = quantityGoals[value];
     if (goal) sendYmGoal(goal);
   };
   
@@ -150,18 +127,18 @@ function CatalogFilter({ selectedBrands, selectedQuantities, onFilterChange, onR
         
         <div className="catalog__filter-item">
           <div className="catalog__filter-item-head">Пользователей</div>
-          {quantityRanges.map((range) => (
-            <label key={range.code} className="catalog__filter-option" htmlFor={`quantity-${range.code}`}>
+          {quantityOptions.map((option) => (
+            <label key={option.value} className="catalog__filter-option" htmlFor={`quantity-${option.value}`}>
               <input
                 type="checkbox"
-                id={`quantity-${range.code}`}
+                id={`quantity-${option.value}`}
                 name="quantity"
-                value={range.code}
-                checked={selectedCodes.includes(range.code)}
-                onChange={() => handleRangeChange(range.code)}
+                value={option.value}
+                checked={selectedValues.includes(option.value)}
+                onChange={() => handlePeopleChange(option.value)}
               />
               <span className="catalog__filter-option-checkmark"></span>
-              <span className="catalog__filter-option-text">{range.label}</span>
+              <span className="catalog__filter-option-text">{option.label}</span>
             </label>
           ))}
         </div>
