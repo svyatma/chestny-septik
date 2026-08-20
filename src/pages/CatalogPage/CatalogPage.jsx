@@ -15,6 +15,7 @@ function CatalogPage() {
       <Helmet>
         <title>Каталог автономных септиков — станций биологической очистки для частного дома | Честный септик</title>
         <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для дома, а мы установим по цене производителя! Звоните!" />
+        <link rel="canonical" href="https://chestnyseptik.ru/catalog" />
       </Helmet>
       
       <Section id="catalog">

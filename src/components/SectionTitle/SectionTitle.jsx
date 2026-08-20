@@ -7,7 +7,9 @@ function SectionTitle({ variant = '', children }) {
   ].join(' ');
   
   return(
-    <h2 className={className}>{children}</h2>
+    <h2 className={className}>
+      {children}
+    </h2>
   )
 }
 

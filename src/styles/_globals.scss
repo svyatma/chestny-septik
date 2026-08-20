@@ -58,6 +58,12 @@ h1, .h1 {
     }
   }
 
+  &.column {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
   @include laptop {
     @include fluid-text(42, 26);
   }
@@ -70,6 +76,12 @@ h1, .h1 {
 
 h2, .h2 {
   font-weight: 600;
+}
+
+h3, .h3 {
+  @include mobile {
+    font-size: rem(16);
+  }
 }
 
 .section {

@@ -185,10 +185,10 @@
 
   & .logo {
     align-self: center;
-    width: rem(335);
+    width: rem(279);
 
     @include laptop {
-      width: fluid(335, 168);
+      width: fluid(279, 168);
     }
   }
 
@@ -531,12 +531,12 @@
   }
 
   & .logo {
-    width: rem(335);
+    width: rem(279);
     align-self: center;
     justify-self: center;
 
     @include laptop {
-      width: fluid(335, 168);
+      width: fluid(279, 168);
     }
   }
 

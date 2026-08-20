@@ -9,7 +9,6 @@
   top: rem(107);
   margin-bottom: rem(68);
   grid-area: filter;
-  overflow-y: auto;
   max-height: calc(100dvh - rem(107+24));
 
   scrollbar-width: none;
@@ -32,11 +31,14 @@
   }
 
   &.is-open {
+    overflow-y: auto;
+
     @include mobile {
 
       & .catalog__filter-head {
         margin-bottom: rem(8);
       }
+
       & .catalog__filter-item {
         opacity: 1;
         padding: rem(8);

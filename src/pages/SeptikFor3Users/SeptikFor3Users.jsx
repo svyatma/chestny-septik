@@ -11,20 +11,29 @@ import Button from "../../components/Button/Button.jsx";
 import PodborHeroImage from "../../assets/images/PodborHeroImage.png";
 import HeroInfo from "../../components/HeroInfo/HeroInfo.jsx";
 import Catalog from "../../components/Catalog/Catalog.jsx";
+import {getServiceSchema} from "../../seo/schemas.js";
 
 function SeptikFor3Users() {
   const goToSection = useGoToSection();
+  
+  const serviceSchema = getServiceSchema({
+    name: 'Септики на 3 человека автономные и без откачки',
+    serviceType: 'Монтаж автономных септиков',
+    description: '+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для частного дома и дачи на 3 человека, а мы установим по цене производителя! Звоните!',
+    url: 'https://chestnyseptik.ru/septik-na-3-cheloveka',
+  });
   
   return (
     <>
       <Helmet>
         <title>Купить автономный септик на 3 человека для частного дома и дачи по цене завода | Честный септик</title>
-        <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для дома, а мы установим по цене производителя! Звоните!" />
+        <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для частного дома и дачи на 3 человека, а мы установим по цене производителя! Звоните!" />
+        <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
       
       <Hero>
         <div className="hero__septik-for">
-          <h1 className="hero__septik-for-title">
+          <h1 className="hero__septik-for-title column">
             <span>Септики на 3 человека</span> автономные и без откачки
           </h1>
           <MapPoint variant="primary">

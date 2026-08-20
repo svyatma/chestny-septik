@@ -190,7 +190,7 @@
     color: var(--text-color-tertiary);
     padding: rem(6) rem(6) rem(6) rem(12);
     border-radius: rem(10);
-    gap: rem(3);
+    gap: rem(6);
     white-space: nowrap;
     width: 100%;
 
@@ -201,6 +201,7 @@
       display: inline-block;
       width: rem(23);
       height: rem(23);
+      opacity: 0.8;
       flex-shrink: 0;
       background-color: currentColor;
       mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='23' height='23' viewBox='0 0 23 23'%3E%3Cpath d='M12.9453 6C13.994 8.08507 15.3778 9.47715 18 10.8545V12.1455C15.3778 13.5229 13.994 14.9149 12.9453 17L11.6416 16.3711C12.6176 14.424 13.9494 13.1582 15.3916 12.1455H5V10.8545H15.3916C13.9494 9.84182 12.6176 8.57596 11.6416 6.62891L12.9453 6Z' fill='black'/%3E%3C/svg%3E");
@@ -229,8 +230,8 @@
       font-weight: 300;
 
       &::after {
-        width: rem(21);
-        height: rem(21);
+        width: rem(20);
+        height: rem(20);
       }
     }
 
@@ -243,7 +244,7 @@
       color: var(--text-color-white);
       padding: rem(6) rem(6) rem(6) rem(12);
       border-radius: rem(10);
-      gap: rem(3);
+      gap: rem(6);
       white-space: nowrap;
       width: 100%;
       cursor: default;

@@ -20,6 +20,7 @@ function SeptikFor2Users() {
       <Helmet>
         <title>Купить автономный септик на 2 человека для частного дома и дачи по цене завода | Честный септик</title>
         <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для дома, а мы установим по цене производителя! Звоните!" />
+        <link rel="canonical" href="https://chestnyseptik.ru/septik-na-2-cheloveka" />
       </Helmet>
       
       <Hero>

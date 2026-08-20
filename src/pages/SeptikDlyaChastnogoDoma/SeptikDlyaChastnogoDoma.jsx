@@ -1,0 +1,251 @@
+import { Helmet } from 'react-helmet-async';
+import Section from '../../components/Section/Section.jsx';
+import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
+import Logo from "../../components/Logo/Logo.jsx";
+import {useGoToSection} from "../../hooks/useGoToSection.js";
+import Faq from "../../components/Faq/Faq.jsx";
+import Callout from "../../components/Callout/Callout.jsx";
+import Hero from "../../components/Hero/Hero.jsx";
+import MapPoint from "../../components/MapPoint/MapPoint.jsx";
+import Button from "../../components/Button/Button.jsx";
+import PodborHeroImage from "../../assets/images/PodborHeroImage.png";
+import HeroInfo from "../../components/HeroInfo/HeroInfo.jsx";
+import Catalog from "../../components/Catalog/Catalog.jsx";
+import Article from "../../components/Article/Article.jsx";
+import {getArticleSchema, getServiceSchema} from "../../seo/schemas.js";
+
+function SeptikDlyaChastnogoDoma() {
+  const goToSection = useGoToSection();
+  
+  const articleSchema = getArticleSchema({
+    headline: 'Септики без откачки для частного дома с установкой под ключ по цене завода',
+    description: 'Подбор и установка автономного септика без откачки для частного дома под ключ. Бесплатный выезд инженера, септики без откачки для постоянного проживания. Цены от 150 630 ₽.',
+    url: 'https://chestnyseptik.ru/septik-dlya-chastnogo-doma',
+    image: 'https://chestnyseptik.ru/logo.svg',
+    datePublished: '2026-08-20',
+    dateModified: '2026-08-20',
+    section: 'Септики для частного дома',
+  });
+  
+  const serviceSchema = getServiceSchema({
+    name: 'Септики без откачки для частного дома с установкой под ключ по цене завода',
+    serviceType: 'Монтаж автономных септиков',
+    description: 'Подбор и установка автономного септика без откачки для частного дома под ключ. Бесплатный выезд инженера, септики без откачки для постоянного проживания. Цены от 150 630 ₽.',
+    url: 'https://chestnyseptik.ru/septik-dlya-chastnogo-doma',
+  });
+  
+  return (
+    <>
+      <Helmet>
+        <title>Купить лучший автономный септик без откачки для частного дома под ключ с установкой по цене завода на 2, 3, 4, 5 и более человек в Ленинградской области и СПб | Честный септик</title>
+        <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
+        <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
+      </Helmet>
+      
+      <Hero>
+        <div className="hero__septik-for">
+          <h1 className="hero__septik-for-title column">
+            <span>Септики без откачки для частного дома</span> с установкой под ключ по цене завода
+          </h1>
+          <MapPoint variant="primary">
+            Санкт-Петербург и ЛО
+          </MapPoint>
+          <Callout
+            className="hero__callout"
+            // info="Подберем подходящую станцию для&nbsp;загородного дома, сделаем смету за&nbsp;1 день, а&nbsp;установим на&nbsp;следующий ✔"
+            info="Подбираем и устанавливаем подходящие автономные септики — станции биологической очистки для загородного дома по цене производителя ✔"
+          />
+          <Callout
+            variant="septik-for"
+            info="На этой странице Вы сможете выбрать септик для частного дома и заказать с установкой под ключ"
+          />
+          <div className="hero__actions">
+            <Button
+              variant="primary"
+              ymGoal="Hero_Choise"
+              scrollTo="catalog"
+            >
+              Выбрать свой септик
+            </Button>
+            <Button
+              variant="secondary"
+              onClick={() => goToSection('calculator')}
+              ymGoal="Hero_Calculator"
+            >
+              Рассчитать стоимость для&nbsp;моего дома
+            </Button>
+          </div>
+          <Logo className="hero__logo"/>
+          <a href="tel: +7 812 920-46-60" className="hero__phone visible-mobile">
+            +7 812 920-46-60
+          </a>
+          <div className="hero__septik-for-visual">
+            <img
+              className="hero__septik-for-img"
+              src={PodborHeroImage}
+              alt="Изображение станции"
+              width={455}
+              height={275}
+            />
+          </div>
+          <HeroInfo
+            items={[
+              { head: '1 день', desc: 'Подбор + смета' },
+              { head: '24 часа', desc: 'До установки' },
+              { head: 'От 117 630 ₽', desc: 'Станция' },
+              { head: 'От 150 630 ₽', desc: 'С установкой' },
+            ]}
+          />
+        </div>
+      </Hero>
+      <Section id="catalog">
+        <div className="container">
+          <SectionTitle>
+            <span>Каталог автономных септиков для частного дома</span>
+          </SectionTitle>
+        </div>
+        <Catalog />
+      </Section>
+      <Section>
+        <SectionTitle variant="column center">
+          <span>Сложно?</span> Понимаем, давайте поможем
+        </SectionTitle>
+        <div className="help">
+          <Logo />
+          <div className="help__callouts">
+            <Callout
+              variant="white ai-start"
+              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
+              phone="+7 812 920-46-60"
+              onPhoneClick={() => {
+                if (typeof window.ym === 'function') {
+                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
+                }
+              }}
+              messengers={[
+                {
+                  icon: 'telegram',
+                  url: 'tg://resolve?domain=ChestnySeptik',
+                  ymGoal: 'Help_Callout_Telegram'
+                },
+                {
+                  icon: 'whatsapp',
+                  url: 'whatsapp://send?phone=79119204660',
+                  ymGoal: 'Help_Callout_WhatsApp'
+                },
+              ]}
+            />
+            <Callout
+              variant="white ai-start"
+              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
+              actions={[
+                {
+                  variant: 'primary',
+                  children: 'К калькулятору',
+                  onClick: () => goToSection('calculator'),
+                  ymGoal: 'Help_Callout_Calculator'
+                }
+              ]}
+            />
+          </div>
+        </div>
+      </Section>
+      <Article title={<><span>Установка септика для частного дома</span> от Честного септика</>}>
+        <p>
+          Для семьи, которая живёт за городом круглый год, септик — это не просто очистное сооружение, а часть инженерной системы, обеспечивающей городской уровень комфорта. Ежедневные сбросы из нескольких санузлов, кухни, стиральной и посудомоечной машин требуют станции с запасом производительности. Мы подбираем оборудование так, чтобы оно справлялось с пиковыми нагрузками без переполнений и потери качества очистки.
+        </p>
+        
+        <h3>Постоянное проживание: на что обращаем внимание при подборе</h3>
+        <p>
+          В отличие от дачных вариантов, септик для частного дома должен быть рассчитан на регулярные залповые сбросы и стабильную работу даже при одновременном использовании нескольких точек водоразбора. Поэтому при выезде на участок мы в первую очередь анализируем:
+        </p>
+        <ul>
+          <li>число постоянно проживающих и их привычки;</li>
+          <li>количество сантехнических приборов и пиковые часы расхода воды;</li>
+          <li>тип отвода очищенной воды — самотёчный или принудительный;</li>
+          <li>глубину врезки канализационной трубы и особенности рельефа.</li>
+        </ul>
+        <p>
+          Только после этого предлагаем конкретную модель, которая прослужит 50 лет и не потребует откачки.
+        </p>
+        
+        <h3>Бесплатный выезд инженера: считаем не «на глаз», а по факту</h3>
+        <p>
+          Чтобы итоговая смета была точной, к вам приезжает инженер. Он не просто осматривает участок, а проводит замеры, которые влияют на выбор станции и технологию монтажа.
+        </p>
+        <p>Что делает специалист:</p>
+        <ul>
+          <li>оценивает состав семьи и суточный объём стоков;</li>
+          <li>определяет оптимальную точку установки с учётом подъезда техники;</li>
+          <li>проверяет уровень грунтовых вод и несущую способность грунта;</li>
+          <li>согласовывает глубину врезки трубы и способ отвода воды;</li>
+          <li>составляет смету, которая не изменится после подписания договора.</li>
+        </ul>
+        
+        <h3>Конкретные модели под разное число проживающих</h3>
+        <p>
+          Для частного дома мы рекомендуем станции с запасом по залповому сбросу. Примеры проверенных решений:
+        </p>
+        <ul>
+          <li><strong>2–3 человека:</strong> Астра 3 — 117 630 ₽ (станция), 150 630 ₽ под ключ;</li>
+          <li><strong>4–5 человек:</strong> Топас 5 — 167 040 ₽ (станция), 202 040 ₽ под ключ;</li>
+          <li><strong>6–8 человек:</strong> Евробион Раунд 8 — 201 000 ₽ (станция), 241 000 ₽ под ключ.</li>
+        </ul>
+        <p>
+          Это полностью автономные септики без откачки, которые очищают стоки до 98% и подходят для постоянного проживания.
+        </p>
+        
+        <h3>Почему «Честный септик» — это надёжно</h3>
+        <p>Мы не просто продаём оборудование, а выстраиваем систему под ваш дом:</p>
+        <ol>
+          <li><strong>Проектирование.</strong> Учитываем планировку дома, количество жильцов и будущие нагрузки, чтобы станция не оказалась слабым звеном.</li>
+          <li><strong>Монтаж.</strong> Работаем аккуратно, с соблюдением технологии: песчаная подушка, обсыпка, запуск и проверка всех режимов.</li>
+          <li><strong>Сервис.</strong> Даём гарантию и остаёмся на связи после установки — консультируем и обслуживаем.</li>
+          <li><strong>Честность.</strong> Фиксируем цену в договоре, не добавляем скрытых доплат и работаем по ценам заводов.</li>
+        </ol>
+        
+        <h3>Стоимость септика для частного дома под ключ</h3>
+        <p>
+          Цена зависит от модели и сложности монтажа. Для семьи из 3–4 человек популярные станции обойдутся от 150 630 ₽ под ключ. Для 5–6 человек бюджет составит 200 000–240 000 ₽. В эту сумму уже включены оборудование, земляные работы, запуск и гарантия.
+        </p>
+        <p>
+          Точную цифру назовёт инженер после бесплатного выезда — вы сразу поймёте, сколько стоит решение вашей задачи, без «сюрпризов» в процессе.
+        </p>
+        
+        <div className="article__callout">
+          <p>
+            Хотите получить расчёт и подбор септика для вашего дома? Позвоните нам или оставьте заявку — инженер приедет в удобное время.
+          </p>
+          <p>
+            Подберём станцию, которая выдержит ежедневные нагрузки и прослужит десятилетия.
+          </p>
+          <p>
+            <strong>С «Честным септиком» вы получаете честную цену, заводскую гарантию и спокойствие за свою систему.</strong>
+          </p>
+          <div className="article__actions">
+            <a href="tel: +7 812 920-46-60" className="article__phone">
+              +7 812 920-46-60
+            </a>
+            <Button
+              onClick={() => goToSection('calculator')}
+              ymGoal="Article_Podbor"
+            >
+              Получить расчёт
+            </Button>
+          </div>
+        </div>
+      </Article>
+      <Section id="faq">
+        <SectionTitle
+          variant="column"
+        >
+          <span>Часто задаваемые вопросы</span> о септиках для частного дома
+        </SectionTitle>
+        <Faq/>
+      </Section>
+    </>
+  )
+}
+
+export default SeptikDlyaChastnogoDoma;

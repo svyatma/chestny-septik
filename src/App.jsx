@@ -1,4 +1,4 @@
-import { HelmetProvider } from 'react-helmet-async';
+import {Helmet, HelmetProvider} from 'react-helmet-async';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import './utils/metrika';
@@ -16,6 +16,8 @@ import Footer from "./components/Footer/Footer.jsx";
 import SeptikFor3Users from "./pages/SeptikFor3Users/SeptikFor3Users.jsx";
 import SeptikFor4Users from "./pages/SeptikFor4Users/SeptikFor4Users.jsx";
 import SeptikFor2Users from "./pages/SeptikFor2Users/SeptikFor2Users.jsx";
+import SeptikDlyaDachi from "./pages/SeptikDlyaDachi/SeptikDlyaDachi.jsx";
+import SeptikDlyaChastnogoDoma from "./pages/SeptikDlyaChastnogoDoma/SeptikDlyaChastnogoDoma.jsx";
 
 function App() {
   const location = useLocation();
@@ -27,7 +29,12 @@ function App() {
   }, [location.pathname]);
   
   return (
+    
     <>
+      <Helmet>
+        <link rel="canonical" href={`https://chestnyseptik.ru${location.pathname}`} />
+      </Helmet>
+      
       <Header />
       <main>
         <Routes>
@@ -37,6 +44,8 @@ function App() {
           {/*<Route path="/septik-na-2-cheloveka" element={<SeptikFor2Users />} />*/}
           <Route path="/septik-na-3-cheloveka" element={<SeptikFor3Users />} />
           {/*<Route path="/septik-na-4-cheloveka" element={<SeptikFor4Users />} />*/}
+          <Route path="/septik-dlya-chastnogo-doma" element={<SeptikDlyaChastnogoDoma />} />
+          <Route path="/septik-dlya-dachi" element={<SeptikDlyaDachi />} />
           <Route path="/politika-obrabotki-dannyh" element={<PolitikaObrabotkiDannyh />} />
           <Route path="/politika-cookies" element={<PolitikaCookies />} />
           <Route path="*" element={<NotFound />} />
