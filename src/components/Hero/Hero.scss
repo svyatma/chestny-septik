@@ -162,6 +162,12 @@
       }
     }
 
+    &-img {
+      width: rem(455);
+      height: rem(275);
+      object-fit: contain;
+    }
+
     & .map-point {
       grid-area: map-point;
     }

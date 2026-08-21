@@ -169,6 +169,7 @@ function Header() {
   const isSeptikDlyaChastnogoDoma = location.pathname === '/septik-dlya-chastnogo-doma';
   
   const isSeptikiEvrobion = location.pathname === '/septiki-evrobion';
+  const isSeptikiTopas = location.pathname === '/septiki-topas';
   
   return (
     <header
@@ -241,6 +242,7 @@ function Header() {
                           <Button
                             variant={isSeptikiEvrobion ? 'header-sublink-icon-active' : 'header-sublink-icon'}
                             to={isSeptikiEvrobion ? undefined : "/septiki-evrobion"}
+                            onClick={isSeptikiEvrobion ? undefined : closeMenu}
                             ymGoal={isSeptikiEvrobion ? undefined : 'Header_Subsubmenu_Evrobion'}
                           >
                             Евробион
@@ -248,9 +250,10 @@ function Header() {
                         </li>
                         <li className="header__subsubmenu-item">
                           <Button
-                            variant="header-sublink-icon"
-                            onClick={() => handleBrandClick('ТОПАС')}
-                            ymGoal="Header_Subsubmenu_Topas"
+                            variant={isSeptikiTopas ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikiTopas ? undefined : "/septiki-topas"}
+                            onClick={isSeptikiTopas ? undefined : closeMenu}
+                            ymGoal={isSeptikiTopas ? undefined : 'Header_Subsubmenu_Topas'}
                           >
                             Топас
                           </Button>
@@ -428,7 +431,7 @@ function Header() {
                   </ul>
                 </li>
                 <li className="header__menu-item visible-mobile">
-                  <a href="tel:+78129204660" className="header__phone-mobile">
+                  <a href="tel:+7 812 920-46-60" className="header__phone-mobile">
                     +7 812 920-46-60
                   </a>
                 </li>
@@ -453,7 +456,7 @@ function Header() {
               </ul>
             </nav>
             <div className="header__actions">
-              <a href="tel:+78129204660" className="header__phone">
+              <a href="tel:+7 812 920-46-60" className="header__phone">
                 +7 812 920-46-60
               </a>
               <Button
@@ -473,7 +476,7 @@ function Header() {
             </div>
             <div className="header__mobile visible-mobile">
               <a
-                href="tel:+78129204660"
+                href="tel:+7 812 920-46-60"
                 className="header__mobile-phone"
                 aria-label="Позвонить Честному септику"
                 onClick={() => ym(110089865, 'reachGoal', 'Header_Mobile_Phone')}

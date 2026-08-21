@@ -4,7 +4,7 @@ import MapPoint from "../../components/MapPoint/MapPoint.jsx";
 import Callout from "../../components/Callout/Callout.jsx";
 import Button from "../../components/Button/Button.jsx";
 import Logo from "../../components/Logo/Logo.jsx";
-import PodborHeroImage from "../../assets/images/PodborHeroImage.png";
+import EvrobionHeroImage from "../../assets/images/PodborHeroImage.png";
 import HeroInfo from "../../components/HeroInfo/HeroInfo.jsx";
 import {useGoToSection} from "../../hooks/useGoToSection.js";
 import Section from "../../components/Section/Section.jsx";
@@ -22,7 +22,7 @@ function SeptikiEvrobion() {
     headline: 'Септики «Евробион» купить по цене производителя',
     description: 'Подбор и установка автономного септика «Евробион» без откачки под ключ. Бесплатный выезд инженера, автономные септики «Евробион».',
     url: 'https://chestnyseptik.ru/septiki-evrobion',
-    image: 'https://chestnyseptik.ru/logo.svg',
+    image: 'https://chestnyseptik.ru/images/EvrobionHeroImage.png',
     datePublished: '2026-08-22',
     dateModified: '2026-08-22',
     section: 'Септики для частного дома',
@@ -32,14 +32,14 @@ function SeptikiEvrobion() {
     name: 'Септики «Евробион» купить по цене производителя',
     serviceType: 'Монтаж и установка автономных септиков',
     description: 'Подбор и установка автономного септика «Евробион» без откачки под ключ. Бесплатный выезд инженера, автономные септики «Евробион».',
-    url: 'https://chestnyseptik.ru/septik-dlya-chastnogo-doma',
+    url: 'https://chestnyseptik.ru/septiki-evrobion',
   });
   
   return(
     <>
       <Helmet>
         <title>Септики «Евробион» — купить по цене производителя на сайте у «Честного септика» | Честный септик</title>
-        <meta name="description" content="✔ +7 (812) 920-46-60 Выбирайте свой автономный септик для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
+        <meta name="description" content="✔ +7 (812) 920-46-60 Выбирайте свой автономный септик «Евробион» для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
@@ -84,8 +84,8 @@ function SeptikiEvrobion() {
           <div className="hero__septik-for-visual">
             <img
               className="hero__septik-for-img"
-              src={PodborHeroImage}
-              alt="Изображение станции"
+              src={EvrobionHeroImage}
+              alt="Септики «Евробион» с установкой под ключ по цене производителя"
               width={455}
               height={275}
             />

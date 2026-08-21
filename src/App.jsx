@@ -19,6 +19,7 @@ import SeptikFor3Users from "./pages/SeptikFor3Users/SeptikFor3Users.jsx";
 import SeptikDlyaDachi from "./pages/SeptikDlyaDachi/SeptikDlyaDachi.jsx";
 import SeptikDlyaChastnogoDoma from "./pages/SeptikDlyaChastnogoDoma/SeptikDlyaChastnogoDoma.jsx";
 import SeptikiEvrobion from "./pages/SeptikiEvrobion/SeptikiEvrobion.jsx";
+import SeptikiTopas from "./pages/SeptikiTopas/SeptikiTopas.jsx";
 
 function App() {
   const location = useLocation();
@@ -44,6 +45,7 @@ function App() {
           <Route path="/catalog" element={<CatalogPage />} />
           {/*<Route path="/septik-na-2-cheloveka" element={<SeptikFor2Users />} />*/}
           <Route path="/septiki-evrobion" element={<SeptikiEvrobion />} />
+          <Route path="/septiki-topas" element={<SeptikiTopas />} />
           <Route path="/septik-na-3-cheloveka" element={<SeptikFor3Users />} />
           {/*<Route path="/septik-na-4-cheloveka" element={<SeptikFor4Users />} />*/}
           <Route path="/septik-dlya-chastnogo-doma" element={<SeptikDlyaChastnogoDoma />} />

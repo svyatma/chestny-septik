@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import './CatalogFilter.scss';
-import stations from '../../data/stations.json';
+import stations from '../../data/stationsData.json';
 import { sendYmGoal } from '../../utils/analytics.js';
 
 // Конкретные значения количества человек
