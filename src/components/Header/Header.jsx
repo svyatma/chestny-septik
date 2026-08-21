@@ -168,6 +168,8 @@ function Header() {
   const isSeptikDlyaDachi = location.pathname === '/septik-dlya-dachi';
   const isSeptikDlyaChastnogoDoma = location.pathname === '/septik-dlya-chastnogo-doma';
   
+  const isSeptikiEvrobion = location.pathname === '/septiki-evrobion';
+  
   return (
     <header
       ref={headerRef}
@@ -237,9 +239,9 @@ function Header() {
                       <ul className="header__subsubmenu">
                         <li className="header__subsubmenu-item">
                           <Button
-                            variant="header-sublink-icon"
-                            onClick={() => handleBrandClick('ЕВРОБИОН')}
-                            ymGoal="Header_Subsubmenu_Evrobion"
+                            variant={isSeptikiEvrobion ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikiEvrobion ? undefined : "/septiki-evrobion"}
+                            ymGoal={isSeptikiEvrobion ? undefined : 'Header_Subsubmenu_Evrobion'}
                           >
                             Евробион
                           </Button>

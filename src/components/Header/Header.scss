@@ -262,15 +262,15 @@
     &-item {
 
       //ВРЕМЕННО
-      &:nth-child(2) {
-        &.has-subsubmenu {
-          & .button--header-sublink-icon {
-            &::after {
-              display: none;
-            }
-          }
-        }
-      }
+      //&:nth-child(2) {
+      //  &.has-subsubmenu {
+      //    & .button--header-sublink-icon {
+      //      &::after {
+      //        display: none;
+      //      }
+      //    }
+      //  }
+      //}
 
       &.has-subsubmenu {
         position: relative;

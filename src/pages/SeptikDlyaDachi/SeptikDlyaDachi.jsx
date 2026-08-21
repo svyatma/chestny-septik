@@ -37,8 +37,8 @@ function SeptikDlyaDachi() {
   return (
     <>
       <Helmet>
-        <title>Купить автономный септик без откачки для дачи непостоянного проживания под ключ по цене завода | Честный септик</title>
-        <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для дачи, а мы установим под ключ по цене производителя! Звоните!" />
+        <title>Септик для дачи непостоянного проживания автономный и без откачки под ключ по цене завода купить у «Честного септика» | Честный септик</title>
+        <meta name="description" content="✔ +7 (812) 920-46-60 Выбирайте свой автономный септик для дачи, а мы установим под ключ по цене производителя! Звоните!" />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
@@ -99,58 +99,6 @@ function SeptikDlyaDachi() {
           />
         </div>
       </Hero>
-      <Section id="catalog">
-        <div className="container">
-          <SectionTitle>
-            <span>Каталог автономных септиков для дачи</span>
-          </SectionTitle>
-        </div>
-        <Catalog />
-      </Section>
-      <Section>
-        <SectionTitle variant="column center">
-          <span>Сложно?</span> Понимаем, давайте поможем
-        </SectionTitle>
-        <div className="help">
-          <Logo />
-          <div className="help__callouts">
-            <Callout
-              variant="white ai-start"
-              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
-              phone="+7 812 920-46-60"
-              onPhoneClick={() => {
-                if (typeof window.ym === 'function') {
-                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
-                }
-              }}
-              messengers={[
-                {
-                  icon: 'telegram',
-                  url: 'tg://resolve?domain=ChestnySeptik',
-                  ymGoal: 'Help_Callout_Telegram'
-                },
-                {
-                  icon: 'whatsapp',
-                  url: 'whatsapp://send?phone=79119204660',
-                  ymGoal: 'Help_Callout_WhatsApp'
-                },
-              ]}
-            />
-            <Callout
-              variant="white ai-start"
-              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
-              actions={[
-                {
-                  variant: 'primary',
-                  children: 'К калькулятору',
-                  onClick: () => goToSection('calculator'),
-                  ymGoal: 'Help_Callout_Calculator'
-                }
-              ]}
-            />
-          </div>
-        </div>
-      </Section>
       <Article title={<><span>Установка септика для дачи</span> от Честного септика</>}>
         <p>
           Выбор и установка септика для дачи — ответственный шаг. Мы берём на себя все заботы: от
@@ -268,6 +216,58 @@ function SeptikDlyaDachi() {
           </div>
         </div>
       </Article>
+      <Section id="catalog">
+        <div className="container">
+          <SectionTitle>
+            <span>Каталог автономных септиков для дачи</span>
+          </SectionTitle>
+        </div>
+        <Catalog />
+      </Section>
+      <Section>
+        <SectionTitle variant="column center">
+          <span>Сложно?</span> Понимаем, давайте поможем
+        </SectionTitle>
+        <div className="help">
+          <Logo />
+          <div className="help__callouts">
+            <Callout
+              variant="white ai-start"
+              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
+              phone="+7 812 920-46-60"
+              onPhoneClick={() => {
+                if (typeof window.ym === 'function') {
+                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
+                }
+              }}
+              messengers={[
+                {
+                  icon: 'telegram',
+                  url: 'tg://resolve?domain=ChestnySeptik',
+                  ymGoal: 'Help_Callout_Telegram'
+                },
+                {
+                  icon: 'whatsapp',
+                  url: 'whatsapp://send?phone=79119204660',
+                  ymGoal: 'Help_Callout_WhatsApp'
+                },
+              ]}
+            />
+            <Callout
+              variant="white ai-start"
+              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
+              actions={[
+                {
+                  variant: 'primary',
+                  children: 'К калькулятору',
+                  onClick: () => goToSection('calculator'),
+                  ymGoal: 'Help_Callout_Calculator'
+                }
+              ]}
+            />
+          </div>
+        </div>
+      </Section>
       <Section id="faq">
         <SectionTitle
           variant="column"

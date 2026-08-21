@@ -7,7 +7,7 @@ import CatalogCard from '../CatalogCard/CatalogCard.jsx';
 import CatalogPagination from '../CatalogPagination/CatalogPagination.jsx';
 import useCatalogLayout from '../../hooks/useCatalogLayout';
 
-function Catalog({ goalPrefix = '', initialQuantityValues = null }) {
+function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands = null }) {
   const [searchParams, setSearchParams] = useSearchParams();
   const [userInteracted, setUserInteracted] = useState(false);
   
@@ -16,6 +16,17 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null }) {
   
   const brandParam = searchParams.get('brand') || '';
   const usersParam = searchParams.get('users') || '';
+  
+  // Выбранные бренды: приоритет URL, затем initialBrands (до первого взаимодействия)
+  const selectedBrands = useMemo(() => {
+    if (brandParam) {
+      return brandParam.split(',');
+    }
+    if (!userInteracted && initialBrands && initialBrands.length > 0) {
+      return initialBrands;
+    }
+    return [];
+  }, [brandParam, initialBrands, userInteracted]);
   
   // Выбранные числа количества человек (массив чисел)
   const selectedQuantityValues = useMemo(() => {
@@ -27,10 +38,6 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null }) {
     }
     return initialQuantityValues || [];
   }, [usersParam, initialQuantityValues, userInteracted]);
-  
-  const selectedBrands = useMemo(() => {
-    return brandParam ? brandParam.split(',') : [];
-  }, [brandParam]);
   
   const pageFromUrl = parseInt(searchParams.get('page'), 10);
   const currentPage = Number.isNaN(pageFromUrl) || pageFromUrl < 1 ? 1 : pageFromUrl;

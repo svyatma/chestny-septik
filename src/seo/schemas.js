@@ -57,7 +57,7 @@ export function getServiceSchema({
                                    email = 'chestnyseptik@yandex.ru',
                                    region = 'Санкт-Петербург и Ленинградская область',
                                    url = 'https://chestnyseptik.ru',
-                                   image = 'https://chestnyseptik.ru/logo.png',
+                                   image = 'https://chestnyseptik.ru/logo.svg',
                                  }) {
   return {
     '@context': 'https://schema.org',

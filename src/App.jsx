@@ -14,10 +14,11 @@ import CatalogPage from './pages/CatalogPage/CatalogPage.jsx';
 import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import SeptikFor3Users from "./pages/SeptikFor3Users/SeptikFor3Users.jsx";
-import SeptikFor4Users from "./pages/SeptikFor4Users/SeptikFor4Users.jsx";
-import SeptikFor2Users from "./pages/SeptikFor2Users/SeptikFor2Users.jsx";
+// import SeptikFor4Users from "./pages/SeptikFor4Users/SeptikFor4Users.jsx";
+// import SeptikFor2Users from "./pages/SeptikFor2Users/SeptikFor2Users.jsx";
 import SeptikDlyaDachi from "./pages/SeptikDlyaDachi/SeptikDlyaDachi.jsx";
 import SeptikDlyaChastnogoDoma from "./pages/SeptikDlyaChastnogoDoma/SeptikDlyaChastnogoDoma.jsx";
+import SeptikiEvrobion from "./pages/SeptikiEvrobion/SeptikiEvrobion.jsx";
 
 function App() {
   const location = useLocation();
@@ -42,6 +43,7 @@ function App() {
           <Route path="/" element={<PodborIUstanovka />} />
           <Route path="/catalog" element={<CatalogPage />} />
           {/*<Route path="/septik-na-2-cheloveka" element={<SeptikFor2Users />} />*/}
+          <Route path="/septiki-evrobion" element={<SeptikiEvrobion />} />
           <Route path="/septik-na-3-cheloveka" element={<SeptikFor3Users />} />
           {/*<Route path="/septik-na-4-cheloveka" element={<SeptikFor4Users />} />*/}
           <Route path="/septik-dlya-chastnogo-doma" element={<SeptikDlyaChastnogoDoma />} />

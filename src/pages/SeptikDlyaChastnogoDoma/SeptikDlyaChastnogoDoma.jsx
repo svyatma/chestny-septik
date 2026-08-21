@@ -37,8 +37,8 @@ function SeptikDlyaChastnogoDoma() {
   return (
     <>
       <Helmet>
-        <title>Купить лучший автономный септик без откачки для частного дома под ключ с установкой по цене завода на 2, 3, 4, 5 и более человек в Ленинградской области и СПб | Честный септик</title>
-        <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
+        <title>Лучший септик для частного дома с установкой под ключ по цене завода автономный и без откачки на 2, 3, 4, 5 и более человек в Ленинградской области и СПб купить у «Честного септика» | Честный септик</title>
+        <meta name="description" content="✔ +7 (812) 920-46-60 Выбирайте свой автономный септик для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
@@ -99,58 +99,6 @@ function SeptikDlyaChastnogoDoma() {
           />
         </div>
       </Hero>
-      <Section id="catalog">
-        <div className="container">
-          <SectionTitle>
-            <span>Каталог автономных септиков для частного дома</span>
-          </SectionTitle>
-        </div>
-        <Catalog />
-      </Section>
-      <Section>
-        <SectionTitle variant="column center">
-          <span>Сложно?</span> Понимаем, давайте поможем
-        </SectionTitle>
-        <div className="help">
-          <Logo />
-          <div className="help__callouts">
-            <Callout
-              variant="white ai-start"
-              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
-              phone="+7 812 920-46-60"
-              onPhoneClick={() => {
-                if (typeof window.ym === 'function') {
-                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
-                }
-              }}
-              messengers={[
-                {
-                  icon: 'telegram',
-                  url: 'tg://resolve?domain=ChestnySeptik',
-                  ymGoal: 'Help_Callout_Telegram'
-                },
-                {
-                  icon: 'whatsapp',
-                  url: 'whatsapp://send?phone=79119204660',
-                  ymGoal: 'Help_Callout_WhatsApp'
-                },
-              ]}
-            />
-            <Callout
-              variant="white ai-start"
-              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
-              actions={[
-                {
-                  variant: 'primary',
-                  children: 'К калькулятору',
-                  onClick: () => goToSection('calculator'),
-                  ymGoal: 'Help_Callout_Calculator'
-                }
-              ]}
-            />
-          </div>
-        </div>
-      </Section>
       <Article title={<><span>Установка септика для частного дома</span> от Честного септика</>}>
         <p>
           Для семьи, которая живёт за городом круглый год, септик — это не просто очистное сооружение, а часть инженерной системы, обеспечивающей городской уровень комфорта. Ежедневные сбросы из нескольких санузлов, кухни, стиральной и посудомоечной машин требуют станции с запасом производительности. Мы подбираем оборудование так, чтобы оно справлялось с пиковыми нагрузками без переполнений и потери качества очистки.
@@ -236,13 +184,65 @@ function SeptikDlyaChastnogoDoma() {
           </div>
         </div>
       </Article>
+      <Section id="catalog">
+        <div className="container">
+          <SectionTitle>
+            <span>Каталог автономных септиков для частного дома</span>
+          </SectionTitle>
+        </div>
+        <Catalog />
+      </Section>
+      <Section>
+        <SectionTitle variant="column center">
+          <span>Сложно?</span> Понимаем, давайте поможем
+        </SectionTitle>
+        <div className="help">
+          <Logo />
+          <div className="help__callouts">
+            <Callout
+              variant="white ai-start"
+              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
+              phone="+7 812 920-46-60"
+              onPhoneClick={() => {
+                if (typeof window.ym === 'function') {
+                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
+                }
+              }}
+              messengers={[
+                {
+                  icon: 'telegram',
+                  url: 'tg://resolve?domain=ChestnySeptik',
+                  ymGoal: 'Help_Callout_Telegram'
+                },
+                {
+                  icon: 'whatsapp',
+                  url: 'whatsapp://send?phone=79119204660',
+                  ymGoal: 'Help_Callout_WhatsApp'
+                },
+              ]}
+            />
+            <Callout
+              variant="white ai-start"
+              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
+              actions={[
+                {
+                  variant: 'primary',
+                  children: 'К калькулятору',
+                  onClick: () => goToSection('calculator'),
+                  ymGoal: 'Help_Callout_Calculator'
+                }
+              ]}
+            />
+          </div>
+        </div>
+      </Section>
       <Section id="faq">
         <SectionTitle
           variant="column"
         >
           <span>Часто задаваемые вопросы</span> о септиках для частного дома
         </SectionTitle>
-        <Faq/>
+        <Faq />
       </Section>
     </>
   )
