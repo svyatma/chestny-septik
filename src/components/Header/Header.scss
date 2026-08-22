@@ -70,6 +70,12 @@
       display: flex;
       align-items: center;
 
+      @include hover {
+        & .button--header-link {
+          color: var(--text-color-secondary);
+        }
+      }
+
       @include mobile {
         flex-direction: column;
         justify-content: end;
@@ -259,6 +265,18 @@
   }
 
   &__submenu {
+
+    @include hover {
+      & .button--header-link {
+        color: var(--text-color-tertiary);
+      }
+
+      & .button--header-sublink-icon,
+        .button--header-sublink {
+        color: var(--text-color-secondary);
+      }
+    }
+
     &-item {
 
       //ВРЕМЕННО
@@ -362,6 +380,12 @@
   }
 
   &__subsubmenu {
+
+    @include hover {
+      & .header__submenu {
+        color: var(--text-color-tertiary);
+      }
+    }
 
     @include mobile {
       min-width: 100%;
@@ -512,3 +536,30 @@
     }
   }
 }
+
+//АКЦЕНТ ПРИ НАВЕДЕНИИ
+
+//.header__submenu:has(.header__subsubmenu:hover) {
+//
+//  & .button--header-sublink,
+//    .button--header-sublink-icon {
+//    color: var(--text-color-tertiary);
+//  }
+//}
+//
+//.header__subsubmenu {
+//  @include hover {
+//
+//    & .header__subsubmenu {
+//      & .button--header-sublink,
+//        .button--header-sublink-icon {
+//        color: var(--text-color-tertiary) !important;
+//      }
+//    }
+//
+//    & .button--header-sublink,
+//      .button--header-sublink-icon {
+//      color: var(--text-color-secondary) !important;
+//    }
+//  }
+//}

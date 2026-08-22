@@ -19,7 +19,7 @@ function SeptikiEvrobion() {
   const goToSection = useGoToSection();
   
   const articleSchema = getArticleSchema({
-    headline: 'Септики «Евробион» купить по цене производителя',
+    headline: 'Септики «Евробион» купить по цене производителя в Санкт-Петербурге и ЛО',
     description: 'Подбор и установка автономного септика «Евробион» без откачки под ключ. Бесплатный выезд инженера, автономные септики «Евробион».',
     url: 'https://chestnyseptik.ru/septiki-evrobion',
     image: 'https://chestnyseptik.ru/images/EvrobionHeroImage.png',
@@ -29,7 +29,7 @@ function SeptikiEvrobion() {
   });
   
   const serviceSchema = getServiceSchema({
-    name: 'Септики «Евробион» купить по цене производителя',
+    name: 'Септики «Евробион» купить по цене производителя в Санкт-Петербурге и ЛО',
     serviceType: 'Монтаж и установка автономных септиков',
     description: 'Подбор и установка автономного септика «Евробион» без откачки под ключ. Бесплатный выезд инженера, автономные септики «Евробион».',
     url: 'https://chestnyseptik.ru/septiki-evrobion',
@@ -38,7 +38,7 @@ function SeptikiEvrobion() {
   return(
     <>
       <Helmet>
-        <title>Септики «Евробион» — купить по цене производителя на сайте у «Честного септика» | Честный септик</title>
+        <title>Септики «Евробион» — купить в СПб по цене производителя на сайте у «Честного септика» | Честный септик</title>
         <meta name="description" content="✔ +7 (812) 920-46-60 Выбирайте свой автономный септик «Евробион» для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
@@ -47,7 +47,7 @@ function SeptikiEvrobion() {
       <Hero>
         <div className="hero__septik-for">
           <h1 className="hero__septik-for-title column">
-            <span>Септики «Евробион»</span> купить по цене производителя
+            <span>Септики «Евробион»</span> купить по цене производителя в Санкт-Петербурге и ЛО
           </h1>
           <MapPoint variant="primary">
             Санкт-Петербург и ЛО

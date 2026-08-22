@@ -19,7 +19,7 @@ function SeptikiTopas() {
   const goToSection = useGoToSection();
   
   const articleSchema = getArticleSchema({
-    headline: 'Септики «Топас» с установкой по цене производителя',
+    headline: 'Септики «Топас» с установкой по цене производителя в Санкт-Петербурге и ЛО',
     description: 'Подбор и установка автономного септика «Топас» без откачки под ключ. Бесплатный выезд инженера, автономные септики «Топас».',
     url: 'https://chestnyseptik.ru/septiki-topas',
     image: 'https://chestnyseptik.ru/images/TopasHeroImage.webp',
@@ -29,7 +29,7 @@ function SeptikiTopas() {
   });
   
   const serviceSchema = getServiceSchema({
-    name: 'Септики «Топас» с установкой по цене производителя',
+    name: 'Септики «Топас» с установкой по цене производителя в Санкт-Петербурге и ЛО',
     serviceType: 'Монтаж и установка автономных септиков',
     description: 'Подбор и установка автономного септика «Топас» без откачки под ключ. Бесплатный выезд инженера, автономные септики «Топас».',
     url: 'https://chestnyseptik.ru/septiki-topas',
@@ -38,7 +38,7 @@ function SeptikiTopas() {
   return(
     <>
       <Helmet>
-        <title>Септики «Топас» 4, 5 и др. — купить по цене производителя на сайте у «Честного септика» | Честный септик</title>
+        <title>Септики «Топас» 4, 5 и др. — купить в СПб по цене производителя на сайте у «Честного септика» | Честный септик</title>
         <meta name="description" content="✔ +7 (812) 920-46-60 Выбирайте свой автономный септик «Топас» для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
@@ -47,7 +47,7 @@ function SeptikiTopas() {
       <Hero>
         <div className="hero__septik-for">
           <h1 className="hero__septik-for-title column">
-            <span>Септики «Топас»</span> с установкой по цене производителя
+            <span>Септики «Топас»</span> с установкой по цене производителя в Санкт-Петербурге и ЛО
           </h1>
           <MapPoint variant="primary">
             Санкт-Петербург и ЛО

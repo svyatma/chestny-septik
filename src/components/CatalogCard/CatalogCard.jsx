@@ -12,7 +12,7 @@ const stationImages = import.meta.glob(
 
 const specsLabels = {
   quantity: 'Пользователей',
-  power: 'Мощность',
+  power: 'Производительность',
   drain: 'Залповый сброс',
   size: 'ДШВ, см',
 };

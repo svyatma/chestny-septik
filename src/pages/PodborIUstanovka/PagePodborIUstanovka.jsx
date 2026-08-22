@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 import {useEffect, useState} from 'react';
 import { Helmet } from 'react-helmet-async';
 import MapPoint from "../../components/MapPoint/MapPoint.jsx";
@@ -160,7 +160,10 @@ function PodborIUstanovka() {
             </div>
           </div>
           <div className="dealers__brands">
-            <div className="dealers__brands-item">
+            <Link
+              to="/septiki-evrobion"
+              className="dealers__brands-item"
+            >
               <h3 className="dealers__brands-item-head">
                 ЕВРОБИОН
               </h3>
@@ -173,8 +176,11 @@ function PodborIUstanovka() {
                   height={200}
                 />
               </div>
-            </div>
-            <div className="dealers__brands-item">
+            </Link>
+            <Link
+              to="/septiki-topas"
+              className="dealers__brands-item"
+            >
               <h3 className="dealers__brands-item-head">
                 ТОПАС
               </h3>
@@ -187,8 +193,11 @@ function PodborIUstanovka() {
                   height={200}
                 />
               </div>
-            </div>
-            <div className="dealers__brands-item">
+            </Link>
+            <Link
+              to="/septiki-astra"
+              className="dealers__brands-item"
+            >
               <h3 className="dealers__brands-item-head">
                 АСТРА
               </h3>
@@ -201,8 +210,11 @@ function PodborIUstanovka() {
                   height={200}
                 />
               </div>
-            </div>
-            <div className="dealers__brands-item">
+            </Link>
+            <Link
+              to="/septiki-evrolos"
+              className="dealers__brands-item"
+            >
               <h3 className="dealers__brands-item-head">
                 ЕВРОЛОС
               </h3>
@@ -215,8 +227,11 @@ function PodborIUstanovka() {
                   height={200}
                 />
               </div>
-            </div>
-            <div className="dealers__brands-item">
+            </Link>
+            <Link
+              to="/septiki-zorde"
+              className="dealers__brands-item"
+            >
               <h3 className="dealers__brands-item-head">
                 ЗОРДЕ
               </h3>
@@ -229,7 +244,7 @@ function PodborIUstanovka() {
                   height={200}
                 />
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </Section>

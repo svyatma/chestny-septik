@@ -19,7 +19,7 @@ function SeptikiEvrolos() {
   const goToSection = useGoToSection();
   
   const articleSchema = getArticleSchema({
-    headline: 'Септики «Евролос» с установкой по цене производителя',
+    headline: 'Септики «Евролос» с установкой по цене производителя в Санкт-Петербурге и ЛО',
     description: 'Подбор и установка автономного септика «Евролос» под ключ. Бесплатный выезд инженера, автономные септики «Евролос».',
     url: 'https://chestnyseptik.ru/septiki-evrolos',
     image: 'https://chestnyseptik.ru/images/EvrolosHeroImage.webp',
@@ -29,7 +29,7 @@ function SeptikiEvrolos() {
   });
   
   const serviceSchema = getServiceSchema({
-    name: 'Септики «Евролос» с установкой по цене производителя',
+    name: 'Септики «Евролос» с установкой по цене производителя в Санкт-Петербурге и ЛО',
     serviceType: 'Монтаж и установка автономных септиков',
     description: 'Подбор и установка автономного септика «Евролос» под ключ. Бесплатный выезд инженера, автономные септики «Евролос».',
     url: 'https://chestnyseptik.ru/septiki-evrolos',
@@ -38,7 +38,7 @@ function SeptikiEvrolos() {
   return(
     <>
       <Helmet>
-        <title>Септики «Евролос» Про, Био, 3, 5 и др. — купить по цене производителя на сайте «Честного септика» | Честный септик</title>
+        <title>Септики «Евролос» Про, Био, Грунт, 3, 5 и др. — купить в СПб по цене производителя на сайте «Честного септика» | Честный септик</title>
         <meta name="description" content="✔ +7 (812) 920-46-60 Выбирайте свой автономный септик «Евролос» для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
@@ -47,7 +47,7 @@ function SeptikiEvrolos() {
       <Hero>
         <div className="hero__septik-for">
           <h1 className="hero__septik-for-title column">
-            <span>Септики «Евролос»</span> с установкой по цене производителя
+            <span>Септики «Евролос»</span> с установкой по цене производителя в Санкт-Петербурге и ЛО
           </h1>
           <MapPoint variant="primary">
             Санкт-Петербург и ЛО
@@ -107,7 +107,7 @@ function SeptikiEvrolos() {
           </SectionTitle>
         </div>
         <Catalog
-          initialBrands={['АСТРА']}
+          initialBrands={['ЕВРОЛОС']}
         />
       </Section>
       <Section>

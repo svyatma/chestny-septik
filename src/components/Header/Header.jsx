@@ -172,6 +172,7 @@ function Header() {
   const isSeptikiTopas = location.pathname === '/septiki-topas';
   const isSeptikiAstra = location.pathname === '/septiki-astra';
   const isSeptikiEvrolos = location.pathname === '/septiki-evrolos';
+  const isSeptikiZorde = location.pathname === '/septiki-zorde';
   
   return (
     <header
@@ -282,9 +283,10 @@ function Header() {
                         </li>
                         <li className="header__subsubmenu-item">
                           <Button
-                            variant="header-sublink-icon"
-                            onClick={() => handleBrandClick('ЗОРДЕ')}
-                            ymGoal="Header_Subsubmenu_Zorde"
+                            variant={isSeptikiZorde ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikiZorde ? undefined : "/septiki-zorde"}
+                            onClick={isSeptikiZorde ? undefined : closeMenu}
+                            ymGoal={isSeptikiZorde ? undefined : 'Header_Subsubmenu_Zorde'}
                           >
                             Зорде
                           </Button>
