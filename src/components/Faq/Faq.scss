@@ -124,10 +124,11 @@
 
   &__answer {
     max-width: rem(790);
-    color: var(--text-color-secondary);
+    color: var(--text-color-tertiary);
     max-height: 0;
     opacity: 0;
     padding-top: 0;
+    white-space: pre-line;
 
     transition-duration: .3s;
   }

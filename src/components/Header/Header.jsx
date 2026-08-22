@@ -170,6 +170,8 @@ function Header() {
   
   const isSeptikiEvrobion = location.pathname === '/septiki-evrobion';
   const isSeptikiTopas = location.pathname === '/septiki-topas';
+  const isSeptikiAstra = location.pathname === '/septiki-astra';
+  const isSeptikiEvrolos = location.pathname === '/septiki-evrolos';
   
   return (
     <header
@@ -260,18 +262,20 @@ function Header() {
                         </li>
                         <li className="header__subsubmenu-item">
                           <Button
-                            variant="header-sublink-icon"
-                            onClick={() => handleBrandClick('АСТРА')}
-                            ymGoal="Header_Subsubmenu_Astra"
+                            variant={isSeptikiAstra ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikiAstra ? undefined : "/septiki-astra"}
+                            onClick={isSeptikiAstra ? undefined : closeMenu}
+                            ymGoal={isSeptikiAstra ? undefined : 'Header_Subsubmenu_Astra'}
                           >
                             Астра
                           </Button>
                         </li>
                         <li className="header__subsubmenu-item">
                           <Button
-                            variant="header-sublink-icon"
-                            onClick={() => handleBrandClick('ЕВРОЛОС')}
-                            ymGoal="Header_Subsubmenu_Evrolos"
+                            variant={isSeptikiEvrolos ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikiEvrolos ? undefined : "/septiki-evrolos"}
+                            onClick={isSeptikiEvrolos ? undefined : closeMenu}
+                            ymGoal={isSeptikiEvrolos ? undefined : 'Header_Subsubmenu_Evrolos'}
                           >
                             Евролос
                           </Button>

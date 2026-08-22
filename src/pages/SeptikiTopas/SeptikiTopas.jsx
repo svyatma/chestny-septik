@@ -29,7 +29,7 @@ function SeptikiTopas() {
   });
   
   const serviceSchema = getServiceSchema({
-    name: 'Септики «Топас»</span> с установкой по цене производителя',
+    name: 'Септики «Топас» с установкой по цене производителя',
     serviceType: 'Монтаж и установка автономных септиков',
     description: 'Подбор и установка автономного септика «Топас» без откачки под ключ. Бесплатный выезд инженера, автономные септики «Топас».',
     url: 'https://chestnyseptik.ru/septiki-topas',
@@ -38,7 +38,7 @@ function SeptikiTopas() {
   return(
     <>
       <Helmet>
-        <title>Септики «Топас» — купить по цене производителя на сайте у «Честного септика» | Честный септик</title>
+        <title>Септики «Топас» 4, 5 и др. — купить по цене производителя на сайте у «Честного септика» | Честный септик</title>
         <meta name="description" content="✔ +7 (812) 920-46-60 Выбирайте свой автономный септик «Топас» для частного дома, а мы установим под ключ по цене производителя! Звоните!" />
         <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
@@ -100,6 +100,60 @@ function SeptikiTopas() {
           />
         </div>
       </Hero>
+      <Section id="catalog">
+        <div className="container">
+          <SectionTitle>
+            <span>Септики «Топас»</span>
+          </SectionTitle>
+        </div>
+        <Catalog
+          initialBrands={['ТОПАС']}
+        />
+      </Section>
+      <Section>
+        <SectionTitle variant="column center">
+          <span>Сложно?</span> Понимаем, давайте поможем
+        </SectionTitle>
+        <div className="help">
+          <Logo />
+          <div className="help__callouts">
+            <Callout
+              variant="white ai-start"
+              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
+              phone="+7 812 920-46-60"
+              onPhoneClick={() => {
+                if (typeof window.ym === 'function') {
+                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
+                }
+              }}
+              messengers={[
+                {
+                  icon: 'telegram',
+                  url: 'tg://resolve?domain=ChestnySeptik',
+                  ymGoal: 'Help_Callout_Telegram'
+                },
+                {
+                  icon: 'whatsapp',
+                  url: 'whatsapp://send?phone=79119204660',
+                  ymGoal: 'Help_Callout_WhatsApp'
+                },
+              ]}
+            />
+            <Callout
+              variant="white ai-start"
+              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
+              actions={[
+                {
+                  variant: 'primary',
+                  children: 'К калькулятору',
+                  onClick: () => goToSection('calculator'),
+                  ymGoal: 'Help_Callout_Calculator'
+                }
+              ]}
+            />
+          </div>
+        </div>
+      </Section>
       <Article title={<><span>Установка септиков «Топас»</span> от Честного септика</>}>
         <p>
           Септик «Топас» — это проверенная временем автономная станция, которая уже более 20 лет устанавливается в частных домах и на дачах. Мы являемся официальным дилером завода-изготовителя, поэтому предлагаем технику по заводской стоимости с гарантией и профессиональным монтажом под ключ.
@@ -173,60 +227,6 @@ function SeptikiTopas() {
           </div>
         </div>
       </Article>
-      <Section id="catalog">
-        <div className="container">
-          <SectionTitle>
-            <span>Септики «Топас»</span>
-          </SectionTitle>
-        </div>
-        <Catalog
-          initialBrands={['ТОПАС']}
-        />
-      </Section>
-      <Section>
-        <SectionTitle variant="column center">
-          <span>Сложно?</span> Понимаем, давайте поможем
-        </SectionTitle>
-        <div className="help">
-          <Logo />
-          <div className="help__callouts">
-            <Callout
-              variant="white ai-start"
-              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
-              phone="+7 812 920-46-60"
-              onPhoneClick={() => {
-                if (typeof window.ym === 'function') {
-                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
-                }
-              }}
-              messengers={[
-                {
-                  icon: 'telegram',
-                  url: 'tg://resolve?domain=ChestnySeptik',
-                  ymGoal: 'Help_Callout_Telegram'
-                },
-                {
-                  icon: 'whatsapp',
-                  url: 'whatsapp://send?phone=79119204660',
-                  ymGoal: 'Help_Callout_WhatsApp'
-                },
-              ]}
-            />
-            <Callout
-              variant="white ai-start"
-              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
-              actions={[
-                {
-                  variant: 'primary',
-                  children: 'К калькулятору',
-                  onClick: () => goToSection('calculator'),
-                  ymGoal: 'Help_Callout_Calculator'
-                }
-              ]}
-            />
-          </div>
-        </div>
-      </Section>
       <Section id="faq">
         <SectionTitle
           variant="column"
