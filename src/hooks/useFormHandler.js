@@ -8,6 +8,7 @@ export function useFormHandler({
                                  endpoint = defaultEndpoint,
                                  onSuccess,
                                  goalPrefix = '',
+                                 goalCooldownHours = 24,
                                }) {
   const [errors, setErrors] = useState({});
   
@@ -87,8 +88,16 @@ export function useFormHandler({
       .then((response) => response.json())
       .then((result) => {
         if (result.success) {
-          const goalName = `${goalPrefix}${formType}_form_sent`;
-          sendYmGoal(goalName);
+          const storageKey = `last_goal_${formType}`;
+          const now = Date.now();
+          const lastSent = Number(localStorage.getItem(storageKey)) || 0;
+          const cooldownMs = goalCooldownHours * 60 * 60 * 1000;
+          
+          if (now - lastSent >= cooldownMs) {
+            localStorage.setItem(storageKey, String(now));
+            const goalName = `${goalPrefix}${formType}_form_sent`;
+            sendYmGoal(goalName);
+          }
         }
       })
       .catch(() => {
