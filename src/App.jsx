@@ -24,8 +24,26 @@ import SeptikiAstra from "./pages/SeptikiAstra/SeptikiAstra.jsx";
 import SeptikiEvrolos from "./pages/SeptikiEvrolos/SeptikiEvrolos.jsx";
 import SeptikiZorde from "./pages/SeptikiZorde/SeptikiZorde.jsx";
 
+const validPaths = [
+  '/',
+  '/catalog',
+  '/septiki-evrobion',
+  '/septiki-topas',
+  '/septiki-astra',
+  '/septiki-evrolos',
+  '/septiki-zorde',
+  '/septik-na-3-cheloveka',
+  '/septik-dlya-chastnogo-doma',
+  '/septik-dlya-dachi',
+  '/politika-obrabotki-dannyh',
+  '/politika-cookies',
+];
+
 function App() {
   const location = useLocation();
+  const canonicalUrl = validPaths.includes(location.pathname)
+    ? `https://chestnyseptik.ru${location.pathname === '/' ? '' : location.pathname}`
+    : 'https://chestnyseptik.ru';
   
   useEffect(() => {
     if (typeof window.ym === 'function') {
@@ -37,7 +55,7 @@ function App() {
     
     <>
       <Helmet>
-        <link rel="canonical" href={`https://chestnyseptik.ru${location.pathname}`} />
+        <link rel="canonical" href={canonicalUrl} />
       </Helmet>
       
       <Header />

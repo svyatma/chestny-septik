@@ -663,6 +663,10 @@
           margin-bottom: rem(16);
         }
       }
+
+      &:nth-child(5) {
+        @include visually-hidden;
+      }
     }
 
     & .agreement {

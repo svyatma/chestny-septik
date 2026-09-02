@@ -7,6 +7,3 @@ Disallow: /*?*
 
 Sitemap: https://chestnyseptik.ru/sitemap.xml
 Host: chestnyseptik.ru
-
-Clean-param: etext
-Clean-param: utm_source&utm_medium&utm_campaign

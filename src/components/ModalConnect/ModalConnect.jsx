@@ -86,6 +86,15 @@ function ModalConnect({
               id="connect-modal-phone"
               placeholder=" "
             />
+            <FormInput
+              label="Email"
+              name="email"
+              type="text"
+              id="email"
+              placeholder=" "
+              tabIndex={-1}
+              ariaHidden={true}
+            />
             <div className="modal__connect-submit">
               <Agreement variant="dark" />
               <Button type="submit">Отправить</Button>

@@ -9,6 +9,29 @@ if (!$input) {
     exit;
 }
 
+if (isset($input['bot_attempt']) && $input['bot_attempt'] === true) {
+    $MAIL_TO_BOT = 'chestnyseptik@yandex.ru, svyatma@gmail.com';
+    $formType = isset($input['form_type']) ? $input['form_type'] : 'unknown';
+    $typeLabels = [
+        'callback' => 'Модальное окно',
+        'calculator' => 'Калькулятор',
+        'engineer' => 'Выезд инженера',
+    ];
+    $formTypeLabel = isset($typeLabels[$formType]) ? $typeLabels[$formType] : $formType;
+
+    $subject = "Попытка спама: {$formTypeLabel}";
+    $message = "Обнаружена попытка отправки формы ботом.\r\n";
+    $message .= "Тип формы: {$formTypeLabel}\r\n";
+    $message .= "IP: " . $_SERVER['REMOTE_ADDR'] . "\r\n";
+    $message .= "Время: " . date('d.m.Y H:i:s') . "\r\n";
+    $headers = "From: no-reply@{$_SERVER['HTTP_HOST']}\r\n";
+    $headers .= "Content-Type: text/plain; charset=utf-8\r\n";
+
+    mail($MAIL_TO_BOT, $subject, $message, $headers);
+    echo json_encode(['success' => false]);
+    exit;
+}
+
 $honeypot = isset($input['email']) ? trim($input['email']) : '';
 if (!empty($honeypot)) {
     echo json_encode(['success' => false]);

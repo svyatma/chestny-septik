@@ -22,6 +22,15 @@ export function useFormHandler({
     
     const honeypot = formData.get('email');
     if (honeypot && honeypot.trim() !== '') {
+      const botData = {
+        bot_attempt: true,
+        form_type: formType,
+      };
+      fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(botData),
+      }).catch(() => {});
       return false;
     }
     

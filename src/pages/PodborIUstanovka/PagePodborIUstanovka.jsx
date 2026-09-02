@@ -1,3 +1,4 @@
+import './PodborIUstanovka.scss';
 import {Link, useLocation} from 'react-router-dom';
 import {useEffect, useState} from 'react';
 import { Helmet } from 'react-helmet-async';
@@ -19,7 +20,6 @@ import dealersImageZorde from "../../assets/images/dealers/zorde.webp";
 import decisionsImageAstra from "../../assets/images/stations/astra/astra-3.webp";
 import decisionsImageEvrobion from "../../assets/images/stations/evrobion/evrobion-raund-5-standart.webp";
 import decisionsImageTopas from "../../assets/images/stations/topas/topas-8.webp";
-import './PodborIUstanovka.scss';
 import FormInput from "../../components/FormInput/FormInput.jsx";
 import Agreement from "../../components/Agreement/Agreement.jsx";
 import Faq from "../../components/Faq/Faq.jsx";
@@ -509,8 +509,8 @@ function PodborIUstanovka() {
             className="engineer-request__form"
             id="engineer-request-form"
             method="POST"
-            noValidate
             onSubmit={handleSubmit}
+            noValidate
           >
             <h3 className="engineer-request__form-head">
               Заявка на выезд инженера
@@ -522,15 +522,24 @@ function PodborIUstanovka() {
               variant="dark"
               label="Имя"
               name="name"
-              id="calculator-name"
+              id="engineer-request-name"
             />
             <FormInput
               variant="dark"
               label="Телефон"
               name="phone"
               type="tel"
-              id="calculator-phone"
+              id="engineer-request-phone"
               placeholder=' '
+            />
+            <FormInput
+              label="Email"
+              name="email"
+              type="text"
+              id="email"
+              placeholder=" "
+              tabIndex={-1}
+              ariaHidden={true}
             />
             <Agreement
               variant="dark"
