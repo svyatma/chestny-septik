@@ -1,6 +1,6 @@
+import './Catalog.scss';
 import { useSearchParams } from 'react-router-dom';
 import { useEffect, useRef, useMemo, useState } from 'react';
-import './Catalog.scss';
 import stations from '../../data/stationsData.json';
 import CatalogFilter from '../CatalogFilter/CatalogFilter.jsx';
 import CatalogCard from '../CatalogCard/CatalogCard.jsx';

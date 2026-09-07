@@ -1,9 +1,11 @@
+import Container from "../Container/Container.jsx";
+
 function Section({ id, children }) {
   return (
     <section className="section" id={id || undefined}>
-      <div className="container">
+      <Container>
         {children}
-      </div>
+      </Container>
     </section>
   );
 }

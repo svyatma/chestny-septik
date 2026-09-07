@@ -4,6 +4,7 @@
   background-color: var(--color-bg-white);
   padding: rem(32);
   border-radius: rem(32);
+  border-radius: rem(0);
   box-shadow: var(--shadow-200);
   display: flex;
   flex-direction: column;
@@ -27,6 +28,7 @@
     background-color: var(--color-light-300);
     padding: rem(24);
     border-radius: rem(24);
+    border-radius: rem(0);
     box-shadow: var(--shadow-100);
     overflow: hidden;
 

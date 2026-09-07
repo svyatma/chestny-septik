@@ -5,11 +5,13 @@
 
   padding: rem(16) rem(24);
   border-radius: rem(20);
+  border-radius: rem(0);
   gap: rem(10);
 
   @include laptop {
     padding: fluid(16, 16) fluid(24, 20);
     border-radius: fluid(20, 16);
+    border-radius: 0;
   }
 
   &:active {
@@ -20,6 +22,7 @@
     background-color: var(--color-button-primary);
     color: var(--text-color-white);
     box-shadow: var(--shadow-200);
+    font-weight: 300;
 
     @include hover {
       background-color: var(--color-button-primary-hover);
@@ -64,6 +67,7 @@
     color: var(--text-color-tertiary);
     padding: rem(6) rem(12);
     border-radius: rem(10);
+    border-radius: rem(0);
     gap: rem(8);
 
     transition-duration: .05s;
@@ -94,6 +98,7 @@
     color: var(--text-color-white);
     padding: rem(8) rem(16);
     border-radius: rem(14);
+    border-radius: rem(0);
     background-color: var(--color-accent);
 
     @include hover {
@@ -106,6 +111,7 @@
       margin-left: auto;
       padding: rem(6) rem(14);
       border-radius: rem(12);
+      border-radius: rem(0);
     }
 
     &:active {
@@ -121,6 +127,7 @@
     color: var(--text-color-secondary);
     padding: rem(6) rem(12);
     border-radius: rem(10);
+    border-radius: rem(0);
     gap: rem(3);
     white-space: nowrap;
     width: 100%;
@@ -190,6 +197,7 @@
     color: var(--text-color-secondary);
     padding: rem(6) rem(6) rem(6) rem(12);
     border-radius: rem(10);
+    border-radius: rem(0);
     gap: rem(6);
     white-space: nowrap;
     width: 100%;
@@ -244,6 +252,7 @@
       color: var(--text-color-white);
       padding: rem(6) rem(6) rem(6) rem(12);
       border-radius: rem(10);
+      border-radius: rem(0);
       gap: rem(6);
       white-space: nowrap;
       width: 100%;
@@ -297,6 +306,7 @@
     justify-content: start;
     padding: rem(6) rem(14);
     border-radius: rem(10);
+    border-radius: rem(0);
     font-size: rem(15);
     background-color: inherit;
     color: var(--text-color-footer);

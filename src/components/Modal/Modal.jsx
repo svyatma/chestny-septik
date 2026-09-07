@@ -1,7 +1,7 @@
+import './Modal.scss';
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { incrementModalCount, decrementModalCount } from '../../utils/modalState';
-import './Modal.scss';
 
 function Modal({
                  isOpen,

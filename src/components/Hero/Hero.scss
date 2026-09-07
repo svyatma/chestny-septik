@@ -12,11 +12,13 @@
     background-color: var(--text-color-white);
     padding: rem(64);
     border-radius: rem(48);
+    border-radius: rem(0);
     box-shadow: var(--shadow-300);
 
     @include laptop {
       padding: fluid(64, 16);
       border-radius: fluid(48, 24);
+      border-radius: 0;
     }
   }
 
@@ -28,7 +30,7 @@
     justify-self: end;
 
     @include laptop {
-      width: fluid(194, 176);
+      width: fluid(194, 150);
     }
 
     @include mobile {
@@ -255,6 +257,14 @@
     @include mobile {
       width: calc(100% + rem(16));
       margin-bottom: rem(-8);
+    }
+
+    &--hidden {
+      @include hide;
+
+      @include mobile {
+        @include visually-hidden;
+      }
     }
 
     &-item {

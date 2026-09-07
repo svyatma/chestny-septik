@@ -4,6 +4,7 @@
   background-color: var(--color-light-200);
   padding: rem(12);
   border-radius: rem(24);
+  border-radius: rem(0);
   box-shadow: var(--shadow-300);
   position: sticky;
   top: rem(107);
@@ -19,6 +20,7 @@
   @include mobile {
     padding: rem(8);
     border-radius: rem(16);
+    border-radius: rem(0);
     width: rem(190);
     //margin-bottom: 0;
     position: sticky;
@@ -72,6 +74,7 @@
     background-color: var(--color-bg);
     padding: rem(7) rem(12);
     border-radius: rem(14);
+    border-radius: rem(0);
     box-shadow: var(--shadow-100);
     font-weight: 700;
     text-transform: uppercase;
@@ -80,6 +83,7 @@
 
     @include mobile {
       border-radius: rem(10);
+      border-radius: rem(0);
       font-size: rem(12);
       //margin-bottom: rem(8);
       margin-bottom: 0;
@@ -118,6 +122,7 @@
     background-color: var(--color-bg-white);
     padding: rem(16);
     border-radius: rem(16);
+    border-radius: rem(0);
     box-shadow: var(--shadow-100);
     margin-bottom: rem(4);
 
@@ -125,6 +130,7 @@
       //padding: rem(8);
       padding: 0 rem(8);
       border-radius: rem(10);
+      border-radius: rem(0);
       opacity: 0;
       max-height: 0;
       pointer-events: none;
@@ -190,6 +196,7 @@
       width: rem(20);
       height: rem(20);
       border-radius: rem(7);
+      border-radius: rem(0);
       box-shadow: var(--shadow-checkmark);
 
       transition-duration: var(--transition-duration);
@@ -198,6 +205,7 @@
         width: rem(18);
         height: rem(18);
         border-radius: rem(6);
+        border-radius: rem(0);
       }
 
       &::after {
@@ -206,10 +214,12 @@
         height: rem(8);
         background-color: var(--color-bg-white);
         mask-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='8' height='8' rx='2.5' fill='black'/%3E%3C/svg%3E");
+        mask-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='8' height='8' fill='black'/%3E%3C/svg%3E");
         mask-size: contain;
         mask-repeat: no-repeat;
         mask-position: center;
         -webkit-mask-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='8' height='8' rx='2.5' fill='black'/%3E%3C/svg%3E");
+        -webkit-mask-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='8' height='8' fill='black'/%3E%3C/svg%3E");
         -webkit-mask-size: contain;
         -webkit-mask-repeat: no-repeat;
         -webkit-mask-position: center;
@@ -248,6 +258,7 @@
     background-color: var(--color-bg-white);
     padding: rem(7) rem(12);
     border-radius: rem(14);
+    border-radius: rem(0);
     box-shadow: var(--shadow-100);
     width: 100%;
     color: var(--text-color-tertiary);
@@ -264,6 +275,7 @@
     @include mobile {
       font-size: rem(12);
       border-radius: rem(10);
+      border-radius: rem(0);
       padding: 0 rem(12);
       opacity: 0;
       max-height: 0;

@@ -1,0 +1,104 @@
+@use '../../../styles/helpers/index' as *;
+
+.hero-station-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  //grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 'title title logo logo'
+                       'map-point . . . '
+                       'callout-septik-for callout-septik-for img img'
+                       'callout callout img img'
+                       'actions actions img img';
+
+  @include laptop {
+    grid-template-columns: rem(350) 1fr 1fr 1fr;
+    grid-template-areas: 'title title logo logo'
+                         'map-point . . . '
+                         'callout-septik-for callout-septik-for img img'
+                         'callout callout img img'
+                         'actions actions img img';
+  }
+
+  @include tablet {
+    grid-template-areas: 'title title title logo'
+                         'map-point . . . '
+                         'callout-septik-for callout-septik-for img img'
+                         'callout callout img img'
+                         'actions actions img img';
+  }
+
+  //@include mobile {
+  //  display: flex;
+  //  flex-direction: column;
+  //  align-items: center;
+  //}
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'title' 'map-point' 'img' 'logo' 'phone' 'callout-septik-for' 'callout' 'actions' 'info';
+  }
+
+  &__title {
+    grid-area: title;
+
+    & span {
+      background-color: var(--color-accent);
+      color: var(--text-color-white);
+      padding-inline: rem(6);
+      font-weight: 600;
+
+      @include mobile {
+        background-color: inherit;
+        padding-inline: 0;
+        color: var(--color-accent);
+      }
+    }
+  }
+
+  &__visual {
+    width: rem(455);
+    grid-area: img;
+    align-self: center;
+    justify-self: center;
+    margin-top: rem(-64);
+
+    @include laptop {
+      width: fluid(455, 250);
+    }
+
+    @include mobile {
+      margin-top: rem(0);
+    }
+  }
+
+  & .hero__actions {
+    @include mobile {
+      margin-bottom: 0;
+    }
+  }
+
+  & .map-point {
+    @include mobile {
+      margin-bottom: 0;
+    }
+  }
+
+  & .hero__callout {
+    margin-top: rem(0);
+    margin-bottom: rem(48);
+
+    @include mobile {
+      margin-bottom: rem(32);
+    }
+  }
+
+  & .callout--septik-for {
+    align-self: end;
+    margin-top: rem(48);
+    margin-bottom: rem(16);
+
+    @include mobile {
+      margin-top: 0;
+    }
+  }
+}

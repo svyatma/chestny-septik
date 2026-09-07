@@ -3,12 +3,14 @@
     "id": 1,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 3",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-3.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-3.webp",
     "specs": {
-      "quantity": "3 человека",
+      "quantity": "3",
       "power": "0.6",
       "drain": "170",
-      "size": "100 х 100 х 211"
+      "size": "100 х 100 х 211",
+      "weight": "81",
+      "consumption": "1,66"
     },
     "price": "143 000",
     "priceBefore": null,
@@ -18,12 +20,14 @@
     "id": 2,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 4 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-4-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-4-standart.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "290",
-      "size": "100 х 100 х 236"
+      "size": "100 х 100 х 236",
+      "weight": "93",
+      "consumption": "1,66"
     },
     "price": "152 000",
     "priceBefore": null,
@@ -33,12 +37,14 @@
     "id": 3,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 4 Стандарт +",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-4-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-4-standart-plus.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "290",
-      "size": "100 х 100 х 250"
+      "size": "100 х 100 х 250",
+      "weight": "95",
+      "consumption": "1,66"
     },
     "price": "155 800",
     "priceBefore": null,
@@ -48,12 +54,14 @@
     "id": 4,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 4 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-4-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-4-midi.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "290",
-      "size": "100 х 100 х 266"
+      "size": "100 х 100 х 266",
+      "weight": "98",
+      "consumption": "1,66"
     },
     "price": "159 600",
     "priceBefore": null,
@@ -63,12 +71,14 @@
     "id": 5,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 4 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-4-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-4-long.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "290",
-      "size": "100 х 100 х 296"
+      "size": "100 х 100 х 296",
+      "weight": "103",
+      "consumption": "1,66"
     },
     "price": "167 200",
     "priceBefore": null,
@@ -78,12 +88,14 @@
     "id": 6,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 5 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-5-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-5-standart.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "320",
-      "size": "100 х 100 х 236"
+      "size": "100 х 100 х 236",
+      "weight": "98",
+      "consumption": "2,10"
     },
     "price": "160 900",
     "priceBefore": null,
@@ -93,12 +105,14 @@
     "id": 7,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 5 Стандарт +",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-5-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-5-standart-plus.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "320",
-      "size": "100 х 100 х 250"
+      "size": "100 х 100 х 250",
+      "weight": "100",
+      "consumption": "2,10"
     },
     "price": "163 800",
     "priceBefore": null,
@@ -108,12 +122,14 @@
     "id": 8,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 5 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-5-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-5-midi.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "320",
-      "size": "100 х 100 х 266"
+      "size": "100 х 100 х 266",
+      "weight": "103",
+      "consumption": "2,10"
     },
     "price": "168 500",
     "priceBefore": null,
@@ -123,12 +139,14 @@
     "id": 9,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 5 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-5-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-5-long.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "320",
-      "size": "100 х 100 х 296"
+      "size": "100 х 100 х 296",
+      "weight": "108",
+      "consumption": "2,10"
     },
     "price": "176 100",
     "priceBefore": null,
@@ -138,12 +156,14 @@
     "id": 10,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 5 Суперлонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-5-superlong.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-5-superlong.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "320",
-      "size": "100 х 100 х 336"
+      "size": "100 х 100 х 336",
+      "weight": "118",
+      "consumption": "2,10"
     },
     "price": "193 200",
     "priceBefore": null,
@@ -153,12 +173,14 @@
     "id": 11,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 6 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-6-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-6-standart.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "400",
-      "size": "100 х 100 х 251"
+      "size": "100 х 100 х 251",
+      "weight": "102",
+      "consumption": "2,10"
     },
     "price": "177 500",
     "priceBefore": null,
@@ -168,12 +190,14 @@
     "id": 12,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 6 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-6-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-6-midi.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "400",
-      "size": "100 х 100 х 281"
+      "size": "100 х 100 х 281",
+      "weight": "107",
+      "consumption": "2,10"
     },
     "price": "185 100",
     "priceBefore": null,
@@ -183,12 +207,14 @@
     "id": 13,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 6 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-6-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-6-long.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "400",
-      "size": "100 х 100 х 311"
+      "size": "100 х 100 х 311",
+      "weight": "112",
+      "consumption": "2,10"
     },
     "price": "192 700",
     "priceBefore": null,
@@ -198,12 +224,14 @@
     "id": 14,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 7",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-7.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-7.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "600",
-      "size": "140 х 140 х 221"
+      "size": "140 х 140 х 221",
+      "weight": "136",
+      "consumption": "2,10"
     },
     "price": "199 000",
     "priceBefore": null,
@@ -213,12 +241,14 @@
     "id": 15,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 8 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-8-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-8-standart.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "630",
-      "size": "140 х 140 х 236"
+      "size": "140 х 140 х 236",
+      "weight": "143",
+      "consumption": "2,10"
     },
     "price": "201 000",
     "priceBefore": null,
@@ -228,12 +258,14 @@
     "id": 16,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 8 Стандарт +",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-8-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-8-standart-plus.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "630",
-      "size": "140 х 140 х 250"
+      "size": "140 х 140 х 250",
+      "weight": "147",
+      "consumption": "2,10"
     },
     "price": "207 700",
     "priceBefore": null,
@@ -243,12 +275,14 @@
     "id": 17,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 8 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-8-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-8-midi.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "630",
-      "size": "140 х 140 х 266"
+      "size": "140 х 140 х 266",
+      "weight": "151",
+      "consumption": "2,10"
     },
     "price": "214 400",
     "priceBefore": null,
@@ -258,12 +292,14 @@
     "id": 18,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 8 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-8-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-8-long.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "630",
-      "size": "140 х 140 х 296"
+      "size": "140 х 140 х 296",
+      "weight": "169",
+      "consumption": "2,10"
     },
     "price": "227 700",
     "priceBefore": null,
@@ -273,12 +309,14 @@
     "id": 19,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 8 Суперлонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-8-superlong.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-8-superlong.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "630",
-      "size": "140 х 140 х 336"
+      "size": "140 х 140 х 336",
+      "weight": "185",
+      "consumption": "2,10"
     },
     "price": "246 000",
     "priceBefore": null,
@@ -288,12 +326,14 @@
     "id": 20,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 9",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-9.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-9.webp",
     "specs": {
-      "quantity": "9 человек",
+      "quantity": "9",
       "power": "1.8",
       "drain": "690",
-      "size": "140 х 140 х 251"
+      "size": "140 х 140 х 251",
+      "weight": "151",
+      "consumption": "2,10"
     },
     "price": "215 600",
     "priceBefore": null,
@@ -303,12 +343,14 @@
     "id": 21,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 10 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-10-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-10-standart.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "800",
-      "size": "165 х 165 х 236"
+      "size": "165 х 165 х 236",
+      "weight": "166",
+      "consumption": "2,10"
     },
     "price": "249 300",
     "priceBefore": null,
@@ -318,12 +360,14 @@
     "id": 22,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 10 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-10-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-10-midi.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "800",
-      "size": "165 х 165 х 266"
+      "size": "165 х 165 х 266",
+      "weight": "177",
+      "consumption": "2,10"
     },
     "price": "263 300",
     "priceBefore": null,
@@ -333,12 +377,14 @@
     "id": 23,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 10 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-10-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-10-long.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "800",
-      "size": "165 х 165 х 296"
+      "size": "165 х 165 х 296",
+      "weight": "198",
+      "consumption": "2,10"
     },
     "price": "277 300",
     "priceBefore": null,
@@ -348,12 +394,14 @@
     "id": 24,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 12 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-12-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-12-standart.webp",
     "specs": {
-      "quantity": "12 человек",
+      "quantity": "12",
       "power": "2.4",
       "drain": "920",
-      "size": "165 х 165 х 236"
+      "size": "165 х 165 х 236",
+      "weight": "196",
+      "consumption": "2,10"
     },
     "price": "270 000",
     "priceBefore": null,
@@ -363,12 +411,14 @@
     "id": 25,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 12 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-12-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-12-midi.webp",
     "specs": {
-      "quantity": "12 человек",
+      "quantity": "12",
       "power": "2.4",
       "drain": "920",
-      "size": "165 х 165 х 266"
+      "size": "165 х 165 х 266",
+      "weight": "207",
+      "consumption": "2,10"
     },
     "price": "284 000",
     "priceBefore": null,
@@ -378,12 +428,14 @@
     "id": 26,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 12 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-12-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-12-long.webp",
     "specs": {
-      "quantity": "12 человек",
+      "quantity": "12",
       "power": "2.4",
       "drain": "920",
-      "size": "165 х 165 х 296"
+      "size": "165 х 165 х 296",
+      "weight": "238",
+      "consumption": "2,10"
     },
     "price": "298 000",
     "priceBefore": null,
@@ -393,12 +445,14 @@
     "id": 27,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 15 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-15-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-15-standart.webp",
     "specs": {
-      "quantity": "15 человек",
+      "quantity": "15",
       "power": "3.0",
       "drain": "1025",
-      "size": "171 х 171 х 236"
+      "size": "171 х 171 х 236",
+      "weight": "225",
+      "consumption": "2,10"
     },
     "price": "304 000",
     "priceBefore": null,
@@ -408,12 +462,14 @@
     "id": 28,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 15 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-15-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-15-midi.webp",
     "specs": {
-      "quantity": "15 человек",
+      "quantity": "15",
       "power": "3.0",
       "drain": "1025",
-      "size": "171 х 171 х 266"
+      "size": "171 х 171 х 266",
+      "weight": "235",
+      "consumption": "2,10"
     },
     "price": "318 000",
     "priceBefore": null,
@@ -423,12 +479,14 @@
     "id": 29,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 15 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-15-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-15-long.webp",
     "specs": {
-      "quantity": "15 человек",
+      "quantity": "15",
       "power": "3.0",
       "drain": "1025",
-      "size": "171 х 171 х 296"
+      "size": "171 х 171 х 296",
+      "weight": "277",
+      "consumption": "2,10"
     },
     "price": "332 000",
     "priceBefore": null,
@@ -438,12 +496,14 @@
     "id": 30,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 20 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-20-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-20-standart.webp",
     "specs": {
-      "quantity": "20 человек",
+      "quantity": "20",
       "power": "4.0",
       "drain": "1250",
-      "size": "198 х 198 х 236"
+      "size": "198 х 198 х 236",
+      "weight": "271",
+      "consumption": "2,10"
     },
     "price": "386 000",
     "priceBefore": null,
@@ -453,12 +513,14 @@
     "id": 31,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 20 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-20-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-20-midi.webp",
     "specs": {
-      "quantity": "20 человек",
+      "quantity": "20",
       "power": "4.0",
       "drain": "1250",
-      "size": "198 х 198 х 266"
+      "size": "198 х 198 х 266",
+      "weight": "282",
+      "consumption": "2,10"
     },
     "price": "399 800",
     "priceBefore": null,
@@ -468,12 +530,14 @@
     "id": 32,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 20 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-20-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-20-long.webp",
     "specs": {
-      "quantity": "20 человек",
+      "quantity": "20",
       "power": "4.0",
       "drain": "1250",
-      "size": "198 х 198 х 296"
+      "size": "198 х 198 х 296",
+      "weight": "303",
+      "consumption": "2,10"
     },
     "price": "414 000",
     "priceBefore": null,
@@ -483,12 +547,13 @@
     "id": 33,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 30 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-30-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-30-standart.webp",
     "specs": {
-      "quantity": "30 человек",
+      "quantity": "30",
       "power": "6.0",
       "drain": "2000",
-      "size": "238 х 238 х 236"
+      "size": "238 х 238 х 236",
+      "weight": "520"
     },
     "price": "505 000",
     "priceBefore": null,
@@ -498,12 +563,13 @@
     "id": 34,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 30 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-30-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-30-midi.webp",
     "specs": {
-      "quantity": "30 человек",
+      "quantity": "30",
       "power": "6.0",
       "drain": "2000",
-      "size": "238 х 238 х 266"
+      "size": "238 х 238 х 266",
+      "weight": "535"
     },
     "price": "525 500",
     "priceBefore": null,
@@ -513,12 +579,13 @@
     "id": 35,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Раунд 30 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-raund-30-long.webp",
+    "image": "/images/stations/evrobion/evrobion-raund-30-long.webp",
     "specs": {
-      "quantity": "30 человек",
+      "quantity": "30",
       "power": "6.0",
       "drain": "2000",
-      "size": "238 х 238 х 296"
+      "size": "238 х 238 х 296",
+      "weight": "550"
     },
     "price": "546 500",
     "priceBefore": null,
@@ -528,12 +595,13 @@
     "id": 36,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 4 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-4-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-4-standart.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "230",
-      "size": "205 х 117 х 140"
+      "size": "205 х 117 х 140",
+      "weight": "101"
     },
     "price": "162 000",
     "priceBefore": null,
@@ -543,12 +611,13 @@
     "id": 37,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 4 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-4-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-4-midi.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "230",
-      "size": "205 х 117 х 155"
+      "size": "205 х 117 х 155",
+      "weight": "104"
     },
     "price": "169 600",
     "priceBefore": null,
@@ -558,12 +627,13 @@
     "id": 38,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 4 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-4-long.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-4-long.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "230",
-      "size": "205 х 117 х 170"
+      "size": "205 х 117 х 170",
+      "weight": "107"
     },
     "price": "177 200",
     "priceBefore": null,
@@ -573,12 +643,13 @@
     "id": 39,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 5 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-5-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-5-standart.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "280",
-      "size": "220 х 117 х 140"
+      "size": "220 х 117 х 140",
+      "weight": "104"
     },
     "price": "170 000",
     "priceBefore": null,
@@ -588,12 +659,13 @@
     "id": 40,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 5 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-5-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-5-midi.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "280",
-      "size": "220 х 117 х 155"
+      "size": "220 х 117 х 155",
+      "weight": "107"
     },
     "price": "177 600",
     "priceBefore": null,
@@ -603,12 +675,13 @@
     "id": 41,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 5 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-5-long.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-5-long.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "280",
-      "size": "220 х 117 х 170"
+      "size": "220 х 117 х 170",
+      "weight": "110"
     },
     "price": "185 200",
     "priceBefore": null,
@@ -618,12 +691,13 @@
     "id": 42,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 8 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-8-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-8-standart.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "420",
-      "size": "220 х 146 х 170"
+      "size": "220 х 146 х 170",
+      "weight": "153"
     },
     "price": "210 000",
     "priceBefore": null,
@@ -633,12 +707,13 @@
     "id": 43,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 8 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-8-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-8-midi.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "420",
-      "size": "220 х 146 х 185"
+      "size": "220 х 146 х 185",
+      "weight": "156"
     },
     "price": "218 600",
     "priceBefore": null,
@@ -648,12 +723,13 @@
     "id": 44,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 8 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-8-long.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-8-long.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "420",
-      "size": "220 х 146 х 200"
+      "size": "220 х 146 х 200",
+      "weight": "159"
     },
     "price": "226 200",
     "priceBefore": null,
@@ -663,12 +739,13 @@
     "id": 45,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 10 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-10-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-10-standart.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "540",
-      "size": "266 х 146 х 170"
+      "size": "266 х 146 х 170",
+      "weight": "216"
     },
     "price": "286 500",
     "priceBefore": null,
@@ -678,12 +755,13 @@
     "id": 46,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 10 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-10-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-10-midi.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "540",
-      "size": "266 х 146 х 185"
+      "size": "266 х 146 х 185",
+      "weight": "219"
     },
     "price": "301 500",
     "priceBefore": null,
@@ -693,12 +771,13 @@
     "id": 47,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 10 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-10-long.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-10-long.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "540",
-      "size": "266 х 146 х 200"
+      "size": "266 х 146 х 200",
+      "weight": "222"
     },
     "price": "316 500",
     "priceBefore": null,
@@ -708,12 +787,13 @@
     "id": 48,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 15 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-15-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-15-standart.webp",
     "specs": {
-      "quantity": "15 человек",
+      "quantity": "15",
       "power": "3.0",
       "drain": "630",
-      "size": "366 х 146 х 170"
+      "size": "366 х 146 х 170",
+      "weight": "241"
     },
     "price": "340 900",
     "priceBefore": null,
@@ -723,12 +803,13 @@
     "id": 49,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 15 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-15-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-15-midi.webp",
     "specs": {
-      "quantity": "15 человек",
+      "quantity": "15",
       "power": "3.0",
       "drain": "630",
-      "size": "366 х 146 х 185"
+      "size": "366 х 146 х 185",
+      "weight": "247"
     },
     "price": "355 900",
     "priceBefore": null,
@@ -738,12 +819,13 @@
     "id": 50,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 15 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-15-long.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-15-long.webp",
     "specs": {
-      "quantity": "15 человек",
+      "quantity": "15",
       "power": "3.0",
       "drain": "630",
-      "size": "366 х 146 х 200"
+      "size": "366 х 146 х 200",
+      "weight": "253"
     },
     "price": "371 000",
     "priceBefore": null,
@@ -753,12 +835,13 @@
     "id": 51,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 20 Стандарт",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-20-standart.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-20-standart.webp",
     "specs": {
-      "quantity": "20 человек",
+      "quantity": "20",
       "power": "4.0",
       "drain": "800",
-      "size": "468 х 146 х 170"
+      "size": "468 х 146 х 170",
+      "weight": "357"
     },
     "price": "421 500",
     "priceBefore": null,
@@ -768,12 +851,13 @@
     "id": 52,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 20 Миди",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-20-midi.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-20-midi.webp",
     "specs": {
-      "quantity": "20 человек",
+      "quantity": "20",
       "power": "4.0",
       "drain": "800",
-      "size": "468 х 146 х 185"
+      "size": "468 х 146 х 185",
+      "weight": "363"
     },
     "price": "436 500",
     "priceBefore": null,
@@ -783,12 +867,13 @@
     "id": 53,
     "brand": "ЕВРОБИОН",
     "name": "Евробион Горизонт 20 Лонг",
-    "image": "src/assets/images/stations/evrobion/evrobion-horizon-20-long.webp",
+    "image": "/images/stations/evrobion/evrobion-horizon-20-long.webp",
     "specs": {
-      "quantity": "20 человек",
+      "quantity": "20",
       "power": "4.0",
       "drain": "800",
-      "size": "468 х 146 х 200"
+      "size": "468 х 146 х 200",
+      "weight": "369"
     },
     "price": "451 500",
     "priceBefore": null,
@@ -798,1092 +883,1197 @@
     "id": 54,
     "brand": "ТОПАС",
     "name": "Топас 4",
-    "image": "src/assets/images/stations/topas/topas-4.webp",
+    "image": "/images/stations/topas/topas-4.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "175",
-      "size": "95 х 97 х 250"
+      "size": "95 х 97 х 250",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "142 740",
-    "priceBefore": "158 600",
-    "priceWithInstall": "176 740"
+    "price": "160 560",
+    "priceBefore": "178 400",
+    "priceWithInstall": "194 560"
   },
   {
     "id": 55,
     "brand": "ТОПАС",
     "name": "Топас 4 Пр",
-    "image": "src/assets/images/stations/topas/topas-4-pr.webp",
+    "image": "/images/stations/topas/topas-4-pr.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "175",
-      "size": "88 х 97 х 260"
+      "size": "88 х 97 х 260",
+      "weight": null,
+      "consumption": "1,6"
     },
-    "price": "159 480",
-    "priceBefore": "177 200",
-    "priceWithInstall": "193 480"
+    "price": "176 400",
+    "priceBefore": "196 000",
+    "priceWithInstall": "210 400"
   },
   {
     "id": 56,
     "brand": "ТОПАС",
     "name": "Топас 5",
-    "image": "src/assets/images/stations/topas/topas-5.webp",
+    "image": "/images/stations/topas/topas-5.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "220",
-      "size": "115 х 117 х 250"
+      "size": "115 х 117 х 250",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "167 040",
-    "priceBefore": "185 600",
-    "priceWithInstall": "202 040"
+    "price": "187 920",
+    "priceBefore": "208 800",
+    "priceWithInstall": "222 920"
   },
   {
     "id": 57,
     "brand": "ТОПАС",
     "name": "Топас 5 Пр",
-    "image": "src/assets/images/stations/topas/topas-5-pr.webp",
+    "image": "/images/stations/topas/topas-5-pr.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "220",
-      "size": "108 х 117 х 260"
+      "size": "108 х 117 х 260",
+      "weight": null,
+      "consumption": "1,6"
     },
-    "price": "182 340",
-    "priceBefore": "202 600",
-    "priceWithInstall": "217 340"
+    "price": "201 600",
+    "priceBefore": "224 000",
+    "priceWithInstall": "236 600"
   },
   {
     "id": 58,
     "brand": "ТОПАС",
     "name": "Топас 5 Лонг",
-    "image": "src/assets/images/stations/topas/topas-5-long.webp",
+    "image": "/images/stations/topas/topas-5-long.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "220",
-      "size": "118 х 100 х 310"
+      "size": "118 х 100 х 310",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "195 840",
-    "priceBefore": "217 600",
-    "priceWithInstall": "238 840"
+    "price": "222 210",
+    "priceBefore": "246 900",
+    "priceWithInstall": "265 210"
   },
   {
     "id": 59,
     "brand": "ТОПАС",
     "name": "Топас 5 Лонг Пр",
-    "image": "src/assets/images/stations/topas/topas-5-long-pr.webp",
+    "image": "/images/stations/topas/topas-5-long-pr.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "220",
-      "size": "116 х 100 х 310"
+      "size": "116 х 100 х 310",
+      "weight": null,
+      "consumption": "1,6"
     },
-    "price": "208 260",
-    "priceBefore": "231 400",
-    "priceWithInstall": "251 260"
+    "price": "236 250",
+    "priceBefore": "262 500",
+    "priceWithInstall": "279 250"
   },
   {
     "id": 60,
     "brand": "ТОПАС",
     "name": "Топас 6",
-    "image": "src/assets/images/stations/topas/topas-6.webp",
+    "image": "/images/stations/topas/topas-6.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.15",
       "drain": "250",
-      "size": "115 х 117 х 255"
+      "size": "115 х 117 х 255",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "168 300",
-    "priceBefore": "187 000",
-    "priceWithInstall": "204 300"
+    "price": "189 270",
+    "priceBefore": "210 300",
+    "priceWithInstall": "225 270"
   },
   {
     "id": 61,
     "brand": "ТОПАС",
     "name": "Топас 6 Пр",
-    "image": "src/assets/images/stations/topas/topas-6-pr.webp",
+    "image": "/images/stations/topas/topas-6-pr.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.15",
       "drain": "250",
-      "size": "108 х 117 х 260"
+      "size": "108 х 117 х 260",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "183 600",
-    "priceBefore": "204 000",
-    "priceWithInstall": "219 600"
+    "price": "206 460",
+    "priceBefore": "229 400",
+    "priceWithInstall": "242 460"
   },
   {
     "id": 62,
     "brand": "ТОПАС",
     "name": "Топас 6 Лонг",
-    "image": "src/assets/images/stations/topas/topas-6-long.webp",
+    "image": "/images/stations/topas/topas-6-long.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.15",
       "drain": "250",
-      "size": "118 х 100 х 310"
+      "size": "118 х 100 х 310",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "196 200",
-    "priceBefore": "218 000",
-    "priceWithInstall": "240 200"
+    "price": "222 570",
+    "priceBefore": "247 300",
+    "priceWithInstall": "266 570"
   },
   {
     "id": 63,
     "brand": "ТОПАС",
     "name": "Топас 6 Лонг Пр",
-    "image": "src/assets/images/stations/topas/topas-6-long-pr.webp",
+    "image": "/images/stations/topas/topas-6-long-pr.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.15",
       "drain": "250",
-      "size": "116 х 100 х 310"
+      "size": "116 х 100 х 310",
+      "weight": null,
+      "consumption": "1,6"
     },
-    "price": "209 160",
-    "priceBefore": "232 400",
-    "priceWithInstall": "253 160"
+    "price": "237 330",
+    "priceBefore": "263 700",
+    "priceWithInstall": "281 330"
   },
   {
     "id": 64,
     "brand": "ТОПАС",
     "name": "Топас 8",
-    "image": "src/assets/images/stations/topas/topas-8.webp",
+    "image": "/images/stations/topas/topas-8.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "163 х 117 х 250"
+      "size": "163 х 117 х 250",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "196 110",
-    "priceBefore": "217 900",
-    "priceWithInstall": "234 110"
+    "price": "220 500",
+    "priceBefore": "245 000",
+    "priceWithInstall": "258 500"
   },
   {
     "id": 65,
     "brand": "ТОПАС",
     "name": "Топас 8 Пр",
-    "image": "src/assets/images/stations/topas/topas-8-pr.webp",
+    "image": "/images/stations/topas/topas-8-pr.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "156 х 117 х 260"
+      "size": "156 х 117 х 260",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "210 510",
-    "priceBefore": "233 900",
-    "priceWithInstall": "248 510"
+    "price": "236 610",
+    "priceBefore": "262 900",
+    "priceWithInstall": "274 610"
   },
   {
     "id": 66,
     "brand": "ТОПАС",
     "name": "Топас 8 Лонг",
-    "image": "src/assets/images/stations/topas/topas-8-long.webp",
+    "image": "/images/stations/topas/topas-8-long.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "152 х 116 х 310"
+      "size": "152 х 116 х 310",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "228 870",
-    "priceBefore": "254 300",
-    "priceWithInstall": "273 870"
+    "price": "259 560",
+    "priceBefore": "288 400",
+    "priceWithInstall": "304 560"
   },
   {
     "id": 67,
     "brand": "ТОПАС",
     "name": "Топас 8 Лонг Пр",
-    "image": "src/assets/images/stations/topas/topas-8-long-pr.webp",
+    "image": "/images/stations/topas/topas-8-long-pr.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "150 х 116 х 310"
+      "size": "150 х 116 х 310",
+      "weight": null,
+      "consumption": "1,6"
     },
-    "price": "238 050",
-    "priceBefore": "264 500",
-    "priceWithInstall": "283 050"
+    "price": "270 000",
+    "priceBefore": "300 000",
+    "priceWithInstall": "315 000"
   },
   {
     "id": 68,
     "brand": "ТОПАС",
     "name": "Топас 8 Лонг Ус",
-    "image": "src/assets/images/stations/topas/topas-8-long-us.webp",
+    "image": "/images/stations/topas/topas-8-long-us.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "169 х 136 х 310"
+      "size": "169 х 136 х 310",
+      "weight": null,
+      "consumption": "1,5"
     },
-    "price": "270 270",
-    "priceBefore": "300 300",
-    "priceWithInstall": "315 270"
+    "price": "307 710",
+    "priceBefore": "341 900",
+    "priceWithInstall": "352 710"
   },
   {
     "id": 69,
     "brand": "ТОПАС",
     "name": "Топас 8 Лонг Пр Ус",
-    "image": "src/assets/images/stations/topas/topas-8-long-pr-us.webp",
+    "image": "/images/stations/topas/topas-8-long-pr-us.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "166 х 136 х 310"
+      "size": "166 х 136 х 310",
+      "weight": null,
+      "consumption": "1,6"
     },
-    "price": "288 090",
-    "priceBefore": "320 100",
-    "priceWithInstall": "333 090"
+    "price": "327 960",
+    "priceBefore": "364 400",
+    "priceWithInstall": "372 960"
   },
   {
     "id": 70,
     "brand": "ТОПАС",
     "name": "Топас-С 4",
-    "image": "src/assets/images/stations/topas/topas-4.webp",
+    "image": "/images/stations/topas/topas-s-4.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "175",
-      "size": "95 х 97 х 250"
+      "size": "95 х 97 х 250",
+      "weight": null,
+      "consumption": "1,0"
     },
-    "price": "127 980",
-    "priceBefore": "142 200",
-    "priceWithInstall": "161 980"
+    "price": "144 000",
+    "priceBefore": "160 000",
+    "priceWithInstall": "178 000"
   },
   {
     "id": 71,
     "brand": "ТОПАС",
     "name": "Топас-С 4 Пр",
-    "image": "src/assets/images/stations/topas/topas-4-pr.webp",
+    "image": "/images/stations/topas/topas-s-4-pr.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "175",
-      "size": "88 х 97 х 260"
+      "size": "88 х 97 х 260",
+      "weight": null,
+      "consumption": "1,2"
     },
-    "price": "140 040",
-    "priceBefore": "155 600",
-    "priceWithInstall": "174 040"
+    "price": "157 500",
+    "priceBefore": "175 000",
+    "priceWithInstall": "191 500"
   },
   {
     "id": 72,
     "brand": "ТОПАС",
     "name": "Топас-С 5",
-    "image": "src/assets/images/stations/topas/topas-5.webp",
+    "image": "/images/stations/topas/topas-s-5.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "220",
-      "size": "115 х 117 х 250"
+      "size": "115 х 117 х 250",
+      "weight": null,
+      "consumption": "1,0"
     },
-    "price": "150 300",
-    "priceBefore": "167 000",
-    "priceWithInstall": "185 300"
+    "price": "169 020",
+    "priceBefore": "187 800",
+    "priceWithInstall": "204 020"
   },
   {
     "id": 73,
     "brand": "ТОПАС",
     "name": "Топас-С 5 Пр",
-    "image": "src/assets/images/stations/topas/topas-5-pr.webp",
+    "image": "/images/stations/topas/topas-s-5-pr.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "220",
-      "size": "108 х 117 х 260"
+      "size": "108 х 117 х 260",
+      "weight": null,
+      "consumption": "1,2"
     },
-    "price": "164 880",
-    "priceBefore": "183 200",
-    "priceWithInstall": "199 880"
+    "price": "185 400",
+    "priceBefore": "206 000",
+    "priceWithInstall": "220 400"
   },
   {
     "id": 74,
     "brand": "ТОПАС",
     "name": "Топас-С 5 Лонг",
-    "image": "src/assets/images/stations/topas/topas-5-long.webp",
+    "image": "/images/stations/topas/topas-s-5-long.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "220",
-      "size": "118 х 100 х 310"
+      "size": "118 х 100 х 310",
+      "weight": null,
+      "consumption": "1,0"
     },
-    "price": "175 140",
-    "priceBefore": "194 600",
-    "priceWithInstall": "218 140"
+    "price": "198 630",
+    "priceBefore": "220 700",
+    "priceWithInstall": "241 630"
   },
   {
     "id": 75,
     "brand": "ТОПАС",
     "name": "Топас-С 5 Лонг Пр",
-    "image": "src/assets/images/stations/topas/topas-5-long-pr.webp",
+    "image": "/images/stations/topas/topas-s-5-long-pr.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "220",
-      "size": "116 х 100 х 310"
+      "size": "116 х 100 х 310",
+      "weight": null,
+      "consumption": "1,2"
     },
-    "price": "184 140",
-    "priceBefore": "204 600",
-    "priceWithInstall": "227 140"
+    "price": "208 890",
+    "priceBefore": "232 100",
+    "priceWithInstall": "251 890"
   },
   {
     "id": 76,
     "brand": "ТОПАС",
     "name": "Топас-С 6",
-    "image": "src/assets/images/stations/topas/topas-6.webp",
+    "image": "/images/stations/topas/topas-s-6.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.15",
       "drain": "250",
-      "size": "115 х 117 х 255"
+      "size": "115 х 117 х 255",
+      "weight": null,
+      "consumption": "1,0"
     },
-    "price": "152 820",
-    "priceBefore": "169 800",
-    "priceWithInstall": "188 820"
+    "price": "171 720",
+    "priceBefore": "190 800",
+    "priceWithInstall": "207 720"
   },
   {
     "id": 77,
     "brand": "ТОПАС",
     "name": "Топас-С 6 Пр",
-    "image": "src/assets/images/stations/topas/topas-6-pr.webp",
+    "image": "/images/stations/topas/topas-s-6-pr.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.15",
       "drain": "250",
-      "size": "108 х 117 х 260"
+      "size": "108 х 117 х 260",
+      "weight": null,
+      "consumption": "1,2"
     },
-    "price": "167 760",
-    "priceBefore": "186 400",
-    "priceWithInstall": "203 760"
+    "price": "188 640",
+    "priceBefore": "209 600",
+    "priceWithInstall": "224 640"
   },
   {
     "id": 78,
     "brand": "ТОПАС",
     "name": "Топас-С 6 Лонг",
-    "image": "src/assets/images/stations/topas/topas-6-long.webp",
+    "image": "/images/stations/topas/topas-s-6-long.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.15",
       "drain": "250",
-      "size": "118 х 100 х 310"
+      "size": "118 х 100 х 310",
+      "weight": null,
+      "consumption": "1,0"
     },
-    "price": "176 760",
-    "priceBefore": "196 400",
-    "priceWithInstall": "220 760"
+    "price": "202 410",
+    "priceBefore": "224 900",
+    "priceWithInstall": "246 410"
   },
   {
     "id": 79,
     "brand": "ТОПАС",
     "name": "Топас-С 6 Лонг Пр",
-    "image": "src/assets/images/stations/topas/topas-6-long-pr.webp",
+    "image": "/images/stations/topas/topas-s-6-long-pr.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.15",
       "drain": "250",
-      "size": "116 х 100 х 310"
+      "size": "116 х 100 х 310",
+      "weight": null,
+      "consumption": "1,2"
     },
-    "price": "192 060",
-    "priceBefore": "213 400",
-    "priceWithInstall": "236 060"
+    "price": "217 890",
+    "priceBefore": "242 100",
+    "priceWithInstall": "261 890"
   },
   {
     "id": 80,
     "brand": "ТОПАС",
     "name": "Топас-С 8",
-    "image": "src/assets/images/stations/topas/topas-8.webp",
+    "image": "/images/stations/topas/topas-s-8.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "163 х 117 х 250"
+      "size": "163 х 117 х 250",
+      "weight": null,
+      "consumption": "1,0"
     },
-    "price": "179 910",
-    "priceBefore": "199 900",
-    "priceWithInstall": "217 910"
+    "price": "204 120",
+    "priceBefore": "226 800",
+    "priceWithInstall": "242 120"
   },
   {
     "id": 81,
     "brand": "ТОПАС",
     "name": "Топас-С 8 Пр",
-    "image": "src/assets/images/stations/topas/topas-8-pr.webp",
+    "image": "/images/stations/topas/topas-s-8-pr.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "156 х 117 х 260"
+      "size": "156 х 117 х 260",
+      "weight": null,
+      "consumption": "1,2"
     },
-    "price": "189 810",
-    "priceBefore": "210 900",
-    "priceWithInstall": "227 810"
+    "price": "216 180",
+    "priceBefore": "240 200",
+    "priceWithInstall": "254 180"
   },
   {
     "id": 82,
     "brand": "ТОПАС",
     "name": "Топас-С 8 Лонг",
-    "image": "src/assets/images/stations/topas/topas-8-long.webp",
+    "image": "/images/stations/topas/topas-s-8-long.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "152 х 116 х 310"
+      "size": "152 х 116 х 310",
+      "weight": null,
+      "consumption": "1,0"
     },
-    "price": "209 610",
-    "priceBefore": "232 900",
-    "priceWithInstall": "254 610"
+    "price": "237 780",
+    "priceBefore": "264 200",
+    "priceWithInstall": "282 780"
   },
   {
     "id": 83,
     "brand": "ТОПАС",
     "name": "Топас-С 8 Лонг Пр",
-    "image": "src/assets/images/stations/topas/topas-8-long-pr.webp",
+    "image": "/images/stations/topas/topas-s-8-long-pr.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "150 х 116 х 310"
+      "size": "150 х 116 х 310",
+      "weight": null,
+      "consumption": "1,2"
     },
-    "price": "218 430",
-    "priceBefore": "242 700",
-    "priceWithInstall": "263 430"
+    "price": "247 680",
+    "priceBefore": "275 200",
+    "priceWithInstall": "292 680"
   },
   {
     "id": 84,
     "brand": "ТОПАС",
     "name": "Топас-С 8 Лонг Ус",
-    "image": "src/assets/images/stations/topas/topas-8-long-us.webp",
+    "image": "/images/stations/topas/topas-s-8-long-us.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "169 х 136 х 310"
+      "size": "169 х 136 х 310",
+      "weight": null,
+      "consumption": "1,0"
     },
-    "price": "247 050",
-    "priceBefore": "274 500",
-    "priceWithInstall": "292 050"
+    "price": "281 160",
+    "priceBefore": "312 400",
+    "priceWithInstall": "326 160"
   },
   {
     "id": 85,
     "brand": "ТОПАС",
     "name": "Топас-С 8 Лонг Пр Ус",
-    "image": "src/assets/images/stations/topas/topas-8-long-pr-us.webp",
+    "image": "/images/stations/topas/topas-s-8-long-pr-us.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.5",
       "drain": "440",
-      "size": "166 х 136 х 310"
+      "size": "166 х 136 х 310",
+      "weight": null,
+      "consumption": "1,2"
     },
-    "price": "261 090",
-    "priceBefore": "290 100",
-    "priceWithInstall": "306 090"
+    "price": "297 270",
+    "priceBefore": "330 300",
+    "priceWithInstall": "342 270"
   },
   {
     "id": 86,
     "brand": "АСТРА",
     "name": "Астра 3",
-    "image": "src/assets/images/stations/astra/astra-3.webp",
+    "image": "/images/stations/astra/astra-3.webp",
     "specs": {
-      "quantity": "3 человека",
+      "quantity": "3",
       "power": "0.6",
       "drain": "150",
-      "size": "112 х 82 х 211.5"
+      "size": "112 х 82 х 211.5",
+      "consumption": "1,05"
     },
-    "price": "117 630",
-    "priceBefore": "130 700",
-    "priceWithInstall": "150 630"
+    "price": "126 450",
+    "priceBefore": "140 500",
+    "priceWithInstall": "159 450"
   },
   {
     "id": 87,
     "brand": "АСТРА",
     "name": "Астра 3 Встроенная емкость",
-    "image": "src/assets/images/stations/astra/astra-3.webp",
+    "image": "/images/stations/astra/astra-3-vs.webp",
     "specs": {
-      "quantity": "3 человека",
+      "quantity": "3",
       "power": "0.6",
       "drain": "150",
-      "size": "112 х 82 х 211.5"
+      "size": "112 х 82 х 211.5",
+      "consumption": "1,30"
     },
-    "price": "121 230",
-    "priceBefore": "134 700",
-    "priceWithInstall": "154 230"
+    "price": "130 050",
+    "priceBefore": "144 500",
+    "priceWithInstall": "163 050"
   },
   {
     "id": 88,
     "brand": "АСТРА",
     "name": "Астра 4",
-    "image": "src/assets/images/stations/astra/astra-4.webp",
+    "image": "/images/stations/astra/astra-4.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "180",
-      "size": "112 х 94 х 228"
+      "size": "112 х 94 х 228",
+      "consumption": "1,05"
     },
-    "price": "123 120",
-    "priceBefore": "136 800",
-    "priceWithInstall": "157 120"
+    "price": "132 300",
+    "priceBefore": "147 000",
+    "priceWithInstall": "166 300"
   },
   {
     "id": 89,
     "brand": "АСТРА",
     "name": "Астра 4 Встроенная емкость",
-    "image": "src/assets/images/stations/astra/astra-4.webp",
+    "image": "/images/stations/astra/astra-4-vs.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "180",
-      "size": "112 х 94 х 228"
+      "size": "112 х 94 х 228",
+      "consumption": "1,30"
     },
-    "price": "126 720",
-    "priceBefore": "140 800",
-    "priceWithInstall": "160 720"
+    "price": "135 900",
+    "priceBefore": "151 000",
+    "priceWithInstall": "169 900"
   },
   {
     "id": 90,
     "brand": "АСТРА",
     "name": "Астра 5",
-    "image": "src/assets/images/stations/astra/astra-5.webp",
+    "image": "/images/stations/astra/astra-5.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "250",
-      "size": "103 х 112 х 244.5"
+      "size": "103 х 112 х 244.5",
+      "consumption": "1,63"
     },
-    "price": "144 270",
-    "priceBefore": "160 300",
-    "priceWithInstall": "179 270"
+    "price": "155 070",
+    "priceBefore": "172 300",
+    "priceWithInstall": "190 070"
   },
   {
     "id": 91,
     "brand": "АСТРА",
     "name": "Астра 5 Встроенная емкость",
-    "image": "src/assets/images/stations/astra/astra-5.webp",
+    "image": "/images/stations/astra/astra-5-vs.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "250",
-      "size": "103 х 112 х 244.5"
+      "size": "103 х 112 х 244.5",
+      "consumption": "1,69"
     },
-    "price": "148 770",
-    "priceBefore": "165 300",
-    "priceWithInstall": "183 770"
+    "price": "159 570",
+    "priceBefore": "177 300",
+    "priceWithInstall": "194 570"
   },
   {
     "id": 92,
     "brand": "АСТРА",
     "name": "Астра 5 Миди",
-    "image": "src/assets/images/stations/astra/astra-5-midi.webp",
+    "image": "/images/stations/astra/astra-5-midi.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "250",
-      "size": "103 х 112 х 258.5"
+      "size": "103 х 112 х 258.5",
+      "consumption": "1,63"
     },
-    "price": "146 070",
-    "priceBefore": "162 300",
-    "priceWithInstall": "183 070"
+    "price": "157 050",
+    "priceBefore": "174 500",
+    "priceWithInstall": "194 050"
   },
   {
     "id": 93,
     "brand": "АСТРА",
     "name": "Астра 5 Миди Пр",
-    "image": "src/assets/images/stations/astra/astra-5-midi.webp",
+    "image": "/images/stations/astra/astra-5-midi-pr.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "250",
-      "size": "103 х 112 х 258.5"
+      "size": "103 х 112 х 258.5",
+      "consumption": "1,69"
     },
-    "price": "150 570",
-    "priceBefore": "167 300",
-    "priceWithInstall": "187 570"
+    "price": "161 550",
+    "priceBefore": "179 500",
+    "priceWithInstall": "198 550"
   },
   {
     "id": 94,
     "brand": "АСТРА",
     "name": "Астра 5 Лонг",
-    "image": "src/assets/images/stations/astra/astra-5-long.webp",
+    "image": "/images/stations/astra/astra-5-long.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "250",
-      "size": "116 х 100 х 308.5"
+      "size": "116 х 100 х 308.5",
+      "consumption": "1,63"
     },
-    "price": "169 020",
-    "priceBefore": "187 800",
-    "priceWithInstall": "212 020"
+    "price": "186 210",
+    "priceBefore": "206 900",
+    "priceWithInstall": "229 210"
   },
   {
     "id": 95,
     "brand": "АСТРА",
     "name": "Астра 5 Лонг Пр",
-    "image": "src/assets/images/stations/astra/astra-5-long.webp",
+    "image": "/images/stations/astra/astra-5-long-pr.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "250",
-      "size": "116 х 100 х 308.5"
+      "size": "116 х 100 х 308.5",
+      "consumption": "1,69"
     },
-    "price": "173 520",
-    "priceBefore": "192 800",
-    "priceWithInstall": "216 520"
+    "price": "190 710",
+    "priceBefore": "211 900",
+    "priceWithInstall": "233 710"
   },
   {
     "id": 96,
     "brand": "АСТРА",
     "name": "Астра 6",
-    "image": "src/assets/images/stations/astra/astra-6.webp",
+    "image": "/images/stations/astra/astra-6.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "280",
-      "size": "112 х 115 х 244.5"
+      "size": "112 х 115 х 244.5",
+      "consumption": "1,63"
     },
-    "price": "150 660",
-    "priceBefore": "167 400",
-    "priceWithInstall": "186 660"
+    "price": "162 000",
+    "priceBefore": "180 000",
+    "priceWithInstall": "198 000"
   },
   {
     "id": 97,
     "brand": "АСТРА",
     "name": "Астра 6 Встроенная емкость",
-    "image": "src/assets/images/stations/astra/astra-6.webp",
+    "image": "/images/stations/astra/astra-6-vs.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "280",
-      "size": "112 х 115 х 244.5"
+      "size": "112 х 115 х 244.5",
+      "consumption": "1,69"
     },
-    "price": "155 160",
-    "priceBefore": "172 400",
-    "priceWithInstall": "191 160"
+    "price": "166 500",
+    "priceBefore": "185 000",
+    "priceWithInstall": "202 500"
   },
   {
     "id": 98,
     "brand": "АСТРА",
     "name": "Астра 6 Миди",
-    "image": "src/assets/images/stations/astra/astra-6-midi.webp",
+    "image": "/images/stations/astra/astra-6-midi.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "280",
-      "size": "112 х 115 х 258.5"
+      "size": "112 х 115 х 258.5",
+      "consumption": "1,63"
     },
-    "price": "154 350",
-    "priceBefore": "171 500",
-    "priceWithInstall": "192 350"
+    "price": "165 960",
+    "priceBefore": "184 400",
+    "priceWithInstall": "203 960"
   },
   {
     "id": 99,
     "brand": "АСТРА",
     "name": "Астра 6 Миди Пр",
-    "image": "src/assets/images/stations/astra/astra-6-midi.webp",
+    "image": "/images/stations/astra/astra-6-midi-pr.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "280",
-      "size": "112 х 115 х 258.5"
+      "size": "112 х 115 х 258.5",
+      "consumption": "1,69"
     },
-    "price": "158 850",
-    "priceBefore": "176 500",
-    "priceWithInstall": "196 850"
+    "price": "170 460",
+    "priceBefore": "189 400",
+    "priceWithInstall": "208 460"
   },
   {
     "id": 100,
     "brand": "АСТРА",
     "name": "Астра 6 Лонг",
-    "image": "src/assets/images/stations/astra/astra-6-long.webp",
+    "image": "/images/stations/astra/astra-6-long.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "280",
-      "size": "112 х 115 х 308.5"
+      "size": "112 х 115 х 308.5",
+      "consumption": "1,63"
     },
-    "price": "178 200",
-    "priceBefore": "198 000",
-    "priceWithInstall": "222 200"
+    "price": "196 110",
+    "priceBefore": "217 900",
+    "priceWithInstall": "240 110"
   },
   {
     "id": 101,
     "brand": "АСТРА",
     "name": "Астра 6 Лонг Пр",
-    "image": "src/assets/images/stations/astra/astra-6-long.webp",
+    "image": "/images/stations/astra/astra-6-long-pr.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.2",
       "drain": "280",
-      "size": "112 х 115 х 308.5"
+      "size": "112 х 115 х 308.5",
+      "consumption": "1,69"
     },
-    "price": "182 700",
-    "priceBefore": "203 000",
-    "priceWithInstall": "226 700"
+    "price": "200 610",
+    "priceBefore": "222 900",
+    "priceWithInstall": "244 610"
   },
   {
     "id": 102,
     "brand": "АСТРА",
     "name": "Астра 7",
-    "image": "src/assets/images/stations/astra/astra-7.webp",
+    "image": "/images/stations/astra/astra-7.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "300",
-      "size": "112 х 115 х 244.5"
+      "size": "112 х 115 х 244.5",
+      "consumption": "1,63"
     },
-    "price": "164 430",
-    "priceBefore": "182 700",
-    "priceWithInstall": "201 430"
+    "price": "176 760",
+    "priceBefore": "196 400",
+    "priceWithInstall": "213 760"
   },
   {
     "id": 103,
     "brand": "АСТРА",
     "name": "Астра 7 Встроенная емкость",
-    "image": "src/assets/images/stations/astra/astra-7.webp",
+    "image": "/images/stations/astra/astra-7-vs.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "300",
-      "size": "112 х 115 х 244.5"
+      "size": "112 х 115 х 244.5",
+      "consumption": "1,69"
     },
-    "price": "168 930",
-    "priceBefore": "187 700",
-    "priceWithInstall": "205 930"
+    "price": "181 260",
+    "priceBefore": "201 400",
+    "priceWithInstall": "218 260"
   },
   {
     "id": 104,
     "brand": "АСТРА",
     "name": "Астра 7 Миди",
-    "image": "src/assets/images/stations/astra/astra-7-midi.webp",
+    "image": "/images/stations/astra/astra-7-midi.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "300",
-      "size": "112 х 115 х 258.5"
+      "size": "112 х 115 х 258.5",
+      "consumption": "1,63"
     },
-    "price": "168 120",
-    "priceBefore": "186 800",
-    "priceWithInstall": "207 120"
+    "price": "180 720",
+    "priceBefore": "200 800",
+    "priceWithInstall": "219 720"
   },
   {
     "id": 105,
     "brand": "АСТРА",
     "name": "Астра 7 Миди Пр",
-    "image": "src/assets/images/stations/astra/astra-7-midi.webp",
+    "image": "/images/stations/astra/astra-7-midi-pr.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "300",
-      "size": "112 х 115 х 258.5"
+      "size": "112 х 115 х 258.5",
+      "consumption": "1,69"
     },
-    "price": "172 620",
-    "priceBefore": "191 800",
-    "priceWithInstall": "211 620"
+    "price": "185 220",
+    "priceBefore": "205 800",
+    "priceWithInstall": "224 220"
   },
   {
     "id": 106,
     "brand": "АСТРА",
     "name": "Астра 7 Лонг",
-    "image": "src/assets/images/stations/astra/astra-7-long.webp",
+    "image": "/images/stations/astra/astra-7-long.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "300",
-      "size": "112 х 115 х 308.5"
+      "size": "112 х 115 х 308.5",
+      "consumption": "1,63"
     },
-    "price": "199 260",
-    "priceBefore": "221 400",
-    "priceWithInstall": "244 260"
+    "price": "218 700",
+    "priceBefore": "243 000",
+    "priceWithInstall": "263 700"
   },
   {
     "id": 107,
     "brand": "АСТРА",
     "name": "Астра 7 Лонг Пр",
-    "image": "src/assets/images/stations/astra/astra-7-long.webp",
+    "image": "/images/stations/astra/astra-7-long-pr.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "300",
-      "size": "112 х 115 х 308.5"
+      "size": "112 х 115 х 308.5",
+      "consumption": "1,69"
     },
-    "price": "203 760",
-    "priceBefore": "226 400",
-    "priceWithInstall": "248 760"
+    "price": "223 200",
+    "priceBefore": "248 000",
+    "priceWithInstall": "268 200"
   },
   {
     "id": 108,
     "brand": "АСТРА",
     "name": "Астра 8",
-    "image": "src/assets/images/stations/astra/astra-8.webp",
+    "image": "/images/stations/astra/astra-8.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "350",
-      "size": "150 х 116 х 244.5"
+      "size": "150 х 116 х 244.5",
+      "consumption": "2,05"
     },
-    "price": "169 920",
-    "priceBefore": "188 800",
-    "priceWithInstall": "207 920"
+    "price": "182 700",
+    "priceBefore": "203 000",
+    "priceWithInstall": "220 700"
   },
   {
     "id": 109,
     "brand": "АСТРА",
     "name": "Астра 8 Встроенная емкость",
-    "image": "src/assets/images/stations/astra/astra-8.webp",
+    "image": "/images/stations/astra/astra-8-vs.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "350",
-      "size": "150 х 116 х 244.5"
+      "size": "150 х 116 х 244.5",
+      "consumption": "2,12"
     },
-    "price": "174 420",
-    "priceBefore": "193 800",
-    "priceWithInstall": "212 420"
+    "price": "187 200",
+    "priceBefore": "208 000",
+    "priceWithInstall": "225 200"
   },
   {
     "id": 110,
     "brand": "АСТРА",
     "name": "Астра 8 Миди",
-    "image": "src/assets/images/stations/astra/astra-8-midi.webp",
+    "image": "/images/stations/astra/astra-8-midi.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "350",
-      "size": "150 х 116 х 258.5"
+      "size": "150 х 116 х 258.5",
+      "consumption": "2,05"
     },
-    "price": "172 710",
-    "priceBefore": "191 900",
-    "priceWithInstall": "212 710"
+    "price": "185 670",
+    "priceBefore": "206 300",
+    "priceWithInstall": "225 670"
   },
   {
     "id": 111,
     "brand": "АСТРА",
     "name": "Астра 8 Миди Пр",
-    "image": "src/assets/images/stations/astra/astra-8-midi.webp",
+    "image": "/images/stations/astra/astra-8-midi-pr.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "350",
-      "size": "150 х 116 х 258.5"
+      "size": "150 х 116 х 258.5",
+      "consumption": "2,12"
     },
-    "price": "177 210",
-    "priceBefore": "196 900",
-    "priceWithInstall": "217 210"
+    "price": "190 170",
+    "priceBefore": "211 300",
+    "priceWithInstall": "230 170"
   },
   {
     "id": 112,
     "brand": "АСТРА",
     "name": "Астра 8 Лонг",
-    "image": "src/assets/images/stations/astra/astra-8-long.webp",
+    "image": "/images/stations/astra/astra-8-long.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "350",
-      "size": "150 х 116 х 308.5"
+      "size": "150 х 116 х 308.5",
+      "consumption": "2,05"
     },
-    "price": "201 150",
-    "priceBefore": "223 500",
-    "priceWithInstall": "247 150"
+    "price": "221 310",
+    "priceBefore": "245 900",
+    "priceWithInstall": "267 310"
   },
   {
     "id": 113,
     "brand": "АСТРА",
     "name": "Астра 8 Лонг Пр",
-    "image": "src/assets/images/stations/astra/astra-8-long.webp",
+    "image": "/images/stations/astra/astra-8-long-pr.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "350",
-      "size": "150 х 116 х 308.5"
+      "size": "150 х 116 х 308.5",
+      "consumption": "2,12"
     },
-    "price": "205 650",
-    "priceBefore": "228 500",
-    "priceWithInstall": "251 650"
+    "price": "225 810",
+    "priceBefore": "250 900",
+    "priceWithInstall": "271 810"
   },
   {
     "id": 114,
     "brand": "АСТРА",
     "name": "Астра 9",
-    "image": "src/assets/images/stations/astra/astra-9.webp",
+    "image": "/images/stations/astra/astra-9.webp",
     "specs": {
-      "quantity": "9 человек",
+      "quantity": "9",
       "power": "1.8",
       "drain": "450",
-      "size": "170 х 116 х 244.5"
+      "size": "170 х 116 х 244.5",
+      "consumption": "1,92"
     },
-    "price": "182 700",
-    "priceBefore": "203 000",
-    "priceWithInstall": "221 700"
+    "price": "209 970",
+    "priceBefore": "233 300",
+    "priceWithInstall": "248 970"
   },
   {
     "id": 115,
     "brand": "АСТРА",
     "name": "Астра 9 Встроенная емкость",
-    "image": "src/assets/images/stations/astra/astra-9.webp",
+    "image": "/images/stations/astra/astra-9-vs.webp",
     "specs": {
-      "quantity": "9 человек",
+      "quantity": "9",
       "power": "1.8",
       "drain": "450",
-      "size": "170 х 116 х 244.5"
+      "size": "170 х 116 х 244.5",
+      "consumption": "2,00"
     },
-    "price": "187 200",
-    "priceBefore": "208 000",
-    "priceWithInstall": "226 200"
+    "price": "214 470",
+    "priceBefore": "238 300",
+    "priceWithInstall": "253 470"
   },
   {
     "id": 116,
     "brand": "АСТРА",
     "name": "Астра 9 Миди",
-    "image": "src/assets/images/stations/astra/astra-9-midi.webp",
+    "image": "/images/stations/astra/astra-9-midi.webp",
     "specs": {
-      "quantity": "9 человек",
+      "quantity": "9",
       "power": "1.8",
       "drain": "450",
-      "size": "170 х 116 х 258.5"
+      "size": "170 х 116 х 258.5",
+      "consumption": "1,92"
     },
-    "price": "191 880",
-    "priceBefore": "213 200",
-    "priceWithInstall": "232 880"
+    "price": "216 000",
+    "priceBefore": "240 000",
+    "priceWithInstall": "257 000"
   },
   {
     "id": 117,
     "brand": "АСТРА",
     "name": "Астра 9 Миди Пр",
-    "image": "src/assets/images/stations/astra/astra-9-midi.webp",
+    "image": "/images/stations/astra/astra-9-midi-pr.webp",
     "specs": {
-      "quantity": "9 человек",
+      "quantity": "9",
       "power": "1.8",
       "drain": "450",
-      "size": "170 х 116 х 258.5"
+      "size": "170 х 116 х 258.5",
+      "consumption": "2,00"
     },
-    "price": "191 880",
-    "priceBefore": "213 200",
-    "priceWithInstall": "232 880"
+    "price": "220 500",
+    "priceBefore": "245 000",
+    "priceWithInstall": "261 500"
   },
   {
     "id": 118,
     "brand": "АСТРА",
     "name": "Астра 9 Лонг",
-    "image": "src/assets/images/stations/astra/astra-9-long.webp",
+    "image": "/images/stations/astra/astra-9-long.webp",
     "specs": {
-      "quantity": "9 человек",
+      "quantity": "9",
       "power": "1.8",
       "drain": "450",
-      "size": "170 х 116 х 308.5"
+      "size": "170 х 116 х 308.5",
+      "consumption": "1,92"
     },
-    "price": "213 120",
-    "priceBefore": "236 800",
-    "priceWithInstall": "260 120"
+    "price": "243 450",
+    "priceBefore": "270 500",
+    "priceWithInstall": "290 450"
   },
   {
     "id": 119,
     "brand": "АСТРА",
     "name": "Астра 9 Лонг Пр",
-    "image": "src/assets/images/stations/astra/astra-9-long.webp",
+    "image": "/images/stations/astra/astra-9-long-pr.webp",
     "specs": {
-      "quantity": "9 человек",
+      "quantity": "9",
       "power": "1.8",
       "drain": "450",
-      "size": "170 х 116 х 308.5"
+      "size": "170 х 116 х 308.5",
+      "consumption": "2,00"
     },
-    "price": "217 620",
-    "priceBefore": "241 800",
-    "priceWithInstall": "264 620"
+    "price": "247 950",
+    "priceBefore": "275 500",
+    "priceWithInstall": "294 950"
   },
   {
     "id": 120,
     "brand": "АСТРА",
     "name": "Астра 10",
-    "image": "src/assets/images/stations/astra/astra-10.webp",
+    "image": "/images/stations/astra/astra-10.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "550",
-      "size": "200 х 116 х 244.5"
+      "size": "200 х 116 х 244.5",
+      "consumption": "2,56"
     },
-    "price": "231 480",
-    "priceBefore": "257 200",
-    "priceWithInstall": "271 480"
+    "price": "248 850",
+    "priceBefore": "276 500",
+    "priceWithInstall": "290 850"
   },
   {
     "id": 121,
     "brand": "АСТРА",
     "name": "Астра 10 Встроенная емкость",
-    "image": "src/assets/images/stations/astra/astra-10.webp",
+    "image": "/images/stations/astra/astra-10-vs.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "550",
-      "size": "200 х 116 х 244.5"
+      "size": "200 х 116 х 244.5",
+      "consumption": "2,66"
     },
-    "price": "235 980",
-    "priceBefore": "262 200",
-    "priceWithInstall": "275 980"
+    "price": "253 350",
+    "priceBefore": "281 500",
+    "priceWithInstall": "295 350"
   },
   {
     "id": 122,
     "brand": "АСТРА",
     "name": "Астра 10 Миди",
-    "image": "src/assets/images/stations/astra/astra-10-midi.webp",
+    "image": "/images/stations/astra/astra-10-midi.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "550",
-      "size": "200 х 116 х 258.5"
+      "size": "200 х 116 х 258.5",
+      "consumption": "2,56"
     },
-    "price": "234 180",
-    "priceBefore": "260 200",
-    "priceWithInstall": "276 180"
+    "price": "251 730",
+    "priceBefore": "279 700",
+    "priceWithInstall": "295 730"
   },
   {
     "id": 123,
     "brand": "АСТРА",
     "name": "Астра 10 Миди Пр",
-    "image": "src/assets/images/stations/astra/astra-10-midi.webp",
+    "image": "/images/stations/astra/astra-10-midi-pr.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "550",
-      "size": "200 х 116 х 258.5"
+      "size": "200 х 116 х 258.5",
+      "consumption": "2,66"
     },
-    "price": "238 680",
-    "priceBefore": "265 200",
-    "priceWithInstall": "280 680"
+    "price": "256 230",
+    "priceBefore": "284 700",
+    "priceWithInstall": "300 230"
   },
   {
     "id": 124,
     "brand": "АСТРА",
     "name": "Астра 10 Лонг",
-    "image": "src/assets/images/stations/astra/astra-10-long.webp",
+    "image": "/images/stations/astra/astra-10-long.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "550",
-      "size": "200 х 116 х 308.5"
+      "size": "200 х 116 х 308.5",
+      "consumption": "2,56"
     },
-    "price": "263 610",
-    "priceBefore": "292 900",
-    "priceWithInstall": "311 610"
+    "price": "289 980",
+    "priceBefore": "322 200",
+    "priceWithInstall": "339 980"
   },
   {
     "id": 125,
     "brand": "АСТРА",
     "name": "Астра 10 Лонг Пр",
-    "image": "src/assets/images/stations/astra/astra-10-long.webp",
+    "image": "/images/stations/astra/astra-10-long-pr.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "550",
-      "size": "200 х 116 х 308.5"
+      "size": "200 х 116 х 308.5",
+      "consumption": "2,66"
     },
-    "price": "268 110",
-    "priceBefore": "297 900",
-    "priceWithInstall": "316 110"
+    "price": "294 480",
+    "priceBefore": "327 200",
+    "priceWithInstall": "344 480"
   },
   {
     "id": 126,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Био 3",
-    "image": "src/assets/images/stations/evrolos/evrolos-bio.webp",
+    "image": "/images/stations/evrolos/evrolos-bio-3.webp",
     "specs": {
-      "quantity": "3 человека",
+      "quantity": "3",
       "power": "0.6",
       "drain": "240",
-      "size": "150 х 150 х 190"
+      "size": "150 х 150 х 190",
+      "consumption": "2,1"
     },
     "price": "136 895",
     "priceBefore": "144 100",
@@ -1893,12 +2083,13 @@
     "id": 127,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Био 4",
-    "image": "src/assets/images/stations/evrolos/evrolos-bio.webp",
+    "image": "/images/stations/evrolos/evrolos-bio-4.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "340",
-      "size": "150 х 150 х 200"
+      "size": "150 х 150 х 200",
+      "consumption": "2,1"
     },
     "price": "140 980",
     "priceBefore": "148 400",
@@ -1908,12 +2099,13 @@
     "id": 128,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Био 5",
-    "image": "src/assets/images/stations/evrolos/evrolos-bio.webp",
+    "image": "/images/stations/evrolos/evrolos-bio-5.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "440",
-      "size": "150 х 150 х 210"
+      "size": "150 х 150 х 210",
+      "consumption": "2,1"
     },
     "price": "149 815",
     "priceBefore": "157 700",
@@ -1923,12 +2115,13 @@
     "id": 129,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Био 6",
-    "image": "src/assets/images/stations/evrolos/evrolos-bio.webp",
+    "image": "/images/stations/evrolos/evrolos-bio-6.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.3",
       "drain": "540",
-      "size": "170 х 170 х 210"
+      "size": "170 х 170 х 210",
+      "consumption": "2,1"
     },
     "price": "165 585",
     "priceBefore": "174 300",
@@ -1938,12 +2131,13 @@
     "id": 130,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Био 8",
-    "image": "src/assets/images/stations/evrolos/evrolos-bio.webp",
+    "image": "/images/stations/evrolos/evrolos-bio-8.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "710",
-      "size": "190 х 190 х 210"
+      "size": "190 х 190 х 210",
+      "consumption": "2,1"
     },
     "price": "190 570",
     "priceBefore": "200 600",
@@ -1953,12 +2147,13 @@
     "id": 131,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 3",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-3.webp",
     "specs": {
-      "quantity": "3 человека",
+      "quantity": "3",
       "power": "0.6",
       "drain": "240",
-      "size": "140 х 140 х 190"
+      "size": "140 х 140 х 190",
+      "consumption": "2,1"
     },
     "price": "143 925",
     "priceBefore": "151 500",
@@ -1968,12 +2163,13 @@
     "id": 132,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 4",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-4.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "340",
-      "size": "140 х 140 х 200"
+      "size": "140 х 140 х 200",
+      "consumption": "2,1"
     },
     "price": "153 805",
     "priceBefore": "161 900",
@@ -1983,12 +2179,13 @@
     "id": 133,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 5",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-5.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "440",
-      "size": "140 х 140 х 210"
+      "size": "140 х 140 х 210",
+      "consumption": "2,1"
     },
     "price": "162 925",
     "priceBefore": "171 500",
@@ -1998,12 +2195,13 @@
     "id": 134,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 6",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-6.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.3",
       "drain": "540",
-      "size": "150 х 150 х 210"
+      "size": "150 х 150 х 210",
+      "consumption": "2,1"
     },
     "price": "178 410",
     "priceBefore": "187 800",
@@ -2013,12 +2211,13 @@
     "id": 135,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 8",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-8.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "710",
-      "size": "160 х 160 х 210"
+      "size": "160 х 160 х 210",
+      "consumption": "2,1"
     },
     "price": "202 730",
     "priceBefore": "213 400",
@@ -2028,12 +2227,13 @@
     "id": 136,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 10",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-10.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "860",
-      "size": "180 х 180 х 210"
+      "size": "180 х 180 х 210",
+      "consumption": "2,1"
     },
     "price": "250 230",
     "priceBefore": "263 400",
@@ -2043,12 +2243,13 @@
     "id": 137,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 12",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-12.webp",
     "specs": {
-      "quantity": "12 человек",
+      "quantity": "12",
       "power": "2.4",
       "drain": "980",
-      "size": "190 х 190 х 210"
+      "size": "190 х 190 х 210",
+      "consumption": "2,1"
     },
     "price": "270 845",
     "priceBefore": "285 100",
@@ -2058,12 +2259,13 @@
     "id": 138,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 15",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-15.webp",
     "specs": {
-      "quantity": "15 человек",
+      "quantity": "15",
       "power": "3.0",
       "drain": "1100",
-      "size": "210 х 210 х 210"
+      "size": "210 х 210 х 210",
+      "consumption": "2,1"
     },
     "price": "305 425",
     "priceBefore": "321 500",
@@ -2073,12 +2275,13 @@
     "id": 139,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 20",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-20.webp",
     "specs": {
-      "quantity": "20 человек",
+      "quantity": "20",
       "power": "4.0",
       "drain": "1300",
-      "size": "210 х 210 х 235"
+      "size": "210 х 210 х 235",
+      "consumption": "2,1"
     },
     "price": "388 930",
     "priceBefore": "409 400",
@@ -2088,12 +2291,13 @@
     "id": 140,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 25",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-25.webp",
     "specs": {
-      "quantity": "25 человек",
+      "quantity": "25",
       "power": "5.0",
       "drain": "1500",
-      "size": "210 х 210 х 260"
+      "size": "210 х 210 х 260",
+      "consumption": "3,0"
     },
     "price": "441 370",
     "priceBefore": "464 600",
@@ -2103,12 +2307,13 @@
     "id": 141,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Про 30",
-    "image": "src/assets/images/stations/evrolos/evrolos-pro.webp",
+    "image": "/images/stations/evrolos/evrolos-pro-30.webp",
     "specs": {
-      "quantity": "30 человек",
+      "quantity": "30",
       "power": "6.0",
       "drain": "1700",
-      "size": "220 х 220 х 285"
+      "size": "220 х 220 х 285",
+      "consumption": "3,0"
     },
     "price": "487 445",
     "priceBefore": "513 100",
@@ -2118,12 +2323,13 @@
     "id": 142,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 3",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-3.webp",
     "specs": {
-      "quantity": "3 человека",
+      "quantity": "3",
       "power": "0.6",
       "drain": "240",
-      "size": "150 х 120 х 170"
+      "size": "150 х 120 х 170",
+      "consumption": "1,5"
     },
     "price": "198 740",
     "priceBefore": "209 200",
@@ -2133,12 +2339,13 @@
     "id": 143,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 4",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-4.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "340",
-      "size": "200 х 120 х 170"
+      "size": "200 х 120 х 170",
+      "consumption": "1,5"
     },
     "price": "213 750",
     "priceBefore": "225 000",
@@ -2148,12 +2355,13 @@
     "id": 144,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 5",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-5.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "440",
-      "size": "250 х 120 х 170"
+      "size": "250 х 120 х 170",
+      "consumption": "1,5"
     },
     "price": "241 490",
     "priceBefore": "254 200",
@@ -2163,12 +2371,13 @@
     "id": 145,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 6",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-6.webp",
     "specs": {
-      "quantity": "6 человек",
+      "quantity": "6",
       "power": "1.3",
       "drain": "540",
-      "size": "300 х 120 х 170"
+      "size": "300 х 120 х 170",
+      "consumption": "1,5"
     },
     "price": "255 455",
     "priceBefore": "268 900",
@@ -2178,12 +2387,13 @@
     "id": 146,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 8",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-8.webp",
     "specs": {
-      "quantity": "8 человек",
+      "quantity": "8",
       "power": "1.6",
       "drain": "710",
-      "size": "400 х 120 х 170"
+      "size": "400 х 120 х 170",
+      "consumption": "1,5"
     },
     "price": "293 170",
     "priceBefore": "308 600",
@@ -2193,12 +2403,13 @@
     "id": 147,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 10",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-10.webp",
     "specs": {
-      "quantity": "10 человек",
+      "quantity": "10",
       "power": "2.0",
       "drain": "860",
-      "size": "500 х 120 х 170"
+      "size": "500 х 120 х 170",
+      "consumption": "2,0"
     },
     "price": "352 925",
     "priceBefore": "371 500",
@@ -2208,12 +2419,13 @@
     "id": 148,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 12",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-12.webp",
     "specs": {
-      "quantity": "12 человек",
+      "quantity": "12",
       "power": "2.4",
       "drain": "980",
-      "size": "600 х 120 х 170"
+      "size": "600 х 120 х 170",
+      "consumption": "2,0"
     },
     "price": "387 410",
     "priceBefore": "407 800",
@@ -2223,12 +2435,13 @@
     "id": 149,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 15",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-15.webp",
     "specs": {
-      "quantity": "15 человек",
+      "quantity": "15",
       "power": "3.0",
       "drain": "1100",
-      "size": "750 х 120 х 170"
+      "size": "750 х 120 х 170",
+      "consumption": "2,0"
     },
     "price": "445 075",
     "priceBefore": "468 500",
@@ -2238,12 +2451,13 @@
     "id": 150,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 20",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-20.webp",
     "specs": {
-      "quantity": "20 человек",
+      "quantity": "20",
       "power": "4.0",
       "drain": "1300",
-      "size": "900 х 120 х 170"
+      "size": "900 х 120 х 170",
+      "consumption": "2,0"
     },
     "price": "547 865",
     "priceBefore": "576 700",
@@ -2253,12 +2467,13 @@
     "id": 151,
     "brand": "ЕВРОЛОС",
     "name": "Евролос Грунт 25",
-    "image": "src/assets/images/stations/evrolos/evrolos-grunt.webp",
+    "image": "/images/stations/evrolos/evrolos-grunt-25.webp",
     "specs": {
-      "quantity": "25 человек",
+      "quantity": "25",
       "power": "5.0",
       "drain": "1500",
-      "size": "1100 х 120 х 170"
+      "size": "1100 х 120 х 170",
+      "consumption": "3,0"
     },
     "price": "645 050",
     "priceBefore": "679 000",
@@ -2268,12 +2483,13 @@
     "id": 152,
     "brand": "ЗОРДЕ",
     "name": "Зорде 4",
-    "image": "src/assets/images/stations/zorde/zorde-4.webp",
+    "image": "/images/stations/zorde/zorde-4.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "260",
-      "size": "125 х 125 х 208"
+      "size": "125 х 125 х 208",
+      "consumption": "0,54"
     },
     "price": "164 900",
     "priceBefore": null,
@@ -2283,12 +2499,13 @@
     "id": 153,
     "brand": "ЗОРДЕ",
     "name": "Зорде 4 Миди",
-    "image": "src/assets/images/stations/zorde/zorde-4-midi.webp",
+    "image": "/images/stations/zorde/zorde-4-midi.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "260",
-      "size": "125 х 125 х 238"
+      "size": "125 х 125 х 238",
+      "consumption": "0,54"
     },
     "price": "181 900",
     "priceBefore": null,
@@ -2298,12 +2515,13 @@
     "id": 154,
     "brand": "ЗОРДЕ",
     "name": "Зорде 4 Лонг",
-    "image": "src/assets/images/stations/zorde/zorde-4-long.webp",
+    "image": "/images/stations/zorde/zorde-4-long.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "260",
-      "size": "125 х 125 х 268"
+      "size": "125 х 125 х 268",
+      "consumption": "0,54"
     },
     "price": "188 900",
     "priceBefore": null,
@@ -2313,12 +2531,13 @@
     "id": 155,
     "brand": "ЗОРДЕ",
     "name": "Зорде 7",
-    "image": "src/assets/images/stations/zorde/zorde-7.webp",
+    "image": "/images/stations/zorde/zorde-7.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "320",
-      "size": "150 х 150 х 208"
+      "size": "150 х 150 х 208",
+      "consumption": "0,54"
     },
     "price": "196 900",
     "priceBefore": null,
@@ -2328,12 +2547,13 @@
     "id": 156,
     "brand": "ЗОРДЕ",
     "name": "Зорде 7 Миди",
-    "image": "src/assets/images/stations/zorde/zorde-7-midi.webp",
+    "image": "/images/stations/zorde/zorde-7-midi.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "320",
-      "size": "150 х 150 х 238"
+      "size": "150 х 150 х 238",
+      "consumption": "0,54"
     },
     "price": "213 900",
     "priceBefore": null,
@@ -2343,12 +2563,13 @@
     "id": 157,
     "brand": "ЗОРДЕ",
     "name": "Зорде 7 Лонг",
-    "image": "src/assets/images/stations/zorde/zorde-7-long.webp",
+    "image": "/images/stations/zorde/zorde-7-long.webp",
     "specs": {
-      "quantity": "7 человек",
+      "quantity": "7",
       "power": "1.4",
       "drain": "320",
-      "size": "150 х 150 х 268"
+      "size": "150 х 150 х 268",
+      "consumption": "0,54"
     },
     "price": "220 900",
     "priceBefore": null,
@@ -2356,74 +2577,410 @@
   },
   {
     "id": 158,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 3",
+    "image": "/images/stations/zorde/zorde-rein-3.webp",
+    "specs": {
+      "quantity": "3",
+      "power": "0.6",
+      "drain": "210",
+      "size": "100 х 100 х 208,1",
+      "consumption": "1,2"
+    },
+    "price": "155 900",
+    "priceBefore": null,
+    "priceWithInstall": "187 080"
+  },
+  {
+    "id": 159,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 3 Миди",
+    "image": "/images/stations/zorde/zorde-rein-3-midi.webp",
+    "specs": {
+      "quantity": "4",
+      "power": "0.6",
+      "drain": "210",
+      "size": "100 х 100 х 238,1",
+      "consumption": "1,2"
+    },
+    "price": "172 900",
+    "priceBefore": null,
+    "priceWithInstall": "207 480"
+  },
+  {
+    "id": 160,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 3 Лонг",
+    "image": "/images/stations/zorde/zorde-rein-3-long.webp",
+    "specs": {
+      "quantity": "4",
+      "power": "0.6",
+      "drain": "210",
+      "size": "100 х 100 х 268,1",
+      "consumption": "1,2"
+    },
+    "price": "179 900",
+    "priceBefore": null,
+    "priceWithInstall": "215 880"
+  },
+  {
+    "id": 161,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 5",
+    "image": "/images/stations/zorde/zorde-rein-5.webp",
+    "specs": {
+      "quantity": "6",
+      "power": "1.0",
+      "drain": "260",
+      "size": "125 х 125 х 208,1",
+      "consumption": "1,1"
+    },
+    "price": "177 900",
+    "priceBefore": null,
+    "priceWithInstall": "213 480"
+  },
+  {
+    "id": 162,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 5 Миди",
+    "image": "/images/stations/zorde/zorde-rein-5-midi.webp",
+    "specs": {
+      "quantity": "6",
+      "power": "1.0",
+      "drain": "260",
+      "size": "125 х 125 х 238,1",
+      "consumption": "1,1"
+    },
+    "price": "194 900",
+    "priceBefore": null,
+    "priceWithInstall": "233 880"
+  },
+  {
+    "id": 163,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 5 Лонг",
+    "image": "/images/stations/zorde/zorde-rein-5-long.webp",
+    "specs": {
+      "quantity": "6",
+      "power": "1.0",
+      "drain": "260",
+      "size": "125 х 125 х 268,1",
+      "consumption": "1,1"
+    },
+    "price": "201 900",
+    "priceBefore": null,
+    "priceWithInstall": "242 280"
+  },
+  {
+    "id": 164,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 8",
+    "image": "/images/stations/zorde/zorde-rein-8.webp",
+    "specs": {
+      "quantity": "9",
+      "power": "1.6",
+      "drain": "320",
+      "size": "150 х 150 х 208,1",
+      "consumption": "1,1"
+    },
+    "price": "218 900",
+    "priceBefore": null,
+    "priceWithInstall": "262 680"
+  },
+  {
+    "id": 165,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 8 Миди",
+    "image": "/images/stations/zorde/zorde-rein-8-midi.webp",
+    "specs": {
+      "quantity": "9",
+      "power": "1.6",
+      "drain": "320",
+      "size": "150 х 150 х 238,1",
+      "consumption": "1,1"
+    },
+    "price": "235 900",
+    "priceBefore": null,
+    "priceWithInstall": "283 080"
+  },
+  {
+    "id": 166,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 8 Лонг",
+    "image": "/images/stations/zorde/zorde-rein-8-long.webp",
+    "specs": {
+      "quantity": "9",
+      "power": "1.6",
+      "drain": "320",
+      "size": "150 х 150 х 268,1",
+      "consumption": "1,1"
+    },
+    "price": "242 900",
+    "priceBefore": null,
+    "priceWithInstall": "291 480"
+  },
+  {
+    "id": 167,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 10",
+    "image": "/images/stations/zorde/zorde-rein-10.webp",
+    "specs": {
+      "quantity": "11",
+      "power": "2.0",
+      "drain": "400",
+      "size": "175 х 175 х 208,1",
+      "consumption": "1,4"
+    },
+    "price": "270 900",
+    "priceBefore": null,
+    "priceWithInstall": "325 080"
+  },
+  {
+    "id": 168,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 10 Миди",
+    "image": "/images/stations/zorde/zorde-rein-10-midi.webp",
+    "specs": {
+      "quantity": "11",
+      "power": "2.0",
+      "drain": "400",
+      "size": "175 х 175 х 238,1",
+      "consumption": "1,4"
+    },
+    "price": "287 900",
+    "priceBefore": null,
+    "priceWithInstall": "345 480"
+  },
+  {
+    "id": 169,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 10 Лонг",
+    "image": "/images/stations/zorde/zorde-rein-10-long.webp",
+    "specs": {
+      "quantity": "11",
+      "power": "2.0",
+      "drain": "400",
+      "size": "175 х 175 х 268,1",
+      "consumption": "1,4"
+    },
+    "price": "294 900",
+    "priceBefore": null,
+    "priceWithInstall": "353 880"
+  },
+  {
+    "id": 170,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 12",
+    "image": "/images/stations/zorde/zorde-rein-12.webp",
+    "specs": {
+      "quantity": "13",
+      "power": "2.4",
+      "drain": "500",
+      "size": "150 х 150 х 258,1",
+      "consumption": "1,4"
+    },
+    "price": "292 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 171,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 12 Миди",
+    "image": "/images/stations/zorde/zorde-rein-12-midi.webp",
+    "specs": {
+      "quantity": "13",
+      "power": "2.4",
+      "drain": "500",
+      "size": "150 х 150 х 288,1",
+      "consumption": "1,4"
+    },
+    "price": "309 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 172,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 12 Лонг",
+    "image": "/images/stations/zorde/zorde-rein-12-long.webp",
+    "specs": {
+      "quantity": "13",
+      "power": "2.4",
+      "drain": "500",
+      "size": "150 х 150 х 318,1",
+      "consumption": "1,4"
+    },
+    "price": "316 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 173,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 15",
+    "image": "/images/stations/zorde/zorde-rein-15.webp",
+    "specs": {
+      "quantity": "16",
+      "power": "3.0",
+      "drain": "650",
+      "size": "175 х 175 х 265,3",
+      "consumption": "1,4"
+    },
+    "price": "327 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 174,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 15 Миди",
+    "image": "/images/stations/zorde/zorde-rein-15-midi.webp",
+    "specs": {
+      "quantity": "16",
+      "power": "3.0",
+      "drain": "650",
+      "size": "175 х 175 х 295,3",
+      "consumption": "1,4"
+    },
+    "price": "344 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 175,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 15 Лонг",
+    "image": "/images/stations/zorde/zorde-rein-15-long.webp",
+    "specs": {
+      "quantity": "16",
+      "power": "3.0",
+      "drain": "650",
+      "size": "175 х 175 х 325,3",
+      "consumption": "1,4"
+    },
+    "price": "351 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 176,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 20",
+    "image": "/images/stations/zorde/zorde-rein-20.webp",
+    "specs": {
+      "quantity": "22",
+      "power": "4.0",
+      "drain": "800",
+      "size": "200 х 200 х 265,3",
+      "consumption": "1,8"
+    },
+    "price": "415 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 177,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 20 Миди",
+    "image": "/images/stations/zorde/zorde-rein-20-midi.webp",
+    "specs": {
+      "quantity": "22",
+      "power": "4.0",
+      "drain": "800",
+      "size": "200 х 200 х 295,3",
+      "consumption": "1,8"
+    },
+    "price": "432 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 178,
+    "brand": "ЗОРДЕ",
+    "name": "Зорде Реин 20 Лонг",
+    "image": "/images/stations/zorde/zorde-rein-20-long.webp",
+    "specs": {
+      "quantity": "22",
+      "power": "4.0",
+      "drain": "800",
+      "size": "200 х 200 х 325,3",
+      "consumption": "1,8"
+    },
+    "price": "439 900",
+    "priceBefore": null,
+    "priceWithInstall": null
+  },
+  {
+    "id": 179,
     "brand": "МАКС",
     "name": "Макс 3",
-    "image": "src/assets/images/stations/maks/maks-3.webp",
+    "image": "/images/stations/maks/maks-3.webp",
     "specs": {
-      "quantity": "3 человека",
+      "quantity": "3",
       "power": "0.6",
       "drain": "170",
-      "size": null
+      "size": "100 х 100 х 170"
     },
     "price": "129 900",
     "priceBefore": null,
     "priceWithInstall": "162 900"
   },
   {
-    "id": 159,
+    "id": 180,
     "brand": "МАКС",
     "name": "Макс 4 Стандарт",
-    "image": "src/assets/images/stations/maks/maks-4-standart.webp",
+    "image": "/images/stations/maks/maks-4-standart.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "270",
-      "size": null
+      "size": "100 х 100 х 200"
     },
     "price": "137 000",
     "priceBefore": null,
     "priceWithInstall": "171 000"
   },
   {
-    "id": 160,
+    "id": 181,
     "brand": "МАКС",
     "name": "Макс 4 Миди",
-    "image": "src/assets/images/stations/maks/maks-4-midi.webp",
+    "image": "/images/stations/maks/maks-4-midi.webp",
     "specs": {
-      "quantity": "4 человека",
+      "quantity": "4",
       "power": "0.8",
       "drain": "270",
-      "size": null
+      "size": "100 х 100 х 230"
     },
     "price": "149 900",
     "priceBefore": null,
     "priceWithInstall": "186 900"
   },
   {
-    "id": 161,
+    "id": 182,
     "brand": "МАКС",
     "name": "Макс 5 Стандарт",
-    "image": "src/assets/images/stations/maks/maks-5-standart.webp",
+    "image": "/images/stations/maks/maks-5-standart.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "300",
-      "size": null
+      "size": "100 х 100 х 200"
     },
     "price": "141 000",
     "priceBefore": null,
     "priceWithInstall": "176 000"
   },
   {
-    "id": 162,
+    "id": 183,
     "brand": "МАКС",
     "name": "Макс 5 Миди",
-    "image": "src/assets/images/stations/maks/maks-5-midi.webp",
+    "image": "/images/stations/maks/maks-5-midi.webp",
     "specs": {
-      "quantity": "5 человек",
+      "quantity": "5",
       "power": "1.0",
       "drain": "300",
-      "size": null
+      "size": "100 х 100 х 230"
     },
     "price": "157 000",
     "priceBefore": null,

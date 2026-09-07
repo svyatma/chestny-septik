@@ -49,6 +49,7 @@ h1, .h1 {
     line-height: 1.35;
     padding: 0 rem(12);
     border-radius: rem(16);
+    border-radius: rem(0);
     display: inline-flex;
 
     @include mobile {
@@ -70,7 +71,6 @@ h1, .h1 {
 
   @include mobile {
     color: var(--font-primary);
-    font-weight: 700;
   }
 }
 
@@ -106,6 +106,7 @@ h3, .h3 {
     & span {
       padding: 0 rem(8);
       border-radius: rem(12);
+      border-radius: rem(0);
       background-color: var(--color-accent);
       color: var(--text-color-white);
       font-weight: 600;
@@ -115,6 +116,7 @@ h3, .h3 {
       @include laptop {
         padding: 0 fluid(8, 6);
         border-radius: fluid(12, 6);
+        border-radius: 0;
       }
 
       @include mobile {
@@ -168,6 +170,9 @@ button {
 
 span {
   color: var(--color-accent);
+}
+b {
+  font-weight: 600;
 }
 
 [id] {

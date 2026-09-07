@@ -88,7 +88,7 @@ export function useFormHandler({
       .then((response) => response.json())
       .then((result) => {
         if (result.success) {
-          const storageKey = `last_goal_${formType}`;
+          const storageKey = `last_goal_sent`;
           const now = Date.now();
           const lastSent = Number(localStorage.getItem(storageKey)) || 0;
           const cooldownMs = goalCooldownHours * 60 * 60 * 1000;

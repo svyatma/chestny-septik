@@ -17,6 +17,19 @@
 - [Политика обработки персональных данных](https://chestnyseptik.ru/politika-obrabotki-dannyh): Полный текст политики конфиденциальности.
 - [Политика использования файлов cookie](https://chestnyseptik.ru/politika-cookies): Информация об использовании cookie-файлов.
 
+## Страницы станций
+
+Полный список всех автономных септиков с ценами и характеристиками доступен в отдельном sitemap:
+- [Sitemap станций](https://chestnyseptik.ru/sitemap-stations.xml)
+
+Ключевые бренды:
+- [ЕВРОБИОН](https://chestnyseptik.ru/septiki-evrobion): модели Раунд, Горизонт
+- [ТОПАС](https://chestnyseptik.ru/septiki-topas): Топас, Топас-С
+- [АСТРА](https://chestnyseptik.ru/septiki-astra): Астра 3–10
+- [ЕВРОЛОС](https://chestnyseptik.ru/septiki-evrolos): Био, Про, Грунт
+- [ЗОРДЕ](https://chestnyseptik.ru/septiki-zorde): Зорде, Зорде Реин
+- [МАКС](https://chestnyseptik.ru/septiki-zorde): Макс 3–5
+
 ## Ключевые разделы на главной
 
 - [Калькулятор стоимости](https://chestnyseptik.ru/#calculator): Расчёт цены станции с установкой.
@@ -37,3 +50,9 @@
 - Установка в течение 24 часов после подбора.
 - Гарантия на автономные септики — станции биологической очистки и монтаж.
 - Цены фиксируются заводами, без наценок дилера.
+
+## Sitemap
+
+- [Индексный sitemap.xml](https://chestnyseptik.ru/sitemap.xml)
+- [Sitemap станций](https://chestnyseptik.ru/sitemap-stations.xml)
+- [Sitemap с другими страницами](https://chestnyseptik.ru/sitemap-main.xml)

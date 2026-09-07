@@ -103,7 +103,7 @@ function SeptikiEvrolos() {
       <Section id="catalog">
         <div className="container">
           <SectionTitle>
-            <span>Септики «Юнилос Астра»</span>
+            <span>Септики «Евролос»</span>
           </SectionTitle>
         </div>
         <Catalog

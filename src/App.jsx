@@ -23,18 +23,25 @@ import SeptikiTopas from "./pages/SeptikiTopas/SeptikiTopas.jsx";
 import SeptikiAstra from "./pages/SeptikiAstra/SeptikiAstra.jsx";
 import SeptikiEvrolos from "./pages/SeptikiEvrolos/SeptikiEvrolos.jsx";
 import SeptikiZorde from "./pages/SeptikiZorde/SeptikiZorde.jsx";
+import { stationRoutes, stationValidPaths } from './router/stationRoutes';
 
 const validPaths = [
   '/',
   '/catalog',
+  
   '/septiki-evrobion',
   '/septiki-topas',
   '/septiki-astra',
   '/septiki-evrolos',
   '/septiki-zorde',
+  
   '/septik-na-3-cheloveka',
+  
   '/septik-dlya-chastnogo-doma',
   '/septik-dlya-dachi',
+  
+  ...stationValidPaths,
+  
   '/politika-obrabotki-dannyh',
   '/politika-cookies',
 ];
@@ -63,19 +70,29 @@ function App() {
         <Routes>
           {/*<Route path="/podbor-i-ustanovka" element={<PodborIUstanovka />} />*/}
           <Route path="/" element={<PodborIUstanovka />} />
+          
           <Route path="/catalog" element={<CatalogPage />} />
-          {/*<Route path="/septik-na-2-cheloveka" element={<SeptikFor2Users />} />*/}
+          
           <Route path="/septiki-evrobion" element={<SeptikiEvrobion />} />
           <Route path="/septiki-topas" element={<SeptikiTopas />} />
           <Route path="/septiki-astra" element={<SeptikiAstra />} />
           <Route path="/septiki-evrolos" element={<SeptikiEvrolos />} />
           <Route path="/septiki-zorde" element={<SeptikiZorde />} />
+          
+          {/*<Route path="/septik-na-2-cheloveka" element={<SeptikFor2Users />} />*/}
           <Route path="/septik-na-3-cheloveka" element={<SeptikFor3Users />} />
           {/*<Route path="/septik-na-4-cheloveka" element={<SeptikFor4Users />} />*/}
+          
           <Route path="/septik-dlya-chastnogo-doma" element={<SeptikDlyaChastnogoDoma />} />
           <Route path="/septik-dlya-dachi" element={<SeptikDlyaDachi />} />
+          
+          {stationRoutes.map(route => (
+            <Route key={route.path} path={route.path} element={route.element} />
+          ))}
+          
           <Route path="/politika-obrabotki-dannyh" element={<PolitikaObrabotkiDannyh />} />
           <Route path="/politika-cookies" element={<PolitikaCookies />} />
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

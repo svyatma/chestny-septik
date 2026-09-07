@@ -1,0 +1,49 @@
+@use '../../styles/helpers/index' as *;
+
+.breadcrumbs {
+  margin-bottom: rem(4);
+  font-size: rem(12);
+  text-transform: uppercase;
+  color: var(--color-accent);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+
+  @include laptop {
+    @include fluid-text(12, 10);
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(5);
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    gap: rem(5);
+
+    &::after {
+      content: '>';
+    }
+
+    &:last-child {
+      &::after {
+        content: '';
+        display: none;
+      }
+
+      & .breadcrumbs__item-link {
+        @include hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    &-link {
+      @include hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

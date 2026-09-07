@@ -15,11 +15,14 @@
     background-color: var(--color-bg-white);
     padding: rem(24);
     border-radius: rem(24);
+    border-radius: rem(0);
     box-shadow: var(--shadow-100);
+    box-shadow: var(--shadow-200);
 
     @include laptop {
       padding: fluid(24, 16);
       border-radius: fluid(24, 16);
+      border-radius: 0;
     }
   }
 
@@ -29,12 +32,14 @@
     background-color: var(--color-accent-light);
     padding: rem(16);
     border-radius: rem(16);
+    border-radius: rem(0);
     box-shadow: var(--shadow-100);
     margin: 0 rem(-12) rem(-12);
 
     @include laptop {
       padding: fluid(16, 12);
       border-radius: fluid(16, 12);
+      border-radius: 0;
       margin: 0 fluid(-12, -8) fluid(-12, -8);
     }
   }

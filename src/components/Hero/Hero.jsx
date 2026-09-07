@@ -1,13 +1,14 @@
 import './Hero.scss';
+import Container from "../Container/Container.jsx";
 
 function Hero({ children }) {
   return (
     <section className="section hero">
-      <div className="container">
+      <Container>
         <div className="hero__body">
           {children}
         </div>
-      </div>
+      </Container>
     </section>
   )
 }

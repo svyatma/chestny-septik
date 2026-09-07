@@ -8,6 +8,7 @@
     text-align: center;
     padding: rem(24);
     border-radius: rem(24);
+    border-radius: rem(0);
     gap: rem(24);
     box-shadow: var(--shadow-200);
     background-color: var(--color-bg-white);
@@ -17,6 +18,7 @@
     @include laptop {
       padding: fluid(24, 16);
       border-radius: fluid(24, 16);
+      border-radius: 0;
     }
   }
 

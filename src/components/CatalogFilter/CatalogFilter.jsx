@@ -1,9 +1,8 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
 import './CatalogFilter.scss';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import stations from '../../data/stationsData.json';
 import { sendYmGoal } from '../../utils/analytics.js';
 
-// Конкретные значения количества человек
 export const quantityOptions = [
   { value: 3, label: '3 человека' },
   { value: 4, label: '4 человека' },

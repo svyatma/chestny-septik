@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
 import './FormInput.scss';
+import { useEffect, useRef, useState } from 'react';
 
 function FormInput({
                      label,
