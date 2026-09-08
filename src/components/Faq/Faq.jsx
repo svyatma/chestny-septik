@@ -1,8 +1,10 @@
 import { useLocation } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './Faq.scss';
 import faqData from '../../data/faqData.json';
 import Callout from "../Callout/Callout.jsx";
+import {Helmet} from "react-helmet-async";
+import { getFaqSchema } from '../../seo/schemas.js';
 
 function Faq({ slug: propSlug }) {
   const location = useLocation();
@@ -20,42 +22,14 @@ function Faq({ slug: propSlug }) {
     );
   };
   
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: items.map((item) => ({
-      '@type': 'Question',
-      name: item.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.answer,
-      },
-    })),
-  };
-  
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.id = 'faq-jsonld';
-    script.textContent = JSON.stringify(faqSchema);
-    
-    const oldScript = document.getElementById('faq-jsonld');
-    if (oldScript) {
-      oldScript.remove();
-    }
-    
-    document.head.appendChild(script);
-    
-    return () => {
-      const currentScript = document.getElementById('faq-jsonld');
-      if (currentScript) {
-        currentScript.remove();
-      }
-    };
-  }, [slug]);
+  const faqSchema = getFaqSchema(items);
   
   return (
     <>
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
+      
       <div className="faq">
         {items.map((item, index) => {
           const isOpen = openIndexes.includes(index);

@@ -32,6 +32,11 @@ RewriteCond %{REQUEST_URI} ^/septiki-topas/?$ [OR]
 RewriteCond %{REQUEST_URI} ^/septiki-astra/?$ [OR]
 RewriteCond %{REQUEST_URI} ^/septiki-evrolos/?$ [OR]
 RewriteCond %{REQUEST_URI} ^/septiki-zorde/?$ [OR]
+RewriteCond %{REQUEST_URI} ^/septik-na-2-cheloveka/?$ [OR]
+RewriteCond %{REQUEST_URI} ^/septik-na-3-cheloveka/?$ [OR]
+RewriteCond %{REQUEST_URI} ^/septik-na-4-cheloveka/?$ [OR]
+RewriteCond %{REQUEST_URI} ^/septik-na-5-chelovek/?$ [OR]
+RewriteCond %{REQUEST_URI} ^/septik-na-6-chelovek/?$ [OR]
 
 # --- Страницы станций (добавлены) ---
 RewriteCond %{REQUEST_URI} ^/evrobion-raund-3/?$ [OR]
