@@ -4,6 +4,7 @@ import stations from '../../data/stationsData.json';
 import { sendYmGoal } from '../../utils/analytics.js';
 
 export const quantityOptions = [
+  { value: 2, label: '2 человека' },
   { value: 3, label: '3 человека' },
   { value: 4, label: '4 человека' },
   { value: 5, label: '5 человек' },
@@ -20,6 +21,7 @@ export const quantityOptions = [
 
 // Сопоставление числовых значений с целями
 const quantityGoals = {
+  2: 'Stations_Filter_2People',
   3: 'Stations_Filter_3People',
   4: 'Stations_Filter_4People',
   5: 'Stations_Filter_5People',
@@ -34,7 +36,14 @@ const quantityGoals = {
   30: 'Stations_Filter_30People',
 };
 
-function CatalogFilter({ selectedBrands, selectedQuantities, onFilterChange, onReset }) {
+function CatalogFilter({
+                         selectedBrands,
+                         selectedQuantities,
+                         onFilterChange,
+                         onReset,
+                         hideBrands = false,
+                         hideQuantities = false,
+                       }) {
   const allBrands = useMemo(() => [...new Set(stations.map((s) => s.brand))], []);
   const selectedValues = selectedQuantities;
   const [isOpen, setIsOpen] = useState(false);
@@ -106,41 +115,45 @@ function CatalogFilter({ selectedBrands, selectedQuantities, onFilterChange, onR
           Фильтр
         </div>
         
-        <div className="catalog__filter-item">
-          <div className="catalog__filter-item-head">Производитель</div>
-          {allBrands.map((brand) => (
-            <label key={brand} className="catalog__filter-option" htmlFor={`brand-${brand}`}>
-              <input
-                type="checkbox"
-                id={`brand-${brand}`}
-                name="brand"
-                value={brand}
-                checked={selectedBrands.includes(brand)}
-                onChange={() => handleBrandChange(brand)}
-              />
-              <span className="catalog__filter-option-checkmark"></span>
-              <span className="catalog__filter-option-text">{brand}</span>
-            </label>
-          ))}
-        </div>
+        {!hideBrands && (
+          <div className="catalog__filter-item">
+            <div className="catalog__filter-item-head">Производитель</div>
+            {allBrands.map((brand) => (
+              <label key={brand} className="catalog__filter-option" htmlFor={`brand-${brand}`}>
+                <input
+                  type="checkbox"
+                  id={`brand-${brand}`}
+                  name="brand"
+                  value={brand}
+                  checked={selectedBrands.includes(brand)}
+                  onChange={() => handleBrandChange(brand)}
+                />
+                <span className="catalog__filter-option-checkmark"></span>
+                <span className="catalog__filter-option-text">{brand}</span>
+              </label>
+            ))}
+          </div>
+        )}
         
-        <div className="catalog__filter-item">
-          <div className="catalog__filter-item-head">Пользователей</div>
-          {quantityOptions.map((option) => (
-            <label key={option.value} className="catalog__filter-option" htmlFor={`quantity-${option.value}`}>
-              <input
-                type="checkbox"
-                id={`quantity-${option.value}`}
-                name="quantity"
-                value={option.value}
-                checked={selectedValues.includes(option.value)}
-                onChange={() => handlePeopleChange(option.value)}
-              />
-              <span className="catalog__filter-option-checkmark"></span>
-              <span className="catalog__filter-option-text">{option.label}</span>
-            </label>
-          ))}
-        </div>
+        {!hideQuantities && (
+          <div className="catalog__filter-item">
+            <div className="catalog__filter-item-head">Пользователей</div>
+            {quantityOptions.map((option) => (
+              <label key={option.value} className="catalog__filter-option" htmlFor={`quantity-${option.value}`}>
+                <input
+                  type="checkbox"
+                  id={`quantity-${option.value}`}
+                  name="quantity"
+                  value={option.value}
+                  checked={selectedValues.includes(option.value)}
+                  onChange={() => handlePeopleChange(option.value)}
+                />
+                <span className="catalog__filter-option-checkmark"></span>
+                <span className="catalog__filter-option-text">{option.label}</span>
+              </label>
+            ))}
+          </div>
+        )}
         
         <button className="catalog__filter-button" onClick={handleResetClick}>
           Сбросить

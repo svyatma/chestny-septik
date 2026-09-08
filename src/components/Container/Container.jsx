@@ -1,3 +1,5 @@
+import './Container.scss';
+
 function Container({
                      className = '',
                      variant = '',

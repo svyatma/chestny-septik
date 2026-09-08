@@ -1,18 +1,19 @@
 import { Helmet } from 'react-helmet-async';
-import Section from '../../components/Section/Section.jsx';
-import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
-import Logo from "../../components/Logo/Logo.jsx";
-import {useGoToSection} from "../../hooks/useGoToSection.js";
-import Faq from "../../components/Faq/Faq.jsx";
-import Callout from "../../components/Callout/Callout.jsx";
-import Hero from "../../components/Hero/Hero.jsx";
-import MapPoint from "../../components/MapPoint/MapPoint.jsx";
-import Button from "../../components/Button/Button.jsx";
-import PodborHeroImage from "../../assets/images/PodborHeroImage.png";
-import HeroInfo from "../../components/HeroInfo/HeroInfo.jsx";
-import Catalog from "../../components/Catalog/Catalog.jsx";
-import Article from "../../components/Article/Article.jsx";
-import {getArticleSchema, getServiceSchema} from '../../seo/schemas.js';
+import Section from '../../../components/Section/Section.jsx';
+import SectionTitle from '../../../components/SectionTitle/SectionTitle.jsx';
+import Logo from "../../../components/Logo/Logo.jsx";
+import {useGoToSection} from "../../../hooks/useGoToSection.js";
+import Faq from "../../../components/Faq/Faq.jsx";
+import Callout from "../../../components/Callout/Callout.jsx";
+import Hero from "../../../components/Hero/Hero.jsx";
+import MapPoint from "../../../components/MapPoint/MapPoint.jsx";
+import Button from "../../../components/Button/Button.jsx";
+import PodborHeroImage from "../../../assets/images/PodborHeroImage.png";
+import HeroInfo from "../../../components/HeroInfo/HeroInfo.jsx";
+import Catalog from "../../../components/Catalog/Catalog.jsx";
+import Article from "../../../components/Article/Article.jsx";
+import {getArticleSchema, getServiceSchema} from '../../../seo/schemas.js';
+import Help from "../../../components/Help/Help.jsx";
 
 function SeptikDlyaDachi() {
   const goToSection = useGoToSection();
@@ -99,6 +100,10 @@ function SeptikDlyaDachi() {
           />
         </div>
       </Hero>
+      <Catalog
+        sectionName="Каталог автономных септиков для дачи"
+      />
+      <Help />
       <Article title={<><span>Установка септика для дачи</span> от Честного септика</>}>
         <p>
           Выбор и установка септика для дачи — ответственный шаг. Мы берём на себя все заботы: от
@@ -216,58 +221,6 @@ function SeptikDlyaDachi() {
           </div>
         </div>
       </Article>
-      <Section id="catalog">
-        <div className="container">
-          <SectionTitle>
-            <span>Каталог автономных септиков для дачи</span>
-          </SectionTitle>
-        </div>
-        <Catalog />
-      </Section>
-      <Section>
-        <SectionTitle variant="column center">
-          <span>Сложно?</span> Понимаем, давайте поможем
-        </SectionTitle>
-        <div className="help">
-          <Logo />
-          <div className="help__callouts">
-            <Callout
-              variant="white ai-start"
-              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
-              phone="+7 812 920-46-60"
-              onPhoneClick={() => {
-                if (typeof window.ym === 'function') {
-                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
-                }
-              }}
-              messengers={[
-                {
-                  icon: 'telegram',
-                  url: 'tg://resolve?domain=ChestnySeptik',
-                  ymGoal: 'Help_Callout_Telegram'
-                },
-                {
-                  icon: 'whatsapp',
-                  url: 'whatsapp://send?phone=79119204660',
-                  ymGoal: 'Help_Callout_WhatsApp'
-                },
-              ]}
-            />
-            <Callout
-              variant="white ai-start"
-              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
-              actions={[
-                {
-                  variant: 'primary',
-                  children: 'К калькулятору',
-                  onClick: () => goToSection('calculator'),
-                  ymGoal: 'Help_Callout_Calculator'
-                }
-              ]}
-            />
-          </div>
-        </div>
-      </Section>
       <Section id="faq">
         <SectionTitle
           variant="column"

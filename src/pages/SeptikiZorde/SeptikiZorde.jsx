@@ -13,6 +13,7 @@ import Catalog from "../../components/Catalog/Catalog.jsx";
 import Article from "../../components/Article/Article.jsx";
 import Faq from "../../components/Faq/Faq.jsx";
 import {getArticleSchema, getServiceSchema} from "../../seo/schemas.js";
+import Help from "../../components/Help/Help.jsx";
 
 function SeptikiZorde() {
   
@@ -100,60 +101,11 @@ function SeptikiZorde() {
           />
         </div>
       </Hero>
-      <Section id="catalog">
-        <div className="container">
-          <SectionTitle>
-            <span>Септики «Зорде»</span>
-          </SectionTitle>
-        </div>
-        <Catalog
-          initialBrands={['ЗОРДЕ']}
-        />
-      </Section>
-      <Section>
-        <SectionTitle variant="column center">
-          <span>Сложно?</span> Понимаем, давайте поможем
-        </SectionTitle>
-        <div className="help">
-          <Logo />
-          <div className="help__callouts">
-            <Callout
-              variant="white ai-start"
-              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
-              phone="+7 812 920-46-60"
-              onPhoneClick={() => {
-                if (typeof window.ym === 'function') {
-                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
-                }
-              }}
-              messengers={[
-                {
-                  icon: 'telegram',
-                  url: 'tg://resolve?domain=ChestnySeptik',
-                  ymGoal: 'Help_Callout_Telegram'
-                },
-                {
-                  icon: 'whatsapp',
-                  url: 'whatsapp://send?phone=79119204660',
-                  ymGoal: 'Help_Callout_WhatsApp'
-                },
-              ]}
-            />
-            <Callout
-              variant="white ai-start"
-              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
-              actions={[
-                {
-                  variant: 'primary',
-                  children: 'К калькулятору',
-                  onClick: () => goToSection('calculator'),
-                  ymGoal: 'Help_Callout_Calculator'
-                }
-              ]}
-            />
-          </div>
-        </div>
-      </Section>
+      <Catalog
+        sectionName="Септики «ЗОРДЕ»"
+        initialBrands={['ЗОРДЕ']}
+      />
+      <Help />
       <Article title={<><span>Установка септиков «Зорде»</span> от Честного септика</>}>
         <p>
           Септики «Зорде» — это одни из самых энергоэффективных станций на российском рынке. При суточной производительности до 1,4 м³ они потребляют всего 0,54 кВт/сутки.

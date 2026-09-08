@@ -1,32 +1,33 @@
 import { Helmet } from 'react-helmet-async';
-import Section from '../../components/Section/Section.jsx';
-import SectionTitle from '../../components/SectionTitle/SectionTitle.jsx';
-import Logo from "../../components/Logo/Logo.jsx";
-import {useGoToSection} from "../../hooks/useGoToSection.js";
-import Faq from "../../components/Faq/Faq.jsx";
-import Callout from "../../components/Callout/Callout.jsx";
-import Hero from "../../components/Hero/Hero.jsx";
-import MapPoint from "../../components/MapPoint/MapPoint.jsx";
-import Button from "../../components/Button/Button.jsx";
-import PodborHeroImage from "../../assets/images/PodborHeroImage.png";
-import HeroInfo from "../../components/HeroInfo/HeroInfo.jsx";
-import Catalog from "../../components/Catalog/Catalog.jsx";
-import {getServiceSchema} from "../../seo/schemas.js";
+import Section from '../../../components/Section/Section.jsx';
+import SectionTitle from '../../../components/SectionTitle/SectionTitle.jsx';
+import Logo from "../../../components/Logo/Logo.jsx";
+import {useGoToSection} from "../../../hooks/useGoToSection.js";
+import Faq from "../../../components/Faq/Faq.jsx";
+import Callout from "../../../components/Callout/Callout.jsx";
+import Hero from "../../../components/Hero/Hero.jsx";
+import MapPoint from "../../../components/MapPoint/MapPoint.jsx";
+import Button from "../../../components/Button/Button.jsx";
+import PodborHeroImage from "../../../assets/images/PodborHeroImage.png";
+import HeroInfo from "../../../components/HeroInfo/HeroInfo.jsx";
+import Catalog from "../../../components/Catalog/Catalog.jsx";
+import {getServiceSchema} from "../../../seo/schemas.js";
+import Help from "../../../components/Help/Help.jsx";
 
 function SeptikFor3Users() {
   const goToSection = useGoToSection();
   
   const serviceSchema = getServiceSchema({
-    name: 'Септики на 3 человека автономные и без откачки',
+    name: 'Установка септиков на 3 человека',
     serviceType: 'Монтаж автономных септиков',
-    description: '✔ +7 (812) 920-46-60 Выбирайте свой автономный септик для частного дома и дачи на 3 человека, а мы установим по цене производителя! Звоните!',
+    description: '+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для частного дома и дачи на 3 человека, а мы установим по цене производителя! Звоните!',
     url: 'https://chestnyseptik.ru/septik-na-3-cheloveka',
   });
   
   return (
     <>
       <Helmet>
-        <title>Автономный септик на 3 человека для частного дома и дачи купить по цене завода у «Честного септика» | Честный септик</title>
+        <title>Автономные септики на 3 человека для частного дома и дачи по цене завода | Честный септик</title>
         <meta name="description" content="+7 (812) 920-46-60 ✔ Выбирайте свой автономный септик для частного дома и дачи на 3 человека, а мы установим по цене производителя! Звоните!" />
         <script type="application/ld+json">{JSON.stringify(serviceSchema)}</script>
       </Helmet>
@@ -88,60 +89,11 @@ function SeptikFor3Users() {
           />
         </div>
       </Hero>
-      <Section id="catalog">
-        <div className="container">
-          <SectionTitle>
-            <span>Каталог автономных септиков на 3 человека</span>
-          </SectionTitle>
-        </div>
-        <Catalog
-          initialQuantityValues={[3]}
-        />
-      </Section>
-      <Section>
-        <SectionTitle variant="column center">
-          <span>Сложно?</span> Понимаем, давайте поможем
-        </SectionTitle>
-        <div className="help">
-          <Logo />
-          <div className="help__callouts">
-            <Callout
-              variant="white ai-start"
-              info="Расскажите эксперту о Вашем участке и доме, подберем подходящую станцию"
-              phone="+7 812 920-46-60"
-              onPhoneClick={() => {
-                if (typeof window.ym === 'function') {
-                  window.ym(110089865, 'reachGoal', 'Help_Callout_Phone');
-                }
-              }}
-              messengers={[
-                {
-                  icon: 'telegram',
-                  url: 'tg://resolve?domain=ChestnySeptik',
-                  ymGoal: 'Help_Callout_Telegram'
-                },
-                {
-                  icon: 'whatsapp',
-                  url: 'whatsapp://send?phone=79119204660',
-                  ymGoal: 'Help_Callout_WhatsApp'
-                },
-              ]}
-            />
-            <Callout
-              variant="white ai-start"
-              info="Или заполните данные в калькуляторе и эксперт сам свяжется с Вами"
-              actions={[
-                {
-                  variant: 'primary',
-                  children: 'К калькулятору',
-                  onClick: () => goToSection('calculator'),
-                  ymGoal: 'Help_Callout_Calculator'
-                }
-              ]}
-            />
-          </div>
-        </div>
-      </Section>
+      <Catalog
+        sectionName="Каталог автономных септиков на 3 человека"
+        initialQuantityValues={[3]}
+      />
+      <Help />
       <Section id="faq">
         <SectionTitle
           variant="column"

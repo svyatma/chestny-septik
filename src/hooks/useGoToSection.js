@@ -7,7 +7,7 @@ export function useGoToSection() {
   const goToSection = (id) => {
     if (location.pathname === '/') {
       const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' });
+      if (el) el.scrollIntoView({ behavior: 'auto', block: 'start' });
     } else {
       navigate('/', { state: { scrollTo: id } });
     }

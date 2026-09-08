@@ -6,8 +6,19 @@ import CatalogFilter from '../CatalogFilter/CatalogFilter.jsx';
 import CatalogCard from '../CatalogCard/CatalogCard.jsx';
 import CatalogPagination from '../CatalogPagination/CatalogPagination.jsx';
 import useCatalogLayout from '../../hooks/useCatalogLayout';
+import Section from "../Section/Section.jsx";
+import SectionTitle from "../SectionTitle/SectionTitle.jsx";
 
-function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands = null }) {
+function Catalog({
+                   goalPrefix = '',
+                   initialQuantityValues = null,
+                   initialBrands = null,
+                   sectionName = 'Станции биологической очистки',
+                   sectionSubName,
+                 }) {
+  const isBrandsLocked = Array.isArray(initialBrands) && initialBrands.length > 0;
+  const isQuantitiesLocked = Array.isArray(initialQuantityValues) && initialQuantityValues.length > 0;
+  
   const [searchParams, setSearchParams] = useSearchParams();
   const [userInteracted, setUserInteracted] = useState(false);
   
@@ -17,8 +28,12 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands 
   const brandParam = searchParams.get('brand') || '';
   const usersParam = searchParams.get('users') || '';
   
-  // Выбранные бренды: приоритет URL, затем initialBrands (до первого взаимодействия)
+  
+  
   const selectedBrands = useMemo(() => {
+    // Если бренды зафиксированы, всегда возвращаем initialBrands
+    if (isBrandsLocked) return initialBrands;
+    
     if (brandParam) {
       return brandParam.split(',');
     }
@@ -26,10 +41,12 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands 
       return initialBrands;
     }
     return [];
-  }, [brandParam, initialBrands, userInteracted]);
+  }, [brandParam, initialBrands, userInteracted, isBrandsLocked]);
   
-  // Выбранные числа количества человек (массив чисел)
   const selectedQuantityValues = useMemo(() => {
+    // Если количества заблокированы, всегда возвращаем initialQuantityValues
+    if (isQuantitiesLocked) return initialQuantityValues;
+    
     if (userInteracted) {
       return usersParam ? usersParam.split(',').map(Number) : [];
     }
@@ -37,7 +54,11 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands 
       return usersParam.split(',').map(Number);
     }
     return initialQuantityValues || [];
-  }, [usersParam, initialQuantityValues, userInteracted]);
+  }, [usersParam, initialQuantityValues, userInteracted, isQuantitiesLocked]);
+  
+  const mappedQuantityValues = selectedQuantityValues.map((value) => {
+    return value === 2 ? 3 : value;
+  });
   
   const pageFromUrl = parseInt(searchParams.get('page'), 10);
   const currentPage = Number.isNaN(pageFromUrl) || pageFromUrl < 1 ? 1 : pageFromUrl;
@@ -47,14 +68,14 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands 
     if (selectedBrands.length > 0) {
       result = result.filter((station) => selectedBrands.includes(station.brand));
     }
-    if (selectedQuantityValues.length > 0) {
+    if (mappedQuantityValues.length > 0) {
       result = result.filter((station) => {
         const quantityNumber = parseInt(station.specs.quantity, 10);
-        return selectedQuantityValues.includes(quantityNumber);
+        return mappedQuantityValues.includes(quantityNumber);
       });
     }
     return result;
-  }, [selectedBrands, selectedQuantityValues]);
+  }, [selectedBrands, mappedQuantityValues]);
   
   const totalPages = Math.ceil(filteredStations.length / ITEMS_PER_PAGE);
   const safeCurrentPage = Math.min(currentPage, totalPages || 1);
@@ -70,7 +91,7 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands 
     if (brandParam || usersParam || safeCurrentPage > 1) {
       scrollToCatalog();
     }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []);
   
   const prevPageRef = useRef(safeCurrentPage);
   useEffect(() => {
@@ -128,7 +149,11 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands 
     setUserInteracted(true);
     setSearchParams((prev) => {
       const newParams = new URLSearchParams(prev);
-      newParams.delete('brand');
+      // Если бренды зафиксированы, не удаляем параметр brand,
+      // чтобы при перезагрузке они сохранились (не обязательно, но чисто)
+      if (!isBrandsLocked) {
+        newParams.delete('brand');
+      }
       newParams.delete('users');
       updateParams(newParams, 1);
       return newParams;
@@ -137,31 +162,40 @@ function Catalog({ goalPrefix = '', initialQuantityValues = null, initialBrands 
   };
   
   return (
-    <div className="catalog" id="catalogList">
-      <CatalogFilter
-        selectedBrands={selectedBrands}
-        selectedQuantities={selectedQuantityValues}
-        onFilterChange={handleFilterChange}
-        onReset={resetFilters}
-      />
-      <div className="catalog__body">
-        {currentStations.map((station, index) => (
-          <CatalogCard
-            key={station.id}
-            product={station}
-            index={index}
-            goalPrefix={goalPrefix}
-          />
-        ))}
+    <Section id="catalog" isMax>
+      <div className="container">
+        <SectionTitle>
+          <span>{sectionName}</span> {sectionSubName}
+        </SectionTitle>
       </div>
-      {totalPages > 1 && (
-        <CatalogPagination
-          currentPage={safeCurrentPage}
-          totalPages={totalPages}
-          onPageChange={handlePageChange}
+      <div className="catalog" id="catalogList">
+        <CatalogFilter
+          selectedBrands={selectedBrands}
+          selectedQuantities={selectedQuantityValues}
+          onFilterChange={handleFilterChange}
+          onReset={resetFilters}
+          hideBrands={isBrandsLocked}
+          hideQuantities={isQuantitiesLocked}
         />
-      )}
-    </div>
+        <div className="catalog__body">
+          {currentStations.map((station, index) => (
+            <CatalogCard
+              key={station.id}
+              product={station}
+              index={index}
+              goalPrefix={goalPrefix}
+            />
+          ))}
+        </div>
+        {totalPages > 1 && (
+          <CatalogPagination
+            currentPage={safeCurrentPage}
+            totalPages={totalPages}
+            onPageChange={handlePageChange}
+          />
+        )}
+      </div>
+    </Section>
   );
 }
 

@@ -10,7 +10,7 @@
       "drain": "170",
       "size": "100 х 100 х 211",
       "weight": "81",
-      "consumption": "1,66"
+      "consumption": "1.66"
     },
     "price": "143 000",
     "priceBefore": null,
@@ -27,7 +27,7 @@
       "drain": "290",
       "size": "100 х 100 х 236",
       "weight": "93",
-      "consumption": "1,66"
+      "consumption": "1.66"
     },
     "price": "152 000",
     "priceBefore": null,
@@ -44,7 +44,7 @@
       "drain": "290",
       "size": "100 х 100 х 250",
       "weight": "95",
-      "consumption": "1,66"
+      "consumption": "1.66"
     },
     "price": "155 800",
     "priceBefore": null,
@@ -61,7 +61,7 @@
       "drain": "290",
       "size": "100 х 100 х 266",
       "weight": "98",
-      "consumption": "1,66"
+      "consumption": "1.66"
     },
     "price": "159 600",
     "priceBefore": null,
@@ -78,7 +78,7 @@
       "drain": "290",
       "size": "100 х 100 х 296",
       "weight": "103",
-      "consumption": "1,66"
+      "consumption": "1.66"
     },
     "price": "167 200",
     "priceBefore": null,
@@ -95,7 +95,7 @@
       "drain": "320",
       "size": "100 х 100 х 236",
       "weight": "98",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "160 900",
     "priceBefore": null,
@@ -112,7 +112,7 @@
       "drain": "320",
       "size": "100 х 100 х 250",
       "weight": "100",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "163 800",
     "priceBefore": null,
@@ -129,7 +129,7 @@
       "drain": "320",
       "size": "100 х 100 х 266",
       "weight": "103",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "168 500",
     "priceBefore": null,
@@ -146,7 +146,7 @@
       "drain": "320",
       "size": "100 х 100 х 296",
       "weight": "108",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "176 100",
     "priceBefore": null,
@@ -163,7 +163,7 @@
       "drain": "320",
       "size": "100 х 100 х 336",
       "weight": "118",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "193 200",
     "priceBefore": null,
@@ -180,7 +180,7 @@
       "drain": "400",
       "size": "100 х 100 х 251",
       "weight": "102",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "177 500",
     "priceBefore": null,
@@ -197,7 +197,7 @@
       "drain": "400",
       "size": "100 х 100 х 281",
       "weight": "107",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "185 100",
     "priceBefore": null,
@@ -214,7 +214,7 @@
       "drain": "400",
       "size": "100 х 100 х 311",
       "weight": "112",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "192 700",
     "priceBefore": null,
@@ -231,7 +231,7 @@
       "drain": "600",
       "size": "140 х 140 х 221",
       "weight": "136",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "199 000",
     "priceBefore": null,
@@ -248,7 +248,7 @@
       "drain": "630",
       "size": "140 х 140 х 236",
       "weight": "143",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "201 000",
     "priceBefore": null,
@@ -265,7 +265,7 @@
       "drain": "630",
       "size": "140 х 140 х 250",
       "weight": "147",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "207 700",
     "priceBefore": null,
@@ -282,7 +282,7 @@
       "drain": "630",
       "size": "140 х 140 х 266",
       "weight": "151",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "214 400",
     "priceBefore": null,
@@ -299,7 +299,7 @@
       "drain": "630",
       "size": "140 х 140 х 296",
       "weight": "169",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "227 700",
     "priceBefore": null,
@@ -316,7 +316,7 @@
       "drain": "630",
       "size": "140 х 140 х 336",
       "weight": "185",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "246 000",
     "priceBefore": null,
@@ -333,7 +333,7 @@
       "drain": "690",
       "size": "140 х 140 х 251",
       "weight": "151",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "215 600",
     "priceBefore": null,
@@ -350,7 +350,7 @@
       "drain": "800",
       "size": "165 х 165 х 236",
       "weight": "166",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "249 300",
     "priceBefore": null,
@@ -367,7 +367,7 @@
       "drain": "800",
       "size": "165 х 165 х 266",
       "weight": "177",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "263 300",
     "priceBefore": null,
@@ -384,7 +384,7 @@
       "drain": "800",
       "size": "165 х 165 х 296",
       "weight": "198",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "277 300",
     "priceBefore": null,
@@ -401,7 +401,7 @@
       "drain": "920",
       "size": "165 х 165 х 236",
       "weight": "196",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "270 000",
     "priceBefore": null,
@@ -418,7 +418,7 @@
       "drain": "920",
       "size": "165 х 165 х 266",
       "weight": "207",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "284 000",
     "priceBefore": null,
@@ -435,7 +435,7 @@
       "drain": "920",
       "size": "165 х 165 х 296",
       "weight": "238",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "298 000",
     "priceBefore": null,
@@ -452,7 +452,7 @@
       "drain": "1025",
       "size": "171 х 171 х 236",
       "weight": "225",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "304 000",
     "priceBefore": null,
@@ -469,7 +469,7 @@
       "drain": "1025",
       "size": "171 х 171 х 266",
       "weight": "235",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "318 000",
     "priceBefore": null,
@@ -486,7 +486,7 @@
       "drain": "1025",
       "size": "171 х 171 х 296",
       "weight": "277",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "332 000",
     "priceBefore": null,
@@ -503,7 +503,7 @@
       "drain": "1250",
       "size": "198 х 198 х 236",
       "weight": "271",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "386 000",
     "priceBefore": null,
@@ -520,7 +520,7 @@
       "drain": "1250",
       "size": "198 х 198 х 266",
       "weight": "282",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "399 800",
     "priceBefore": null,
@@ -537,7 +537,7 @@
       "drain": "1250",
       "size": "198 х 198 х 296",
       "weight": "303",
-      "consumption": "2,10"
+      "consumption": "2.10"
     },
     "price": "414 000",
     "priceBefore": null,
@@ -890,7 +890,7 @@
       "drain": "175",
       "size": "95 х 97 х 250",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "160 560",
     "priceBefore": "178 400",
@@ -907,7 +907,7 @@
       "drain": "175",
       "size": "88 х 97 х 260",
       "weight": null,
-      "consumption": "1,6"
+      "consumption": "1.6"
     },
     "price": "176 400",
     "priceBefore": "196 000",
@@ -924,7 +924,7 @@
       "drain": "220",
       "size": "115 х 117 х 250",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "187 920",
     "priceBefore": "208 800",
@@ -941,7 +941,7 @@
       "drain": "220",
       "size": "108 х 117 х 260",
       "weight": null,
-      "consumption": "1,6"
+      "consumption": "1.6"
     },
     "price": "201 600",
     "priceBefore": "224 000",
@@ -958,7 +958,7 @@
       "drain": "220",
       "size": "118 х 100 х 310",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "222 210",
     "priceBefore": "246 900",
@@ -975,7 +975,7 @@
       "drain": "220",
       "size": "116 х 100 х 310",
       "weight": null,
-      "consumption": "1,6"
+      "consumption": "1.6"
     },
     "price": "236 250",
     "priceBefore": "262 500",
@@ -992,7 +992,7 @@
       "drain": "250",
       "size": "115 х 117 х 255",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "189 270",
     "priceBefore": "210 300",
@@ -1009,7 +1009,7 @@
       "drain": "250",
       "size": "108 х 117 х 260",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "206 460",
     "priceBefore": "229 400",
@@ -1026,7 +1026,7 @@
       "drain": "250",
       "size": "118 х 100 х 310",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "222 570",
     "priceBefore": "247 300",
@@ -1043,7 +1043,7 @@
       "drain": "250",
       "size": "116 х 100 х 310",
       "weight": null,
-      "consumption": "1,6"
+      "consumption": "1.6"
     },
     "price": "237 330",
     "priceBefore": "263 700",
@@ -1060,7 +1060,7 @@
       "drain": "440",
       "size": "163 х 117 х 250",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "220 500",
     "priceBefore": "245 000",
@@ -1077,7 +1077,7 @@
       "drain": "440",
       "size": "156 х 117 х 260",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "236 610",
     "priceBefore": "262 900",
@@ -1094,7 +1094,7 @@
       "drain": "440",
       "size": "152 х 116 х 310",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "259 560",
     "priceBefore": "288 400",
@@ -1111,7 +1111,7 @@
       "drain": "440",
       "size": "150 х 116 х 310",
       "weight": null,
-      "consumption": "1,6"
+      "consumption": "1.6"
     },
     "price": "270 000",
     "priceBefore": "300 000",
@@ -1128,7 +1128,7 @@
       "drain": "440",
       "size": "169 х 136 х 310",
       "weight": null,
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "307 710",
     "priceBefore": "341 900",
@@ -1145,7 +1145,7 @@
       "drain": "440",
       "size": "166 х 136 х 310",
       "weight": null,
-      "consumption": "1,6"
+      "consumption": "1.6"
     },
     "price": "327 960",
     "priceBefore": "364 400",
@@ -1162,7 +1162,7 @@
       "drain": "175",
       "size": "95 х 97 х 250",
       "weight": null,
-      "consumption": "1,0"
+      "consumption": "1.0"
     },
     "price": "144 000",
     "priceBefore": "160 000",
@@ -1179,7 +1179,7 @@
       "drain": "175",
       "size": "88 х 97 х 260",
       "weight": null,
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "157 500",
     "priceBefore": "175 000",
@@ -1196,7 +1196,7 @@
       "drain": "220",
       "size": "115 х 117 х 250",
       "weight": null,
-      "consumption": "1,0"
+      "consumption": "1.0"
     },
     "price": "169 020",
     "priceBefore": "187 800",
@@ -1213,7 +1213,7 @@
       "drain": "220",
       "size": "108 х 117 х 260",
       "weight": null,
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "185 400",
     "priceBefore": "206 000",
@@ -1230,7 +1230,7 @@
       "drain": "220",
       "size": "118 х 100 х 310",
       "weight": null,
-      "consumption": "1,0"
+      "consumption": "1.0"
     },
     "price": "198 630",
     "priceBefore": "220 700",
@@ -1247,7 +1247,7 @@
       "drain": "220",
       "size": "116 х 100 х 310",
       "weight": null,
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "208 890",
     "priceBefore": "232 100",
@@ -1264,7 +1264,7 @@
       "drain": "250",
       "size": "115 х 117 х 255",
       "weight": null,
-      "consumption": "1,0"
+      "consumption": "1.0"
     },
     "price": "171 720",
     "priceBefore": "190 800",
@@ -1281,7 +1281,7 @@
       "drain": "250",
       "size": "108 х 117 х 260",
       "weight": null,
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "188 640",
     "priceBefore": "209 600",
@@ -1298,7 +1298,7 @@
       "drain": "250",
       "size": "118 х 100 х 310",
       "weight": null,
-      "consumption": "1,0"
+      "consumption": "1.0"
     },
     "price": "202 410",
     "priceBefore": "224 900",
@@ -1315,7 +1315,7 @@
       "drain": "250",
       "size": "116 х 100 х 310",
       "weight": null,
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "217 890",
     "priceBefore": "242 100",
@@ -1332,7 +1332,7 @@
       "drain": "440",
       "size": "163 х 117 х 250",
       "weight": null,
-      "consumption": "1,0"
+      "consumption": "1.0"
     },
     "price": "204 120",
     "priceBefore": "226 800",
@@ -1349,7 +1349,7 @@
       "drain": "440",
       "size": "156 х 117 х 260",
       "weight": null,
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "216 180",
     "priceBefore": "240 200",
@@ -1366,7 +1366,7 @@
       "drain": "440",
       "size": "152 х 116 х 310",
       "weight": null,
-      "consumption": "1,0"
+      "consumption": "1.0"
     },
     "price": "237 780",
     "priceBefore": "264 200",
@@ -1383,7 +1383,7 @@
       "drain": "440",
       "size": "150 х 116 х 310",
       "weight": null,
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "247 680",
     "priceBefore": "275 200",
@@ -1400,7 +1400,7 @@
       "drain": "440",
       "size": "169 х 136 х 310",
       "weight": null,
-      "consumption": "1,0"
+      "consumption": "1.0"
     },
     "price": "281 160",
     "priceBefore": "312 400",
@@ -1417,7 +1417,7 @@
       "drain": "440",
       "size": "166 х 136 х 310",
       "weight": null,
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "297 270",
     "priceBefore": "330 300",
@@ -1433,7 +1433,7 @@
       "power": "0.6",
       "drain": "150",
       "size": "112 х 82 х 211.5",
-      "consumption": "1,05"
+      "consumption": "1.05"
     },
     "price": "126 450",
     "priceBefore": "140 500",
@@ -1449,7 +1449,7 @@
       "power": "0.6",
       "drain": "150",
       "size": "112 х 82 х 211.5",
-      "consumption": "1,30"
+      "consumption": "1.30"
     },
     "price": "130 050",
     "priceBefore": "144 500",
@@ -1465,7 +1465,7 @@
       "power": "0.8",
       "drain": "180",
       "size": "112 х 94 х 228",
-      "consumption": "1,05"
+      "consumption": "1.05"
     },
     "price": "132 300",
     "priceBefore": "147 000",
@@ -1481,7 +1481,7 @@
       "power": "0.8",
       "drain": "180",
       "size": "112 х 94 х 228",
-      "consumption": "1,30"
+      "consumption": "1.30"
     },
     "price": "135 900",
     "priceBefore": "151 000",
@@ -1497,7 +1497,7 @@
       "power": "1.0",
       "drain": "250",
       "size": "103 х 112 х 244.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "155 070",
     "priceBefore": "172 300",
@@ -1513,7 +1513,7 @@
       "power": "1.0",
       "drain": "250",
       "size": "103 х 112 х 244.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "159 570",
     "priceBefore": "177 300",
@@ -1529,7 +1529,7 @@
       "power": "1.0",
       "drain": "250",
       "size": "103 х 112 х 258.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "157 050",
     "priceBefore": "174 500",
@@ -1545,7 +1545,7 @@
       "power": "1.0",
       "drain": "250",
       "size": "103 х 112 х 258.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "161 550",
     "priceBefore": "179 500",
@@ -1561,7 +1561,7 @@
       "power": "1.0",
       "drain": "250",
       "size": "116 х 100 х 308.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "186 210",
     "priceBefore": "206 900",
@@ -1577,7 +1577,7 @@
       "power": "1.0",
       "drain": "250",
       "size": "116 х 100 х 308.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "190 710",
     "priceBefore": "211 900",
@@ -1593,7 +1593,7 @@
       "power": "1.2",
       "drain": "280",
       "size": "112 х 115 х 244.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "162 000",
     "priceBefore": "180 000",
@@ -1609,7 +1609,7 @@
       "power": "1.2",
       "drain": "280",
       "size": "112 х 115 х 244.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "166 500",
     "priceBefore": "185 000",
@@ -1625,7 +1625,7 @@
       "power": "1.2",
       "drain": "280",
       "size": "112 х 115 х 258.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "165 960",
     "priceBefore": "184 400",
@@ -1641,7 +1641,7 @@
       "power": "1.2",
       "drain": "280",
       "size": "112 х 115 х 258.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "170 460",
     "priceBefore": "189 400",
@@ -1657,7 +1657,7 @@
       "power": "1.2",
       "drain": "280",
       "size": "112 х 115 х 308.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "196 110",
     "priceBefore": "217 900",
@@ -1673,7 +1673,7 @@
       "power": "1.2",
       "drain": "280",
       "size": "112 х 115 х 308.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "200 610",
     "priceBefore": "222 900",
@@ -1689,7 +1689,7 @@
       "power": "1.4",
       "drain": "300",
       "size": "112 х 115 х 244.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "176 760",
     "priceBefore": "196 400",
@@ -1705,7 +1705,7 @@
       "power": "1.4",
       "drain": "300",
       "size": "112 х 115 х 244.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "181 260",
     "priceBefore": "201 400",
@@ -1721,7 +1721,7 @@
       "power": "1.4",
       "drain": "300",
       "size": "112 х 115 х 258.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "180 720",
     "priceBefore": "200 800",
@@ -1737,7 +1737,7 @@
       "power": "1.4",
       "drain": "300",
       "size": "112 х 115 х 258.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "185 220",
     "priceBefore": "205 800",
@@ -1753,7 +1753,7 @@
       "power": "1.4",
       "drain": "300",
       "size": "112 х 115 х 308.5",
-      "consumption": "1,63"
+      "consumption": "1.63"
     },
     "price": "218 700",
     "priceBefore": "243 000",
@@ -1769,7 +1769,7 @@
       "power": "1.4",
       "drain": "300",
       "size": "112 х 115 х 308.5",
-      "consumption": "1,69"
+      "consumption": "1.69"
     },
     "price": "223 200",
     "priceBefore": "248 000",
@@ -1785,7 +1785,7 @@
       "power": "1.6",
       "drain": "350",
       "size": "150 х 116 х 244.5",
-      "consumption": "2,05"
+      "consumption": "2.05"
     },
     "price": "182 700",
     "priceBefore": "203 000",
@@ -1801,7 +1801,7 @@
       "power": "1.6",
       "drain": "350",
       "size": "150 х 116 х 244.5",
-      "consumption": "2,12"
+      "consumption": "2.12"
     },
     "price": "187 200",
     "priceBefore": "208 000",
@@ -1817,7 +1817,7 @@
       "power": "1.6",
       "drain": "350",
       "size": "150 х 116 х 258.5",
-      "consumption": "2,05"
+      "consumption": "2.05"
     },
     "price": "185 670",
     "priceBefore": "206 300",
@@ -1833,7 +1833,7 @@
       "power": "1.6",
       "drain": "350",
       "size": "150 х 116 х 258.5",
-      "consumption": "2,12"
+      "consumption": "2.12"
     },
     "price": "190 170",
     "priceBefore": "211 300",
@@ -1849,7 +1849,7 @@
       "power": "1.6",
       "drain": "350",
       "size": "150 х 116 х 308.5",
-      "consumption": "2,05"
+      "consumption": "2.05"
     },
     "price": "221 310",
     "priceBefore": "245 900",
@@ -1865,7 +1865,7 @@
       "power": "1.6",
       "drain": "350",
       "size": "150 х 116 х 308.5",
-      "consumption": "2,12"
+      "consumption": "2.12"
     },
     "price": "225 810",
     "priceBefore": "250 900",
@@ -1881,7 +1881,7 @@
       "power": "1.8",
       "drain": "450",
       "size": "170 х 116 х 244.5",
-      "consumption": "1,92"
+      "consumption": "1.92"
     },
     "price": "209 970",
     "priceBefore": "233 300",
@@ -1897,7 +1897,7 @@
       "power": "1.8",
       "drain": "450",
       "size": "170 х 116 х 244.5",
-      "consumption": "2,00"
+      "consumption": "2.00"
     },
     "price": "214 470",
     "priceBefore": "238 300",
@@ -1913,7 +1913,7 @@
       "power": "1.8",
       "drain": "450",
       "size": "170 х 116 х 258.5",
-      "consumption": "1,92"
+      "consumption": "1.92"
     },
     "price": "216 000",
     "priceBefore": "240 000",
@@ -1929,7 +1929,7 @@
       "power": "1.8",
       "drain": "450",
       "size": "170 х 116 х 258.5",
-      "consumption": "2,00"
+      "consumption": "2.00"
     },
     "price": "220 500",
     "priceBefore": "245 000",
@@ -1945,7 +1945,7 @@
       "power": "1.8",
       "drain": "450",
       "size": "170 х 116 х 308.5",
-      "consumption": "1,92"
+      "consumption": "1.92"
     },
     "price": "243 450",
     "priceBefore": "270 500",
@@ -1961,7 +1961,7 @@
       "power": "1.8",
       "drain": "450",
       "size": "170 х 116 х 308.5",
-      "consumption": "2,00"
+      "consumption": "2.00"
     },
     "price": "247 950",
     "priceBefore": "275 500",
@@ -1977,7 +1977,7 @@
       "power": "2.0",
       "drain": "550",
       "size": "200 х 116 х 244.5",
-      "consumption": "2,56"
+      "consumption": "2.56"
     },
     "price": "248 850",
     "priceBefore": "276 500",
@@ -1993,7 +1993,7 @@
       "power": "2.0",
       "drain": "550",
       "size": "200 х 116 х 244.5",
-      "consumption": "2,66"
+      "consumption": "2.66"
     },
     "price": "253 350",
     "priceBefore": "281 500",
@@ -2009,7 +2009,7 @@
       "power": "2.0",
       "drain": "550",
       "size": "200 х 116 х 258.5",
-      "consumption": "2,56"
+      "consumption": "2.56"
     },
     "price": "251 730",
     "priceBefore": "279 700",
@@ -2025,7 +2025,7 @@
       "power": "2.0",
       "drain": "550",
       "size": "200 х 116 х 258.5",
-      "consumption": "2,66"
+      "consumption": "2.66"
     },
     "price": "256 230",
     "priceBefore": "284 700",
@@ -2041,7 +2041,7 @@
       "power": "2.0",
       "drain": "550",
       "size": "200 х 116 х 308.5",
-      "consumption": "2,56"
+      "consumption": "2.56"
     },
     "price": "289 980",
     "priceBefore": "322 200",
@@ -2057,7 +2057,7 @@
       "power": "2.0",
       "drain": "550",
       "size": "200 х 116 х 308.5",
-      "consumption": "2,66"
+      "consumption": "2.66"
     },
     "price": "294 480",
     "priceBefore": "327 200",
@@ -2073,7 +2073,7 @@
       "power": "0.6",
       "drain": "240",
       "size": "150 х 150 х 190",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "136 895",
     "priceBefore": "144 100",
@@ -2089,7 +2089,7 @@
       "power": "0.8",
       "drain": "340",
       "size": "150 х 150 х 200",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "140 980",
     "priceBefore": "148 400",
@@ -2105,7 +2105,7 @@
       "power": "1.0",
       "drain": "440",
       "size": "150 х 150 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "149 815",
     "priceBefore": "157 700",
@@ -2121,7 +2121,7 @@
       "power": "1.3",
       "drain": "540",
       "size": "170 х 170 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "165 585",
     "priceBefore": "174 300",
@@ -2137,7 +2137,7 @@
       "power": "1.6",
       "drain": "710",
       "size": "190 х 190 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "190 570",
     "priceBefore": "200 600",
@@ -2153,7 +2153,7 @@
       "power": "0.6",
       "drain": "240",
       "size": "140 х 140 х 190",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "143 925",
     "priceBefore": "151 500",
@@ -2169,7 +2169,7 @@
       "power": "0.8",
       "drain": "340",
       "size": "140 х 140 х 200",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "153 805",
     "priceBefore": "161 900",
@@ -2185,7 +2185,7 @@
       "power": "1.0",
       "drain": "440",
       "size": "140 х 140 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "162 925",
     "priceBefore": "171 500",
@@ -2201,7 +2201,7 @@
       "power": "1.3",
       "drain": "540",
       "size": "150 х 150 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "178 410",
     "priceBefore": "187 800",
@@ -2217,7 +2217,7 @@
       "power": "1.6",
       "drain": "710",
       "size": "160 х 160 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "202 730",
     "priceBefore": "213 400",
@@ -2233,7 +2233,7 @@
       "power": "2.0",
       "drain": "860",
       "size": "180 х 180 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "250 230",
     "priceBefore": "263 400",
@@ -2249,7 +2249,7 @@
       "power": "2.4",
       "drain": "980",
       "size": "190 х 190 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "270 845",
     "priceBefore": "285 100",
@@ -2265,7 +2265,7 @@
       "power": "3.0",
       "drain": "1100",
       "size": "210 х 210 х 210",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "305 425",
     "priceBefore": "321 500",
@@ -2281,7 +2281,7 @@
       "power": "4.0",
       "drain": "1300",
       "size": "210 х 210 х 235",
-      "consumption": "2,1"
+      "consumption": "2.1"
     },
     "price": "388 930",
     "priceBefore": "409 400",
@@ -2297,7 +2297,7 @@
       "power": "5.0",
       "drain": "1500",
       "size": "210 х 210 х 260",
-      "consumption": "3,0"
+      "consumption": "3.0"
     },
     "price": "441 370",
     "priceBefore": "464 600",
@@ -2313,7 +2313,7 @@
       "power": "6.0",
       "drain": "1700",
       "size": "220 х 220 х 285",
-      "consumption": "3,0"
+      "consumption": "3.0"
     },
     "price": "487 445",
     "priceBefore": "513 100",
@@ -2329,7 +2329,7 @@
       "power": "0.6",
       "drain": "240",
       "size": "150 х 120 х 170",
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "198 740",
     "priceBefore": "209 200",
@@ -2345,7 +2345,7 @@
       "power": "0.8",
       "drain": "340",
       "size": "200 х 120 х 170",
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "213 750",
     "priceBefore": "225 000",
@@ -2361,7 +2361,7 @@
       "power": "1.0",
       "drain": "440",
       "size": "250 х 120 х 170",
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "241 490",
     "priceBefore": "254 200",
@@ -2377,7 +2377,7 @@
       "power": "1.3",
       "drain": "540",
       "size": "300 х 120 х 170",
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "255 455",
     "priceBefore": "268 900",
@@ -2393,7 +2393,7 @@
       "power": "1.6",
       "drain": "710",
       "size": "400 х 120 х 170",
-      "consumption": "1,5"
+      "consumption": "1.5"
     },
     "price": "293 170",
     "priceBefore": "308 600",
@@ -2409,7 +2409,7 @@
       "power": "2.0",
       "drain": "860",
       "size": "500 х 120 х 170",
-      "consumption": "2,0"
+      "consumption": "2.0"
     },
     "price": "352 925",
     "priceBefore": "371 500",
@@ -2425,7 +2425,7 @@
       "power": "2.4",
       "drain": "980",
       "size": "600 х 120 х 170",
-      "consumption": "2,0"
+      "consumption": "2.0"
     },
     "price": "387 410",
     "priceBefore": "407 800",
@@ -2441,7 +2441,7 @@
       "power": "3.0",
       "drain": "1100",
       "size": "750 х 120 х 170",
-      "consumption": "2,0"
+      "consumption": "2.0"
     },
     "price": "445 075",
     "priceBefore": "468 500",
@@ -2457,7 +2457,7 @@
       "power": "4.0",
       "drain": "1300",
       "size": "900 х 120 х 170",
-      "consumption": "2,0"
+      "consumption": "2.0"
     },
     "price": "547 865",
     "priceBefore": "576 700",
@@ -2473,7 +2473,7 @@
       "power": "5.0",
       "drain": "1500",
       "size": "1100 х 120 х 170",
-      "consumption": "3,0"
+      "consumption": "3.0"
     },
     "price": "645 050",
     "priceBefore": "679 000",
@@ -2489,7 +2489,7 @@
       "power": "0.8",
       "drain": "260",
       "size": "125 х 125 х 208",
-      "consumption": "0,54"
+      "consumption": "0.54"
     },
     "price": "164 900",
     "priceBefore": null,
@@ -2505,7 +2505,7 @@
       "power": "0.8",
       "drain": "260",
       "size": "125 х 125 х 238",
-      "consumption": "0,54"
+      "consumption": "0.54"
     },
     "price": "181 900",
     "priceBefore": null,
@@ -2521,7 +2521,7 @@
       "power": "0.8",
       "drain": "260",
       "size": "125 х 125 х 268",
-      "consumption": "0,54"
+      "consumption": "0.54"
     },
     "price": "188 900",
     "priceBefore": null,
@@ -2537,7 +2537,7 @@
       "power": "1.4",
       "drain": "320",
       "size": "150 х 150 х 208",
-      "consumption": "0,54"
+      "consumption": "0.54"
     },
     "price": "196 900",
     "priceBefore": null,
@@ -2553,7 +2553,7 @@
       "power": "1.4",
       "drain": "320",
       "size": "150 х 150 х 238",
-      "consumption": "0,54"
+      "consumption": "0.54"
     },
     "price": "213 900",
     "priceBefore": null,
@@ -2569,7 +2569,7 @@
       "power": "1.4",
       "drain": "320",
       "size": "150 х 150 х 268",
-      "consumption": "0,54"
+      "consumption": "0.54"
     },
     "price": "220 900",
     "priceBefore": null,
@@ -2585,7 +2585,7 @@
       "power": "0.6",
       "drain": "210",
       "size": "100 х 100 х 208,1",
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "155 900",
     "priceBefore": null,
@@ -2601,7 +2601,7 @@
       "power": "0.6",
       "drain": "210",
       "size": "100 х 100 х 238,1",
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "172 900",
     "priceBefore": null,
@@ -2617,7 +2617,7 @@
       "power": "0.6",
       "drain": "210",
       "size": "100 х 100 х 268,1",
-      "consumption": "1,2"
+      "consumption": "1.2"
     },
     "price": "179 900",
     "priceBefore": null,
@@ -2633,7 +2633,7 @@
       "power": "1.0",
       "drain": "260",
       "size": "125 х 125 х 208,1",
-      "consumption": "1,1"
+      "consumption": "1.1"
     },
     "price": "177 900",
     "priceBefore": null,
@@ -2649,7 +2649,7 @@
       "power": "1.0",
       "drain": "260",
       "size": "125 х 125 х 238,1",
-      "consumption": "1,1"
+      "consumption": "1.1"
     },
     "price": "194 900",
     "priceBefore": null,
@@ -2665,7 +2665,7 @@
       "power": "1.0",
       "drain": "260",
       "size": "125 х 125 х 268,1",
-      "consumption": "1,1"
+      "consumption": "1.1"
     },
     "price": "201 900",
     "priceBefore": null,
@@ -2681,7 +2681,7 @@
       "power": "1.6",
       "drain": "320",
       "size": "150 х 150 х 208,1",
-      "consumption": "1,1"
+      "consumption": "1.1"
     },
     "price": "218 900",
     "priceBefore": null,
@@ -2697,7 +2697,7 @@
       "power": "1.6",
       "drain": "320",
       "size": "150 х 150 х 238,1",
-      "consumption": "1,1"
+      "consumption": "1.1"
     },
     "price": "235 900",
     "priceBefore": null,
@@ -2713,7 +2713,7 @@
       "power": "1.6",
       "drain": "320",
       "size": "150 х 150 х 268,1",
-      "consumption": "1,1"
+      "consumption": "1.1"
     },
     "price": "242 900",
     "priceBefore": null,
@@ -2729,7 +2729,7 @@
       "power": "2.0",
       "drain": "400",
       "size": "175 х 175 х 208,1",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "270 900",
     "priceBefore": null,
@@ -2745,7 +2745,7 @@
       "power": "2.0",
       "drain": "400",
       "size": "175 х 175 х 238,1",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "287 900",
     "priceBefore": null,
@@ -2761,7 +2761,7 @@
       "power": "2.0",
       "drain": "400",
       "size": "175 х 175 х 268,1",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "294 900",
     "priceBefore": null,
@@ -2777,7 +2777,7 @@
       "power": "2.4",
       "drain": "500",
       "size": "150 х 150 х 258,1",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "292 900",
     "priceBefore": null,
@@ -2793,7 +2793,7 @@
       "power": "2.4",
       "drain": "500",
       "size": "150 х 150 х 288,1",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "309 900",
     "priceBefore": null,
@@ -2809,7 +2809,7 @@
       "power": "2.4",
       "drain": "500",
       "size": "150 х 150 х 318,1",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "316 900",
     "priceBefore": null,
@@ -2825,7 +2825,7 @@
       "power": "3.0",
       "drain": "650",
       "size": "175 х 175 х 265,3",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "327 900",
     "priceBefore": null,
@@ -2841,7 +2841,7 @@
       "power": "3.0",
       "drain": "650",
       "size": "175 х 175 х 295,3",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "344 900",
     "priceBefore": null,
@@ -2857,7 +2857,7 @@
       "power": "3.0",
       "drain": "650",
       "size": "175 х 175 х 325,3",
-      "consumption": "1,4"
+      "consumption": "1.4"
     },
     "price": "351 900",
     "priceBefore": null,
@@ -2873,7 +2873,7 @@
       "power": "4.0",
       "drain": "800",
       "size": "200 х 200 х 265,3",
-      "consumption": "1,8"
+      "consumption": "1.8"
     },
     "price": "415 900",
     "priceBefore": null,
@@ -2889,7 +2889,7 @@
       "power": "4.0",
       "drain": "800",
       "size": "200 х 200 х 295,3",
-      "consumption": "1,8"
+      "consumption": "1.8"
     },
     "price": "432 900",
     "priceBefore": null,
@@ -2905,7 +2905,7 @@
       "power": "4.0",
       "drain": "800",
       "size": "200 х 200 х 325,3",
-      "consumption": "1,8"
+      "consumption": "1.8"
     },
     "price": "439 900",
     "priceBefore": null,

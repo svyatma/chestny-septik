@@ -4,7 +4,6 @@ import './Header.scss';
 import Logo from '../Logo/Logo.jsx';
 import Button from '../Button/Button.jsx';
 import Container from '../Container/Container.jsx';
-import SeptikDlyaChastnogoDoma from "../../pages/SeptikDlyaChastnogoDoma/SeptikDlyaChastnogoDoma.jsx";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -62,21 +61,6 @@ function Header() {
     }
   };
   
-  // Переход в каталог с фильтром по бренду
-  const handleBrandClick = (brandValue) => {
-    closeMenu();
-    if (location.pathname === '/catalog') {
-      const newParams = new URLSearchParams();
-      newParams.set('brand', brandValue);
-      setSearchParams(newParams);
-      scrollToSectionInstant('catalogList');
-    } else {
-      navigate(`/catalog?brand=${encodeURIComponent(brandValue)}`, {
-        state: { scrollTo: 'catalogList' },
-      });
-    }
-  };
-  
   const handleUsersClick = (usersValue) => {
     closeMenu();
     if (location.pathname === '/septik-na-3-cheloveka') {
@@ -86,36 +70,6 @@ function Header() {
     } else {
       navigate(`/septik-na-3-cheloveka?users=${encodeURIComponent(usersValue)}`, { });
     }
-  };
-  
-  const handleAllStationsClick = () => {
-    closeMenu();
-    navigate('/catalog');
-  };
-  
-  const handleSeptikFor2PeopleClick = () => {
-    closeMenu();
-    navigate('/septik-na-2-cheloveka');
-  };
-  
-  const handleSeptikFor3PeopleClick = () => {
-    closeMenu();
-    navigate('/septik-na-3-cheloveka');
-  };
-  
-  const handleSeptikDlyaDachiClick = () => {
-    closeMenu();
-    navigate('/septik-dlya-dachi');
-  };
-  
-  const handleSeptikDlyaChastnogoDomaClick = () => {
-    closeMenu();
-    navigate('/septik-dlya-chastnogo-doma');
-  };
-  
-  const handleSeptikFor4PeopleClick = () => {
-    closeMenu();
-    navigate('/septik-na-4-cheloveka');
   };
   
   const handleBurgerClick = () => {
@@ -164,6 +118,8 @@ function Header() {
   const isSeptikFor2People = location.pathname === '/septik-na-2-cheloveka';
   const isSeptikFor3People = location.pathname === '/septik-na-3-cheloveka';
   const isSeptikFor4People = location.pathname === '/septik-na-4-cheloveka';
+  const isSeptikFor5People = location.pathname === '/septik-na-5-chelovek';
+  const isSeptikFor6People = location.pathname === '/septik-na-6-chelovek';
   
   const isSeptikDlyaDachi = location.pathname === '/septik-dlya-dachi';
   const isSeptikDlyaChastnogoDoma = location.pathname === '/septik-dlya-chastnogo-doma';
@@ -307,15 +263,16 @@ function Header() {
                         По пользователям
                       </Button>
                       <ul className="header__subsubmenu">
-                        {/*<li className="header__subsubmenu-item">*/}
-                        {/*  <Button*/}
-                        {/*    variant={isSeptikFor2People ? 'header-sublink-icon-active' : 'header-sublink-icon'}*/}
-                        {/*    onClick={isSeptikFor2People ? undefined : handleSeptikFor2PeopleClick}*/}
-                        {/*    ymGoal={isSeptikFor2People ? undefined : 'Header_Subsubmenu_ForUsers_3People'}*/}
-                        {/*  >*/}
-                        {/*    На 2 человека*/}
-                        {/*  </Button>*/}
-                        {/*</li>*/}
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant={isSeptikFor2People ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikFor2People ? undefined : "/septik-na-2-cheloveka"}
+                            onClick={isSeptikFor2People ? undefined : closeMenu}
+                            ymGoal={isSeptikFor2People ? undefined : 'Header_Subsubmenu_ForUsers_2People'}
+                          >
+                            На 2 человека
+                          </Button>
+                        </li>
                         <li className="header__subsubmenu-item">
                           <Button
                             variant={isSeptikFor3People ? 'header-sublink-icon-active' : 'header-sublink-icon'}
@@ -326,15 +283,36 @@ function Header() {
                             На 3 человека
                           </Button>
                         </li>
-                        {/*<li className="header__subsubmenu-item">*/}
-                        {/*  <Button*/}
-                        {/*    variant={isSeptikFor4People ? 'header-sublink-icon-active' : 'header-sublink-icon'}*/}
-                        {/*    onClick={isSeptikFor4People ? undefined : handleSeptikFor4PeopleClick}*/}
-                        {/*    ymGoal={isSeptikFor4People ? undefined : 'Header_Subsubmenu_ForUsers_4People'}*/}
-                        {/*  >*/}
-                        {/*    На 4 человека*/}
-                        {/*  </Button>*/}
-                        {/*</li>*/}
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant={isSeptikFor4People ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikFor4People ? undefined : "/septik-na-4-cheloveka"}
+                            onClick={isSeptikFor4People ? undefined : closeMenu}
+                            ymGoal={isSeptikFor4People ? undefined : 'Header_Subsubmenu_ForUsers_4People'}
+                          >
+                            На 4 человека
+                          </Button>
+                        </li>
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant={isSeptikFor5People ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikFor5People ? undefined : "/septik-na-5-chelovek"}
+                            onClick={isSeptikFor5People ? undefined : closeMenu}
+                            ymGoal={isSeptikFor5People ? undefined : 'Header_Subsubmenu_ForUsers_5People'}
+                          >
+                            На 5 человек
+                          </Button>
+                        </li>
+                        <li className="header__subsubmenu-item">
+                          <Button
+                            variant={isSeptikFor6People ? 'header-sublink-icon-active' : 'header-sublink-icon'}
+                            to={isSeptikFor6People ? undefined : "/septik-na-6-chelovek"}
+                            onClick={isSeptikFor6People ? undefined : closeMenu}
+                            ymGoal={isSeptikFor6People ? undefined : 'Header_Subsubmenu_ForUsers_6People'}
+                          >
+                            На 6 человек
+                          </Button>
+                        </li>
                       </ul>
                     </li>
                     <li
