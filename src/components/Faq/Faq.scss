@@ -11,17 +11,15 @@
   gap: rem(8);
   margin-bottom: rem(48);
 
-  @include mobile {
-    margin-bottom: rem(32);
-  }
-
   @include laptop {
     padding: fluid(32, 8);
     border-radius: fluid(32, 24);
+    border-radius: rem(0);
   }
 
   @include mobile {
     gap: rem(4);
+    margin-bottom: rem(32);
   }
 
   &__item {
@@ -37,6 +35,7 @@
     @include laptop {
       padding: fluid(24, 16);
       border-radius: fluid(24, 16);
+      border-radius: rem(0);
     }
 
     &.is-open {
@@ -74,7 +73,7 @@
     justify-content: space-between;
     padding: 0;
     width: 100%;
-    gap: rem(8);
+    gap: rem(16);
   }
 
   &__question {
@@ -95,6 +94,7 @@
     height: rem(38);
     flex-shrink: 0;
     border-radius: rem(12);
+    border-radius: rem(0);
     background-color: var(--color-accent);
     opacity: 0.7;
 
@@ -107,20 +107,30 @@
       height: rem(22);
       flex-shrink: 0;
       background-color: var(--text-color-white);
-      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cpath d='M12.3889 8.11111C12.3889 8.93954 13.0605 9.61111 13.8889 9.61111H19.6111C20.3782 9.61111 21 10.2329 21 11C21 11.7671 20.3782 12.3889 19.6111 12.3889H13.8889C13.0605 12.3889 12.3889 13.0605 12.3889 13.8889V19.6111C12.3889 20.3782 11.7671 21 11 21C10.2329 21 9.61111 20.3782 9.61111 19.6111V13.8889C9.61111 13.0605 8.93954 12.3889 8.11111 12.3889H2.38889C1.62183 12.3889 1 11.7671 1 11C1 10.2329 1.62183 9.61111 2.38889 9.61111H8.11111C8.93954 9.61111 9.61111 8.93954 9.61111 8.11111V2.38889C9.61111 1.62183 10.2329 1 11 1C11.7671 1 12.3889 1.62183 12.3889 2.38889V8.11111Z' fill='black'/%3E%3C/svg%3E");
+      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M19.7993 11.3137C16.5215 11.0162 14.6652 11.0084 11.3137 11.3137L11.2148 12.5064C11.0158 15.1517 11.0534 16.9313 11.3137 19.7993H8.48561C8.74596 16.9313 8.78351 15.1517 8.58456 12.5064L8.48561 11.3137C5.2078 11.0162 3.35151 11.0084 0 11.3137L2.52881e-07 8.48561C3.35151 8.79086 5.2078 8.78315 8.48561 8.48561C8.78315 5.2078 8.79087 3.35151 8.48561 0H11.3137C11.0084 3.35151 11.0162 5.2078 11.3137 8.48561C14.6652 8.79087 16.5215 8.78315 19.7993 8.48561V11.3137Z' fill='black'/%3E%3C/svg%3E");
       mask-size: contain;
       mask-repeat: no-repeat;
       mask-position: center;
-      -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cpath d='M12.3889 8.11111C12.3889 8.93954 13.0605 9.61111 13.8889 9.61111H19.6111C20.3782 9.61111 21 10.2329 21 11C21 11.7671 20.3782 12.3889 19.6111 12.3889H13.8889C13.0605 12.3889 12.3889 13.0605 12.3889 13.8889V19.6111C12.3889 20.3782 11.7671 21 11 21C10.2329 21 9.61111 20.3782 9.61111 19.6111V13.8889C9.61111 13.0605 8.93954 12.3889 8.11111 12.3889H2.38889C1.62183 12.3889 1 11.7671 1 11C1 10.2329 1.62183 9.61111 2.38889 9.61111H8.11111C8.93954 9.61111 9.61111 8.93954 9.61111 8.11111V2.38889C9.61111 1.62183 10.2329 1 11 1C11.7671 1 12.3889 1.62183 12.3889 2.38889V8.11111Z' fill='black'/%3E%3C/svg%3E");
+      -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M19.7993 11.3137C16.5215 11.0162 14.6652 11.0084 11.3137 11.3137L11.2148 12.5064C11.0158 15.1517 11.0534 16.9313 11.3137 19.7993H8.48561C8.74596 16.9313 8.78351 15.1517 8.58456 12.5064L8.48561 11.3137C5.2078 11.0162 3.35151 11.0084 0 11.3137L2.52881e-07 8.48561C3.35151 8.79086 5.2078 8.78315 8.48561 8.48561C8.78315 5.2078 8.79087 3.35151 8.48561 0H11.3137C11.0084 3.35151 11.0162 5.2078 11.3137 8.48561C14.6652 8.79087 16.5215 8.78315 19.7993 8.48561V11.3137Z' fill='black'/%3E%3C/svg%3E");
       -webkit-mask-size: contain;
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-position: center;
 
       transition-duration: .3s;
+
+      @include mobile {
+        width: rem(18);
+        height: rem(18);
+      }
     }
 
     &:active {
       scale: 0.92;
+    }
+
+    @include mobile {
+      width: rem(32);
+      height: rem(32);
     }
   }
 

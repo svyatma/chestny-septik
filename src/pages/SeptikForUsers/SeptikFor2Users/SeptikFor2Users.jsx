@@ -8,7 +8,6 @@ import Button from "../../../components/Button/Button.jsx";
 import PodborHeroImage from "../../../assets/images/PodborHeroImage.png";
 import HeroInfo from "../../../components/HeroInfo/HeroInfo.jsx";
 import Catalog from "../../../components/Catalog/Catalog.jsx";
-import Help from "../../../components/Help/Help.jsx";
 import {getServiceSchema} from "../../../seo/schemas.js";
 
 function SeptikFor2Users() {
@@ -88,7 +87,6 @@ function SeptikFor2Users() {
         sectionName="Каталог автономных септиков на 2 человека"
         initialQuantityValues={[2]}
       />
-      <Help />
     </>
   );
 }

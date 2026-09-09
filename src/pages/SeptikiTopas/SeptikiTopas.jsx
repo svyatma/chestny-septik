@@ -13,7 +13,6 @@ import Catalog from "../../components/Catalog/Catalog.jsx";
 import Article from "../../components/Article/Article.jsx";
 import Faq from "../../components/Faq/Faq.jsx";
 import {getArticleSchema, getServiceSchema} from "../../seo/schemas.js";
-import Help from "../../components/Help/Help.jsx";
 
 function SeptikiTopas() {
   
@@ -105,7 +104,6 @@ function SeptikiTopas() {
         sectionName="Септики «Топас»"
         initialBrands={['ТОПАС']}
       />
-      <Help />
       <Article title={<><span>Установка септиков «Топас»</span> от Честного септика</>}>
         <p>
           Септик «Топас» — это проверенная временем автономная станция, которая уже более 20 лет устанавливается в частных домах и на дачах. Мы являемся официальным дилером завода-изготовителя, поэтому предлагаем технику по заводской стоимости с гарантией и профессиональным монтажом под ключ.

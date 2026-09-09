@@ -13,7 +13,6 @@ import HeroInfo from "../../../components/HeroInfo/HeroInfo.jsx";
 import Catalog from "../../../components/Catalog/Catalog.jsx";
 import Article from "../../../components/Article/Article.jsx";
 import {getArticleSchema, getServiceSchema} from "../../../seo/schemas.js";
-import Help from "../../../components/Help/Help.jsx";
 
 function SeptikDlyaChastnogoDoma() {
   const goToSection = useGoToSection();
@@ -103,7 +102,6 @@ function SeptikDlyaChastnogoDoma() {
       <Catalog
         sectionName="Каталог автономных септиков для частного дома"
       />
-      <Help />
       <Article title={<><span>Установка септика для частного дома</span> от Честного септика</>}>
         <p>
           Для семьи, которая живёт за городом круглый год, септик — это не просто очистное сооружение, а часть инженерной системы, обеспечивающей городской уровень комфорта. Ежедневные сбросы из нескольких санузлов, кухни, стиральной и посудомоечной машин требуют станции с запасом производительности. Мы подбираем оборудование так, чтобы оно справлялось с пиковыми нагрузками без переполнений и потери качества очистки.

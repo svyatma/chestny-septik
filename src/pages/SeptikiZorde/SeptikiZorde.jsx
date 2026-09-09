@@ -13,7 +13,6 @@ import Catalog from "../../components/Catalog/Catalog.jsx";
 import Article from "../../components/Article/Article.jsx";
 import Faq from "../../components/Faq/Faq.jsx";
 import {getArticleSchema, getServiceSchema} from "../../seo/schemas.js";
-import Help from "../../components/Help/Help.jsx";
 
 function SeptikiZorde() {
   
@@ -102,10 +101,9 @@ function SeptikiZorde() {
         </div>
       </Hero>
       <Catalog
-        sectionName="Септики «ЗОРДЕ»"
+        sectionName="Септики «Зорде»"
         initialBrands={['ЗОРДЕ']}
       />
-      <Help />
       <Article title={<><span>Установка септиков «Зорде»</span> от Честного септика</>}>
         <p>
           Септики «Зорде» — это одни из самых энергоэффективных станций на российском рынке. При суточной производительности до 1,4 м³ они потребляют всего 0,54 кВт/сутки.

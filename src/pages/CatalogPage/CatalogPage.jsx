@@ -1,6 +1,5 @@
 import { Helmet } from 'react-helmet-async';
 import Catalog from '../../components/Catalog/Catalog.jsx';
-import Help from "../../components/Help/Help.jsx";
 
 function CatalogPage() {
   
@@ -15,7 +14,6 @@ function CatalogPage() {
         sectionName="Станции биологической очистки"
         goalPrefix="catalog_"
       />
-      <Help />
     </>
   );
 }

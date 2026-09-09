@@ -13,7 +13,6 @@ import Catalog from "../../components/Catalog/Catalog.jsx";
 import Article from "../../components/Article/Article.jsx";
 import Faq from "../../components/Faq/Faq.jsx";
 import {getArticleSchema, getServiceSchema} from "../../seo/schemas.js";
-import Help from "../../components/Help/Help.jsx";
 
 function SeptikiAstra() {
   
@@ -105,7 +104,6 @@ function SeptikiAstra() {
         sectionName="Септики «Юнилос Астра»"
         initialBrands={['АСТРА']}
       />
-      <Help />
       <Article title={<><span>Установка септиков «Юнилос Астра»</span> от Честного септика</>}>
         <p>
           «Юнилос Астра» — это одна из самых распространённых в России серий станций биологической очистки. Её выбирают за неприхотливость, понятное обслуживание и широкий диапазон производительности. Мы реализуем станции «Астра» от завода-изготовителя и берём на себя весь монтажный цикл — от доставки до запуска.

@@ -36,17 +36,13 @@
 }
 
 #catalog {
-  //& .container {
-  //  max-width: calc(rem(1881) + var(--container-padding-x) * 2);
-  //
-  //  & .container {
-  //    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
-  //
-  //    @include mobile {
-  //      padding-inline: 0;
-  //    }
-  //  }
-  //}
+  & .container {
+    & .container {
+      @include mobile {
+        padding-inline: 0;
+      }
+    }
+  }
 
   & .section__title {
     @include mobile {

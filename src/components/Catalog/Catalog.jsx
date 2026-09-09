@@ -8,6 +8,7 @@ import CatalogPagination from '../CatalogPagination/CatalogPagination.jsx';
 import useCatalogLayout from '../../hooks/useCatalogLayout';
 import Section from "../Section/Section.jsx";
 import SectionTitle from "../SectionTitle/SectionTitle.jsx";
+import Help from "../Help/Help.jsx";
 
 function Catalog({
                    goalPrefix = '',
@@ -31,7 +32,6 @@ function Catalog({
   
   
   const selectedBrands = useMemo(() => {
-    // Если бренды зафиксированы, всегда возвращаем initialBrands
     if (isBrandsLocked) return initialBrands;
     
     if (brandParam) {
@@ -44,7 +44,6 @@ function Catalog({
   }, [brandParam, initialBrands, userInteracted, isBrandsLocked]);
   
   const selectedQuantityValues = useMemo(() => {
-    // Если количества заблокированы, всегда возвращаем initialQuantityValues
     if (isQuantitiesLocked) return initialQuantityValues;
     
     if (userInteracted) {
@@ -149,8 +148,6 @@ function Catalog({
     setUserInteracted(true);
     setSearchParams((prev) => {
       const newParams = new URLSearchParams(prev);
-      // Если бренды зафиксированы, не удаляем параметр brand,
-      // чтобы при перезагрузке они сохранились (не обязательно, но чисто)
       if (!isBrandsLocked) {
         newParams.delete('brand');
       }
@@ -162,40 +159,43 @@ function Catalog({
   };
   
   return (
-    <Section id="catalog" isMax>
-      <div className="container">
-        <SectionTitle>
-          <span>{sectionName}</span> {sectionSubName}
-        </SectionTitle>
-      </div>
-      <div className="catalog" id="catalogList">
-        <CatalogFilter
-          selectedBrands={selectedBrands}
-          selectedQuantities={selectedQuantityValues}
-          onFilterChange={handleFilterChange}
-          onReset={resetFilters}
-          hideBrands={isBrandsLocked}
-          hideQuantities={isQuantitiesLocked}
-        />
-        <div className="catalog__body">
-          {currentStations.map((station, index) => (
-            <CatalogCard
-              key={station.id}
-              product={station}
-              index={index}
-              goalPrefix={goalPrefix}
-            />
-          ))}
+    <>
+      <Section id="catalog" isMax>
+        <div className="container">
+          <SectionTitle>
+            <span>{sectionName}</span> {sectionSubName}
+          </SectionTitle>
         </div>
-        {totalPages > 1 && (
-          <CatalogPagination
-            currentPage={safeCurrentPage}
-            totalPages={totalPages}
-            onPageChange={handlePageChange}
+        <div className="catalog" id="catalogList">
+          <CatalogFilter
+            selectedBrands={selectedBrands}
+            selectedQuantities={selectedQuantityValues}
+            onFilterChange={handleFilterChange}
+            onReset={resetFilters}
+            hideBrands={isBrandsLocked}
+            hideQuantities={isQuantitiesLocked}
           />
-        )}
-      </div>
-    </Section>
+          <div className="catalog__body">
+            {currentStations.map((station, index) => (
+              <CatalogCard
+                key={station.id}
+                product={station}
+                index={index}
+                goalPrefix={goalPrefix}
+              />
+            ))}
+          </div>
+          {totalPages > 1 && (
+            <CatalogPagination
+              currentPage={safeCurrentPage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+            />
+          )}
+        </div>
+      </Section>
+      <Help />
+    </>
   );
 }
 

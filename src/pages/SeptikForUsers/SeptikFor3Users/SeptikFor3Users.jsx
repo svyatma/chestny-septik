@@ -12,7 +12,6 @@ import PodborHeroImage from "../../../assets/images/PodborHeroImage.png";
 import HeroInfo from "../../../components/HeroInfo/HeroInfo.jsx";
 import Catalog from "../../../components/Catalog/Catalog.jsx";
 import {getServiceSchema} from "../../../seo/schemas.js";
-import Help from "../../../components/Help/Help.jsx";
 
 function SeptikFor3Users() {
   const goToSection = useGoToSection();
@@ -93,7 +92,6 @@ function SeptikFor3Users() {
         sectionName="Каталог автономных септиков на 3 человека"
         initialQuantityValues={[3]}
       />
-      <Help />
       <Section id="faq">
         <SectionTitle
           variant="column"

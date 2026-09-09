@@ -183,6 +183,10 @@ b {
 
 [id]#catalogList {
   scroll-margin-top: rem(107);
+
+  @include mobile {
+    scroll-margin-top: rem(80);
+  }
 }
 
 .is-locked {

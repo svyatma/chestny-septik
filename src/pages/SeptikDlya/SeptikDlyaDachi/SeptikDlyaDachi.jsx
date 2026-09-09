@@ -13,7 +13,6 @@ import HeroInfo from "../../../components/HeroInfo/HeroInfo.jsx";
 import Catalog from "../../../components/Catalog/Catalog.jsx";
 import Article from "../../../components/Article/Article.jsx";
 import {getArticleSchema, getServiceSchema} from '../../../seo/schemas.js';
-import Help from "../../../components/Help/Help.jsx";
 
 function SeptikDlyaDachi() {
   const goToSection = useGoToSection();
@@ -103,7 +102,6 @@ function SeptikDlyaDachi() {
       <Catalog
         sectionName="Каталог автономных септиков для дачи"
       />
-      <Help />
       <Article title={<><span>Установка септика для дачи</span> от Честного септика</>}>
         <p>
           Выбор и установка септика для дачи — ответственный шаг. Мы берём на себя все заботы: от

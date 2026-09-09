@@ -13,7 +13,6 @@ import Catalog from "../../components/Catalog/Catalog.jsx";
 import Article from "../../components/Article/Article.jsx";
 import Faq from "../../components/Faq/Faq.jsx";
 import {getArticleSchema, getServiceSchema} from "../../seo/schemas.js";
-import Help from "../../components/Help/Help.jsx";
 
 function SeptikiEvrobion() {
   
@@ -48,7 +47,7 @@ function SeptikiEvrobion() {
       <Hero>
         <div className="hero__septik-for">
           <h1 className="hero__septik-for-title column">
-            <span>Септики «Евробион»</span> купить по цене производителя в Санкт-Петербурге и ЛО
+            <span>Септики «Евробион»</span> купить по цене производителя в&nbsp;Санкт-Петербурге и ЛО
           </h1>
           <MapPoint variant="primary">
             Санкт-Петербург и ЛО
@@ -106,7 +105,6 @@ function SeptikiEvrobion() {
         sectionSubName="Раунд, Арт, Горизонт"
         initialBrands={['ЕВРОБИОН']}
       />
-      <Help />
       <Article title={<><span>Установка септиков «Евробион»</span> от Честного септика</>}>
         <p>
           Покупка и монтаж автономного септика «Евробион» — это вложение в комфорт и экологичность вашего дома. Мы официальный дилер завода-изготовителя, поэтому гарантируем заводские цены, полную сертификацию и профессиональный ввод станции в эксплуатацию.
@@ -185,7 +183,7 @@ function SeptikiEvrobion() {
         <SectionTitle
           variant="column"
         >
-          <span>Часто задаваемые вопросы</span> о септиках «Евробион»
+          <span>Часто задаваемые вопросы</span> о&nbsp;септиках «Евробион»
         </SectionTitle>
         <Faq />
       </Section>

@@ -13,7 +13,6 @@ import Catalog from "../../components/Catalog/Catalog.jsx";
 import Article from "../../components/Article/Article.jsx";
 import Faq from "../../components/Faq/Faq.jsx";
 import {getArticleSchema, getServiceSchema} from "../../seo/schemas.js";
-import Help from "../../components/Help/Help.jsx";
 
 function SeptikiEvrolos() {
   
@@ -105,7 +104,6 @@ function SeptikiEvrolos() {
         sectionName="Септики «Евролос»"
           initialBrands={['ЕВРОЛОС']}
       />
-      <Help />
       <Article title={<><span>Установка септиков «Евролос»</span> от Честного септика</>}>
         <p>
           «Евролос» — это российский бренд станций биологической очистки с цилиндрическими корпусами, которые отлично противостоят давлению грунта и подходят для участков с высоким уровнем грунтовых вод. Мы реализуем технику напрямую с завода и выполняем монтаж под ключ в Санкт-Петербурге и Ленинградской области.

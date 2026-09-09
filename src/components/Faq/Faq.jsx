@@ -1,6 +1,6 @@
+import './Faq.scss';
 import { useLocation } from 'react-router-dom';
 import { useState } from 'react';
-import './Faq.scss';
 import faqData from '../../data/faqData.json';
 import Callout from "../Callout/Callout.jsx";
 import {Helmet} from "react-helmet-async";

@@ -13,6 +13,7 @@
   max-height: calc(100dvh - rem(107+24));
 
   scrollbar-width: none;
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -34,9 +35,9 @@
 
   &.is-open {
     overflow-y: auto;
+    transition: padding 3s, opacity 3s, max-height 3s, margin-bottom 3s !important;
 
     @include mobile {
-
       & .catalog__filter-head {
         margin-bottom: rem(8);
       }
@@ -47,13 +48,15 @@
         pointer-events: auto;
 
         &:nth-child(2) {
-          max-height: rem(194);
+          max-height: rem(376);
+          max-height: fit-content;
           margin-bottom: rem(4);
           padding-block: rem(8);
         }
 
         &:nth-child(3) {
-          max-height: rem(350);
+          max-height: rem(376);
+          max-height: fit-content;
           margin-bottom: rem(8);
           padding-block: rem(8);
         }
@@ -136,7 +139,7 @@
       pointer-events: none;
       margin-bottom: 0;
 
-      transition: padding var(--transition-duration), opacity var(--transition-duration), max-height var(--transition-duration), margin-bottom var(--transition-duration);
+      transition: padding var(--transition-duration), opacity .1s, max-height var(--transition-duration), margin-bottom var(--transition-duration);
     }
 
     &:last-of-type {
